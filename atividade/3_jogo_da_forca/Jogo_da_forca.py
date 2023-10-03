@@ -37,4 +37,6 @@ if __name__ == '__main__':
             break
 
     print(palavra_user)
+    if life == 0:
+        print("tentativas esgotadas")
     print(f'Palavra secreta: {palavra_secretaOriginal}')
