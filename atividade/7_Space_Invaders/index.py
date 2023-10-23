@@ -41,6 +41,7 @@ pygame.display.set_caption('Milky Way Defense')
 
 fonte1 = pygame.font.Font("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/fonte/Pixeled.ttf", 20)
 fonte2 = pygame.font.Font(None, 40)
+fonte3 = pygame.font.Font("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/fonte/Pixeled.ttf", 30)
 
 backGround = pygame.image.load("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/img/bg.png")
 
@@ -208,7 +209,7 @@ while run:
     
     draw_backGround()
     if countdown == 0:
-        draw_text(f'Score: {score}', fonte1, WHITE, 0, 0)
+        draw_text(f'Score: {score}', fonte1, WHITE, 10, 0)
         if len(alien_group) <= quantity_alien:
             score += (quantity_alien - len(alien_group)) * 50
             quantity_alien = len(alien_group)
@@ -230,14 +231,14 @@ while run:
             alien_bullet_group.update()
         else:
             if game_over == -1:
-                draw_text('Game Over!', fonte1, WHITE, (screen_width//2 - 110), (screen_height//2 + 100))
+                draw_text('Game Over!', fonte3, WHITE, (screen_width//2 - 150), (screen_height//2 + 100))
             elif game_over == 1:
-                draw_text('You Win!', fonte1, WHITE, (screen_width//2 - 110), (screen_height//2 + 100))
+                draw_text('You Win!', fonte3, WHITE, (screen_width//2 - 100), (screen_height//2 + 100))
                 
         
     if countdown > 0:
-        draw_text('Get Ready!', fonte2, WHITE, (screen_width//2 - 110), (screen_height//2 + 100))
-        draw_text(str(countdown), fonte2, WHITE, (screen_width//2 - 15), (screen_height//2 + 140))
+        draw_text('Get Ready!', fonte2, WHITE, (screen_width//2 - 75), (screen_height//2 + 100))
+        draw_text(str(countdown), fonte2, WHITE, (screen_width//2 - 10), (screen_height//2 + 140))
         count_timer = pygame.time.get_ticks()
         if count_timer - last_count > 1000:
             countdown -= 1
