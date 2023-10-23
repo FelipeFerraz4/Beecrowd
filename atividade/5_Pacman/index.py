@@ -13,14 +13,9 @@ class Pacman(pygame.sprite.Sprite):
         self.centro = (self.centroX, self.centroY)
         self.tamanho = 100
         self.raio = self.tamanho // 2
-        self.sprites = []
-        self.sprites.append(self.draw_screen1(screen))
-        self.sprites.append(self.draw_screen2(screen))
-        self.sprites.append(self.draw_screen3(screen))
-        self.sprites.append(self.draw_screen4(screen))
         self.current = 0
-
-        
+        self.speed_x = 1
+        self.speed_y = 1
 
     
     def draw_screen1(self, Screen):
@@ -73,6 +68,7 @@ class Pacman(pygame.sprite.Sprite):
 
 if __name__ == "__main__":
     pacman = Pacman(screen)
+    screen.fill((0,0,0))
     
     figura = 1
 
