@@ -42,11 +42,15 @@ pygame.display.set_caption('Milky Way Defense')
 fonte1 = pygame.font.Font("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/fonte/Pixeled.ttf", 20)
 fonte2 = pygame.font.Font(None, 40)
 fonte3 = pygame.font.Font("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/fonte/Pixeled.ttf", 30)
-
+ 
 backGround = pygame.image.load("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/img/bg.png")
+terra = pygame.image.load("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/image/terra.png")
+lua = pygame.image.load("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/image/lua.png")
 
 def draw_backGround():
     screen.blit(backGround, (0, 0))
+    screen.blit(terra, (100, 350))
+    screen.blit(lua, (500, 100))
 
 def draw_text(text, font, text_col, x, y):
     img = font.render(text, True, text_col)
@@ -191,6 +195,7 @@ bullet_group = pygame.sprite.Group()
 alien_group = pygame.sprite.Group()
 alien_bullet_group = pygame.sprite.Group()
 explosion_group = pygame.sprite.Group()
+
 
 def create_aliens():
     for row in range(rows):
