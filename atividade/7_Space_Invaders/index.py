@@ -237,9 +237,9 @@ while run:
             alien_bullet_group.update()
         else:
             if game_over == -1:
-                draw_text('Game Over!', fonte3, WHITE, (screen_width//2 - 135), (screen_height//2 + 80))
+                draw_text('A RAÇA HUMANA FOI DESTRUIDA!', fonte1, WHITE, (screen_width//2 - 235), (screen_height//2 + 80))
             elif game_over == 1:
-                draw_text('You Win!', fonte3, WHITE, (screen_width//2 - 100), (screen_height//2 + 80))
+                draw_text('A TERRA ESTÁ SALVA!', fonte1, WHITE, (screen_width//2 - 170), (screen_height//2 + 80))
                 
         
     if countdown > 0:
