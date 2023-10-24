@@ -13,13 +13,13 @@ fps = 60
 screen_width = 800
 screen_height = 600
 
-explosion_fx = pygame.mixer.Sound("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/img/explosion.wav")
+explosion_fx = pygame.mixer.Sound("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/audio/explosion.wav")
 explosion_fx.set_volume(0.25)
 
-explosion2_fx = pygame.mixer.Sound("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/img/explosion2.wav")
+explosion2_fx = pygame.mixer.Sound("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/audio/explosion2.wav")
 explosion2_fx.set_volume(0.25)
 
-laser_fx = pygame.mixer.Sound("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/img/laser.wav")
+laser_fx = pygame.mixer.Sound("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/audio/laser.wav")
 laser_fx.set_volume(0.25)
 
 rows = 5
@@ -29,7 +29,7 @@ last_alien_shot = pygame.time.get_ticks()
 countdown = 3
 last_count = pygame.time.get_ticks()
 game_over = 0
-score = 0
+score = rows * cols
 quantity_alien = rows * cols
 
 RED = (255, 0, 0)
@@ -40,10 +40,10 @@ screen = pygame.display.set_mode((screen_width, screen_height), 0)
 pygame.display.set_caption('Milky Way Defense')
 
 fonte1 = pygame.font.Font("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/fonte/Pixeled.ttf", 20)
-fonte2 = pygame.font.Font(None, 40)
+fonte2 = pygame.font.Font("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/fonte/Pixeled.ttf", 15)
 fonte3 = pygame.font.Font("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/fonte/Pixeled.ttf", 30)
  
-backGround = pygame.image.load("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/img/bg.png")
+backGround = pygame.image.load("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/image/bg.png")
 terra = pygame.image.load("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/image/terra.png")
 lua = pygame.image.load("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/image/lua.png")
 
@@ -90,7 +90,7 @@ class Spaceship(pygame.sprite.Sprite):
         pygame.draw.rect(screen, RED, (self.rect.x, (self.rect.bottom + 2), self.rect.width, 10))
         if self.health_remaining > 0:
             pygame.draw.rect(screen, GREEN, (self.rect.x, (self.rect.bottom + 2), 
-                                             int(self.rect.width * (self.health_remaining/self.health_start)), 10))
+                                             int(self.rect.width * ((self.health_remaining - 1)/(self.health_start-1))), 10))
         elif self.health_remaining <= 0:
             explosion = Explosion(self.rect.centerx, self.rect.centery, 3)
             explosion_group.add(explosion)
@@ -104,7 +104,7 @@ class Spaceship(pygame.sprite.Sprite):
 class Bullets(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
-        self.image = pygame.image.load("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/img/bullet.png")
+        self.image = pygame.image.load("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/image/bullet.png")
         self.rect = self.image.get_rect()
         self.rect.center = [x, y]
         
@@ -142,7 +142,7 @@ class Aliens(pygame.sprite.Sprite):
 class Alien_Bullets(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
-        self.image = pygame.image.load("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/img/alien_bullet.png")
+        self.image = pygame.image.load("C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/image/alien_bullet.png")
         self.rect = self.image.get_rect()
         self.rect.center = [x, y]
         
@@ -164,7 +164,7 @@ class Explosion(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)
         self.images = []
         for numero in range(1, 6):
-            img = pygame.image.load(f"C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/img/exp{numero}.png")
+            img = pygame.image.load(f"C://Users/Softex/Documents/GitHub/Python/atividade/7_Space_invaders/assests/image/exp{numero}.png")
             if size == 1:
                 img = pygame.transform.scale(img, (20, 20))
             if size == 2:
@@ -214,9 +214,10 @@ while run:
     
     draw_backGround()
     if countdown == 0:
-        draw_text(f'Score: {score}', fonte1, WHITE, 10, 0)
-        if len(alien_group) <= quantity_alien:
-            score += (quantity_alien - len(alien_group)) * 50
+        draw_text(f'NAVES INIMIGAS RESTANTES: {score}', fonte1, WHITE, 10, 0)
+        draw_text('FASE 1', fonte1, WHITE, (screen_width//2 + 150), 0)
+        if len(alien_group) < quantity_alien:
+            score -= (quantity_alien - len(alien_group))
             quantity_alien = len(alien_group)
         
         time_now = pygame.time.get_ticks()
@@ -236,14 +237,14 @@ while run:
             alien_bullet_group.update()
         else:
             if game_over == -1:
-                draw_text('Game Over!', fonte3, WHITE, (screen_width//2 - 150), (screen_height//2 + 100))
+                draw_text('Game Over!', fonte3, WHITE, (screen_width//2 - 135), (screen_height//2 + 80))
             elif game_over == 1:
-                draw_text('You Win!', fonte3, WHITE, (screen_width//2 - 100), (screen_height//2 + 100))
+                draw_text('You Win!', fonte3, WHITE, (screen_width//2 - 100), (screen_height//2 + 80))
                 
         
     if countdown > 0:
-        draw_text('Get Ready!', fonte2, WHITE, (screen_width//2 - 75), (screen_height//2 + 100))
-        draw_text(str(countdown), fonte2, WHITE, (screen_width//2 - 10), (screen_height//2 + 140))
+        draw_text('PREPARE-SE COMANDANTE!', fonte1, WHITE, (screen_width//2 - 205), (screen_height//2 + 100))
+        draw_text(f'DECOLAGEM EM {countdown}', fonte2, WHITE, (screen_width//2 - 95), (screen_height//2 + 140))
         count_timer = pygame.time.get_ticks()
         if count_timer - last_count > 1000:
             countdown -= 1
