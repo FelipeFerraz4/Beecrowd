@@ -3035,46 +3035,46 @@
     {
         "label": "valores",
         "kind": 5,
-        "importPath": "1_Iniciante.Beecrowd_2313_Qual_triangulo",
-        "description": "1_Iniciante.Beecrowd_2313_Qual_triangulo",
+        "importPath": "1_Iniciante.Beecrowd_2313_python_Qual_triangulo",
+        "description": "1_Iniciante.Beecrowd_2313_python_Qual_triangulo",
         "peekOfCode": "valores = input().split()\nlado1 = int(valores[0])\nlado2 = int(valores[1])\nlado3 = int(valores[2])\nif (abs(lado2 - lado3) < lado1 < lado2 + lado3) and (abs(lado1 - lado3) < lado2 < lado1 + lado3) and (abs(lado1 - lado2) < lado3 < lado1 + lado2):\n    if lado1 == lado2 == lado3:\n        print('Valido-Equilatero')\n    elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:\n        print('Valido-Isoceles')\n    else:",
-        "detail": "1_Iniciante.Beecrowd_2313_Qual_triangulo",
+        "detail": "1_Iniciante.Beecrowd_2313_python_Qual_triangulo",
         "documentation": {}
     },
     {
         "label": "lado1",
         "kind": 5,
-        "importPath": "1_Iniciante.Beecrowd_2313_Qual_triangulo",
-        "description": "1_Iniciante.Beecrowd_2313_Qual_triangulo",
+        "importPath": "1_Iniciante.Beecrowd_2313_python_Qual_triangulo",
+        "description": "1_Iniciante.Beecrowd_2313_python_Qual_triangulo",
         "peekOfCode": "lado1 = int(valores[0])\nlado2 = int(valores[1])\nlado3 = int(valores[2])\nif (abs(lado2 - lado3) < lado1 < lado2 + lado3) and (abs(lado1 - lado3) < lado2 < lado1 + lado3) and (abs(lado1 - lado2) < lado3 < lado1 + lado2):\n    if lado1 == lado2 == lado3:\n        print('Valido-Equilatero')\n    elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:\n        print('Valido-Isoceles')\n    else:\n        print('Valido-Escaleno')",
-        "detail": "1_Iniciante.Beecrowd_2313_Qual_triangulo",
+        "detail": "1_Iniciante.Beecrowd_2313_python_Qual_triangulo",
         "documentation": {}
     },
     {
         "label": "lado2",
         "kind": 5,
-        "importPath": "1_Iniciante.Beecrowd_2313_Qual_triangulo",
-        "description": "1_Iniciante.Beecrowd_2313_Qual_triangulo",
+        "importPath": "1_Iniciante.Beecrowd_2313_python_Qual_triangulo",
+        "description": "1_Iniciante.Beecrowd_2313_python_Qual_triangulo",
         "peekOfCode": "lado2 = int(valores[1])\nlado3 = int(valores[2])\nif (abs(lado2 - lado3) < lado1 < lado2 + lado3) and (abs(lado1 - lado3) < lado2 < lado1 + lado3) and (abs(lado1 - lado2) < lado3 < lado1 + lado2):\n    if lado1 == lado2 == lado3:\n        print('Valido-Equilatero')\n    elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:\n        print('Valido-Isoceles')\n    else:\n        print('Valido-Escaleno')\n    if (lado1 % 3 == 0 and lado2 % 4 == 0 and lado3 % 5 == 0) or (lado1 % 3 == 0 and lado3 % 4 == 0 and lado2 % 5 == 0) or (lado2 % 3 == 0 and lado1 % 4 == 0 and lado3 % 5 == 0) or (lado2 % 3 == 0 and lado3 % 4 == 0 and lado1 % 5 == 0) or (lado3 % 3 == 0 and lado2 % 4 == 0 and lado1 % 5 == 0) or (lado3 % 3 == 0 and lado1 % 4 == 0 and lado2 % 5 == 0):",
-        "detail": "1_Iniciante.Beecrowd_2313_Qual_triangulo",
+        "detail": "1_Iniciante.Beecrowd_2313_python_Qual_triangulo",
         "documentation": {}
     },
     {
         "label": "lado3",
         "kind": 5,
-        "importPath": "1_Iniciante.Beecrowd_2313_Qual_triangulo",
-        "description": "1_Iniciante.Beecrowd_2313_Qual_triangulo",
+        "importPath": "1_Iniciante.Beecrowd_2313_python_Qual_triangulo",
+        "description": "1_Iniciante.Beecrowd_2313_python_Qual_triangulo",
         "peekOfCode": "lado3 = int(valores[2])\nif (abs(lado2 - lado3) < lado1 < lado2 + lado3) and (abs(lado1 - lado3) < lado2 < lado1 + lado3) and (abs(lado1 - lado2) < lado3 < lado1 + lado2):\n    if lado1 == lado2 == lado3:\n        print('Valido-Equilatero')\n    elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:\n        print('Valido-Isoceles')\n    else:\n        print('Valido-Escaleno')\n    if (lado1 % 3 == 0 and lado2 % 4 == 0 and lado3 % 5 == 0) or (lado1 % 3 == 0 and lado3 % 4 == 0 and lado2 % 5 == 0) or (lado2 % 3 == 0 and lado1 % 4 == 0 and lado3 % 5 == 0) or (lado2 % 3 == 0 and lado3 % 4 == 0 and lado1 % 5 == 0) or (lado3 % 3 == 0 and lado2 % 4 == 0 and lado1 % 5 == 0) or (lado3 % 3 == 0 and lado1 % 4 == 0 and lado2 % 5 == 0):\n        print('Retangulo: S')",
-        "detail": "1_Iniciante.Beecrowd_2313_Qual_triangulo",
+        "detail": "1_Iniciante.Beecrowd_2313_python_Qual_triangulo",
         "documentation": {}
     },
     {
         "label": "nota",
         "kind": 5,
-        "importPath": "1_Iniciante.Beecrowd_2344_Notas_da_prova",
-        "description": "1_Iniciante.Beecrowd_2344_Notas_da_prova",
+        "importPath": "1_Iniciante.Beecrowd_2344_python_Notas_da_prova",
+        "description": "1_Iniciante.Beecrowd_2344_python_Notas_da_prova",
         "peekOfCode": "nota = int(input())\nif nota == 0:\n    print('E')\nelif nota <= 35:\n    print('D')\nelif nota <= 60:\n    print('C')\nelif nota <= 85:\n    print('B')\nelse:",
-        "detail": "1_Iniciante.Beecrowd_2344_Notas_da_prova",
+        "detail": "1_Iniciante.Beecrowd_2344_python_Notas_da_prova",
         "documentation": {}
     },
     {
@@ -3183,6 +3183,24 @@
         "description": "1_Iniciante.Beecrowd_2708_python_turistas_no_parque_huacachina",
         "peekOfCode": "people = 0\nwhile stop == False:\n    info = input().split()\n    message = str(info[0])\n    if message == 'SALIDA':\n        jipes += 1\n        people += int(info[1])\n    elif message == 'VUELTA':\n        jipes -= 1\n        people -= int(info[1])",
         "detail": "1_Iniciante.Beecrowd_2708_python_turistas_no_parque_huacachina",
+        "documentation": {}
+    },
+    {
+        "label": "minute",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2717_python_tempo_do_duende",
+        "description": "1_Iniciante.Beecrowd_2717_python_tempo_do_duende",
+        "peekOfCode": "minute = int(input())\npresent = input().split()\nif int(present[0]) + int(present[1]) > minute:\n    print('Deixa para amanha!')\nelse:\n    print('Farei hoje!')",
+        "detail": "1_Iniciante.Beecrowd_2717_python_tempo_do_duende",
+        "documentation": {}
+    },
+    {
+        "label": "present",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2717_python_tempo_do_duende",
+        "description": "1_Iniciante.Beecrowd_2717_python_tempo_do_duende",
+        "peekOfCode": "present = input().split()\nif int(present[0]) + int(present[1]) > minute:\n    print('Deixa para amanha!')\nelse:\n    print('Farei hoje!')",
+        "detail": "1_Iniciante.Beecrowd_2717_python_tempo_do_duende",
         "documentation": {}
     },
     {
