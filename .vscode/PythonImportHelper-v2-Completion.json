@@ -3080,28 +3080,28 @@
     {
         "label": "quantidade",
         "kind": 5,
-        "importPath": "1_Iniciante.Beecrowd_2483_Feliz_nataaal",
-        "description": "1_Iniciante.Beecrowd_2483_Feliz_nataaal",
+        "importPath": "1_Iniciante.Beecrowd_2483_python_Feliz_nataaal",
+        "description": "1_Iniciante.Beecrowd_2483_python_Feliz_nataaal",
         "peekOfCode": "quantidade = int(input())\nAs = 'a' * quantidade\nprint(f'Feliz nat{As}l!')",
-        "detail": "1_Iniciante.Beecrowd_2483_Feliz_nataaal",
+        "detail": "1_Iniciante.Beecrowd_2483_python_Feliz_nataaal",
         "documentation": {}
     },
     {
         "label": "As",
         "kind": 5,
-        "importPath": "1_Iniciante.Beecrowd_2483_Feliz_nataaal",
-        "description": "1_Iniciante.Beecrowd_2483_Feliz_nataaal",
+        "importPath": "1_Iniciante.Beecrowd_2483_python_Feliz_nataaal",
+        "description": "1_Iniciante.Beecrowd_2483_python_Feliz_nataaal",
         "peekOfCode": "As = 'a' * quantidade\nprint(f'Feliz nat{As}l!')",
-        "detail": "1_Iniciante.Beecrowd_2483_Feliz_nataaal",
+        "detail": "1_Iniciante.Beecrowd_2483_python_Feliz_nataaal",
         "documentation": {}
     },
     {
         "label": "alimentos",
         "kind": 5,
-        "importPath": "1_Iniciante.Beecrowd_2486_C_mais_ou_menos",
-        "description": "1_Iniciante.Beecrowd_2486_C_mais_ou_menos",
+        "importPath": "1_Iniciante.Beecrowd_2486_python_C_mais_ou_menos",
+        "description": "1_Iniciante.Beecrowd_2486_python_C_mais_ou_menos",
         "peekOfCode": "alimentos = {'suco de laranja':120, 'morango fresco':85, 'mamao':85, 'goiaba vermelha':70, 'manga':56, 'laranja':50, 'brocolis':34}\nwhile True:\n    vitaminaC = 0\n    quantidade = int(input())\n    if quantidade == 0:\n        break\n    for i in range(quantidade):\n        alimento = input().split()\n        fruta = ' '.join(alimento[1:])\n        vitaminaC += int(alimento[0]) * alimentos[fruta]",
-        "detail": "1_Iniciante.Beecrowd_2486_C_mais_ou_menos",
+        "detail": "1_Iniciante.Beecrowd_2486_python_C_mais_ou_menos",
         "documentation": {}
     },
     {
@@ -3156,6 +3156,33 @@
         "description": "1_Iniciante.Beecrowd_2702_python_escolha_dificil",
         "peekOfCode": "peopleNotSafe = 0\nfor i in range(3):\n    if int(orders[i]) - int(meals[i]) > 0:\n        peopleNotSafe += int(orders[i]) - int(meals[i])\nprint(peopleNotSafe)",
         "detail": "1_Iniciante.Beecrowd_2702_python_escolha_dificil",
+        "documentation": {}
+    },
+    {
+        "label": "stop",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2708_python_turistas_no_parque_huacachina",
+        "description": "1_Iniciante.Beecrowd_2708_python_turistas_no_parque_huacachina",
+        "peekOfCode": "stop = False\njipes = 0\npeople = 0\nwhile stop == False:\n    info = input().split()\n    message = str(info[0])\n    if message == 'SALIDA':\n        jipes += 1\n        people += int(info[1])\n    elif message == 'VUELTA':",
+        "detail": "1_Iniciante.Beecrowd_2708_python_turistas_no_parque_huacachina",
+        "documentation": {}
+    },
+    {
+        "label": "jipes",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2708_python_turistas_no_parque_huacachina",
+        "description": "1_Iniciante.Beecrowd_2708_python_turistas_no_parque_huacachina",
+        "peekOfCode": "jipes = 0\npeople = 0\nwhile stop == False:\n    info = input().split()\n    message = str(info[0])\n    if message == 'SALIDA':\n        jipes += 1\n        people += int(info[1])\n    elif message == 'VUELTA':\n        jipes -= 1",
+        "detail": "1_Iniciante.Beecrowd_2708_python_turistas_no_parque_huacachina",
+        "documentation": {}
+    },
+    {
+        "label": "people",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2708_python_turistas_no_parque_huacachina",
+        "description": "1_Iniciante.Beecrowd_2708_python_turistas_no_parque_huacachina",
+        "peekOfCode": "people = 0\nwhile stop == False:\n    info = input().split()\n    message = str(info[0])\n    if message == 'SALIDA':\n        jipes += 1\n        people += int(info[1])\n    elif message == 'VUELTA':\n        jipes -= 1\n        people -= int(info[1])",
+        "detail": "1_Iniciante.Beecrowd_2708_python_turistas_no_parque_huacachina",
         "documentation": {}
     },
     {
