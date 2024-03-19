@@ -1,0 +1,11 @@
+number1 = 234.345
+number2 = 45.698
+print(f'{number1:.6f} - {number2:.6f}')
+print(f'{number1:.0f} - {number2:.0f}')
+print(f'{number1:.1f} - {number2:.1f}')
+print(f'{number1:.2f} - {number2:.2f}')
+print(f'{number1:.3f} - {number2:.3f}')
+print(f'{number1:.6e} - {number2:.6e}')
+print(f'{number1:.6E} - {number2:.6E}')
+print(f'{number1} - {number2}')
+print(f'{number1} - {number2}')

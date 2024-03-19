@@ -3213,6 +3213,24 @@
         "documentation": {}
     },
     {
+        "label": "number1",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2754_saida_8",
+        "description": "1_Iniciante.Beecrowd_2754_saida_8",
+        "peekOfCode": "number1 = 234.345\nnumber2 = 45.698\nprint(f'{number1:.6f} - {number2:.6f}')\nprint(f'{number1:.0f} - {number2:.0f}')\nprint(f'{number1:.1f} - {number2:.1f}')\nprint(f'{number1:.2f} - {number2:.2f}')\nprint(f'{number1:.3f} - {number2:.3f}')\nprint(f'{number1:.6e} - {number2:.6e}')\nprint(f'{number1:.6E} - {number2:.6E}')\nprint(f'{number1} - {number2}')",
+        "detail": "1_Iniciante.Beecrowd_2754_saida_8",
+        "documentation": {}
+    },
+    {
+        "label": "number2",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2754_saida_8",
+        "description": "1_Iniciante.Beecrowd_2754_saida_8",
+        "peekOfCode": "number2 = 45.698\nprint(f'{number1:.6f} - {number2:.6f}')\nprint(f'{number1:.0f} - {number2:.0f}')\nprint(f'{number1:.1f} - {number2:.1f}')\nprint(f'{number1:.2f} - {number2:.2f}')\nprint(f'{number1:.3f} - {number2:.3f}')\nprint(f'{number1:.6e} - {number2:.6e}')\nprint(f'{number1:.6E} - {number2:.6E}')\nprint(f'{number1} - {number2}')\nprint(f'{number1} - {number2}')",
+        "detail": "1_Iniciante.Beecrowd_2754_saida_8",
+        "documentation": {}
+    },
+    {
         "label": "letra",
         "kind": 5,
         "importPath": "1_Iniciante.Beecrowd_2756_python_saida_10",
