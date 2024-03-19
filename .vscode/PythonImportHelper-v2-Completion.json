@@ -3258,6 +3258,15 @@
         "documentation": {}
     },
     {
+        "label": "cpf",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2763_python_entrada_e_saida_cpf",
+        "description": "1_Iniciante.Beecrowd_2763_python_entrada_e_saida_cpf",
+        "peekOfCode": "cpf = str(input())\nprint(cpf[:3])\nprint(cpf[4:7])\nprint(cpf[8:11])\nprint(cpf[12:])",
+        "detail": "1_Iniciante.Beecrowd_2763_python_entrada_e_saida_cpf",
+        "documentation": {}
+    },
+    {
         "label": "valores",
         "kind": 5,
         "importPath": "1_Iniciante.Beecrowd_2791_python_feijao",
