@@ -3204,6 +3204,15 @@
         "documentation": {}
     },
     {
+        "label": "showData",
+        "kind": 2,
+        "importPath": "1_Iniciante.Beecrowd_2750_python_saida_4",
+        "description": "1_Iniciante.Beecrowd_2750_python_saida_4",
+        "peekOfCode": "def showData(decimal, octal, hexadecimal):\n    dicimalSpace = 6\n    octalSpace = 4 \n    if decimal > 9:\n        dicimalSpace -= 1\n    if octal > 7:\n        octalSpace -= 1\n    print('|' + ' ' * dicimalSpace + f'{decimal}' + ' ' * 4 + '|' +  ' ' * octalSpace + f'{octal}' + ' ' * 4 + '|' +  ' ' * 7 + f'{hexadecimal}' + ' ' * 7 + '|')\nprint('-' * 39)\nprint('|' + ' ' * 2 + 'decimal' + ' ' * 2 + '|' +  ' ' * 2 + 'octal' + ' ' * 2 + '|' +  ' ' * 2 + 'Hexadecimal' + ' ' * 2 + '|')",
+        "detail": "1_Iniciante.Beecrowd_2750_python_saida_4",
+        "documentation": {}
+    },
+    {
         "label": "letra",
         "kind": 5,
         "importPath": "1_Iniciante.Beecrowd_2756_python_saida_10",
