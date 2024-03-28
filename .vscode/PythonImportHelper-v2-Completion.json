@@ -3215,19 +3215,19 @@
     {
         "label": "number1",
         "kind": 5,
-        "importPath": "1_Iniciante.Beecrowd_2754_saida_8",
-        "description": "1_Iniciante.Beecrowd_2754_saida_8",
+        "importPath": "1_Iniciante.Beecrowd_2754_python_saida_8",
+        "description": "1_Iniciante.Beecrowd_2754_python_saida_8",
         "peekOfCode": "number1 = 234.345\nnumber2 = 45.698\nprint(f'{number1:.6f} - {number2:.6f}')\nprint(f'{number1:.0f} - {number2:.0f}')\nprint(f'{number1:.1f} - {number2:.1f}')\nprint(f'{number1:.2f} - {number2:.2f}')\nprint(f'{number1:.3f} - {number2:.3f}')\nprint(f'{number1:.6e} - {number2:.6e}')\nprint(f'{number1:.6E} - {number2:.6E}')\nprint(f'{number1} - {number2}')",
-        "detail": "1_Iniciante.Beecrowd_2754_saida_8",
+        "detail": "1_Iniciante.Beecrowd_2754_python_saida_8",
         "documentation": {}
     },
     {
         "label": "number2",
         "kind": 5,
-        "importPath": "1_Iniciante.Beecrowd_2754_saida_8",
-        "description": "1_Iniciante.Beecrowd_2754_saida_8",
+        "importPath": "1_Iniciante.Beecrowd_2754_python_saida_8",
+        "description": "1_Iniciante.Beecrowd_2754_python_saida_8",
         "peekOfCode": "number2 = 45.698\nprint(f'{number1:.6f} - {number2:.6f}')\nprint(f'{number1:.0f} - {number2:.0f}')\nprint(f'{number1:.1f} - {number2:.1f}')\nprint(f'{number1:.2f} - {number2:.2f}')\nprint(f'{number1:.3f} - {number2:.3f}')\nprint(f'{number1:.6e} - {number2:.6e}')\nprint(f'{number1:.6E} - {number2:.6E}')\nprint(f'{number1} - {number2}')\nprint(f'{number1} - {number2}')",
-        "detail": "1_Iniciante.Beecrowd_2754_saida_8",
+        "detail": "1_Iniciante.Beecrowd_2754_python_saida_8",
         "documentation": {}
     },
     {
@@ -3267,12 +3267,156 @@
         "documentation": {}
     },
     {
+        "label": "album",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2779_python_album_da_copa",
+        "description": "1_Iniciante.Beecrowd_2779_python_album_da_copa",
+        "peekOfCode": "album = int(input())\nfigures = int(input())\nalbumFigure = []\nfor i in range(figures):\n    figure = int(input())\n    if (figure in albumFigure) == False:\n        albumFigure.append(figure)\nprint(album - len(albumFigure))",
+        "detail": "1_Iniciante.Beecrowd_2779_python_album_da_copa",
+        "documentation": {}
+    },
+    {
+        "label": "figures",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2779_python_album_da_copa",
+        "description": "1_Iniciante.Beecrowd_2779_python_album_da_copa",
+        "peekOfCode": "figures = int(input())\nalbumFigure = []\nfor i in range(figures):\n    figure = int(input())\n    if (figure in albumFigure) == False:\n        albumFigure.append(figure)\nprint(album - len(albumFigure))",
+        "detail": "1_Iniciante.Beecrowd_2779_python_album_da_copa",
+        "documentation": {}
+    },
+    {
+        "label": "albumFigure",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2779_python_album_da_copa",
+        "description": "1_Iniciante.Beecrowd_2779_python_album_da_copa",
+        "peekOfCode": "albumFigure = []\nfor i in range(figures):\n    figure = int(input())\n    if (figure in albumFigure) == False:\n        albumFigure.append(figure)\nprint(album - len(albumFigure))",
+        "detail": "1_Iniciante.Beecrowd_2779_python_album_da_copa",
+        "documentation": {}
+    },
+    {
+        "label": "distance",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2780_python_Basquete_de_robos",
+        "description": "1_Iniciante.Beecrowd_2780_python_Basquete_de_robos",
+        "peekOfCode": "distance = int(input())\nif distance <= 800:\n    print(1)\nelif distance <= 1400:\n    print(2)\nelse:\n    print(3)",
+        "detail": "1_Iniciante.Beecrowd_2780_python_Basquete_de_robos",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2786_python_piso_da_escola",
+        "description": "1_Iniciante.Beecrowd_2786_python_piso_da_escola",
+        "peekOfCode": "height = int(input())\nwidth = int(input())\ntype1 = height * width + (height-1) * (width-1)\ntype2 = 2*(width - 1) + 2*(height - 1)\nprint(type1)\nprint(type2)",
+        "detail": "1_Iniciante.Beecrowd_2786_python_piso_da_escola",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2786_python_piso_da_escola",
+        "description": "1_Iniciante.Beecrowd_2786_python_piso_da_escola",
+        "peekOfCode": "width = int(input())\ntype1 = height * width + (height-1) * (width-1)\ntype2 = 2*(width - 1) + 2*(height - 1)\nprint(type1)\nprint(type2)",
+        "detail": "1_Iniciante.Beecrowd_2786_python_piso_da_escola",
+        "documentation": {}
+    },
+    {
+        "label": "type1",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2786_python_piso_da_escola",
+        "description": "1_Iniciante.Beecrowd_2786_python_piso_da_escola",
+        "peekOfCode": "type1 = height * width + (height-1) * (width-1)\ntype2 = 2*(width - 1) + 2*(height - 1)\nprint(type1)\nprint(type2)",
+        "detail": "1_Iniciante.Beecrowd_2786_python_piso_da_escola",
+        "documentation": {}
+    },
+    {
+        "label": "type2",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2786_python_piso_da_escola",
+        "description": "1_Iniciante.Beecrowd_2786_python_piso_da_escola",
+        "peekOfCode": "type2 = 2*(width - 1) + 2*(height - 1)\nprint(type1)\nprint(type2)",
+        "detail": "1_Iniciante.Beecrowd_2786_python_piso_da_escola",
+        "documentation": {}
+    },
+    {
+        "label": "linhas",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2787_python_Xadrez",
+        "description": "1_Iniciante.Beecrowd_2787_python_Xadrez",
+        "peekOfCode": "linhas = int(input())\ncolunas = int(input())\ncor = 0\nif linhas % 2 == 1:\n    cor = 1\nif colunas % 2 == 0:\n    if cor == 1:\n        cor = 0\n    else:\n        cor = 1 ",
+        "detail": "1_Iniciante.Beecrowd_2787_python_Xadrez",
+        "documentation": {}
+    },
+    {
+        "label": "colunas",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2787_python_Xadrez",
+        "description": "1_Iniciante.Beecrowd_2787_python_Xadrez",
+        "peekOfCode": "colunas = int(input())\ncor = 0\nif linhas % 2 == 1:\n    cor = 1\nif colunas % 2 == 0:\n    if cor == 1:\n        cor = 0\n    else:\n        cor = 1 \nprint(cor)",
+        "detail": "1_Iniciante.Beecrowd_2787_python_Xadrez",
+        "documentation": {}
+    },
+    {
+        "label": "cor",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2787_python_Xadrez",
+        "description": "1_Iniciante.Beecrowd_2787_python_Xadrez",
+        "peekOfCode": "cor = 0\nif linhas % 2 == 1:\n    cor = 1\nif colunas % 2 == 0:\n    if cor == 1:\n        cor = 0\n    else:\n        cor = 1 \nprint(cor)",
+        "detail": "1_Iniciante.Beecrowd_2787_python_Xadrez",
+        "documentation": {}
+    },
+    {
         "label": "valores",
         "kind": 5,
         "importPath": "1_Iniciante.Beecrowd_2791_python_feijao",
         "description": "1_Iniciante.Beecrowd_2791_python_feijao",
         "peekOfCode": "valores = input().split()\nfor i in range(len(valores)):\n    if int(valores[i]) == 1:\n        print(i+1)",
         "detail": "1_Iniciante.Beecrowd_2791_python_feijao",
+        "documentation": {}
+    },
+    {
+        "label": "questions",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2861_python_a_saida",
+        "description": "1_Iniciante.Beecrowd_2861_python_a_saida",
+        "peekOfCode": "questions = int(input())\nfor i in range(questions):\n    question = str(input())\n    print('gzuz')",
+        "detail": "1_Iniciante.Beecrowd_2861_python_a_saida",
+        "documentation": {}
+    },
+    {
+        "label": "measurements",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2862_python_inseto",
+        "description": "1_Iniciante.Beecrowd_2862_python_inseto",
+        "peekOfCode": "measurements = int(input())\nfor i in range(measurements):\n    nivel = int(input())\n    if nivel <= 8000:\n        print('Inseto!')\n    else:\n        print('Mais de 8000!')",
+        "detail": "1_Iniciante.Beecrowd_2862_python_inseto",
+        "documentation": {}
+    },
+    {
+        "label": "simulation",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2879_python_Desvendando_monty_hall",
+        "description": "1_Iniciante.Beecrowd_2879_python_Desvendando_monty_hall",
+        "peekOfCode": "simulation = int(input())\ncount = 0\nfor i in range(simulation):\n    door = int(input())\n    if door != 1:\n        count += 1\nprint(count)",
+        "detail": "1_Iniciante.Beecrowd_2879_python_Desvendando_monty_hall",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2879_python_Desvendando_monty_hall",
+        "description": "1_Iniciante.Beecrowd_2879_python_Desvendando_monty_hall",
+        "peekOfCode": "count = 0\nfor i in range(simulation):\n    door = int(input())\n    if door != 1:\n        count += 1\nprint(count)",
+        "detail": "1_Iniciante.Beecrowd_2879_python_Desvendando_monty_hall",
+        "documentation": {}
+    },
+    {
+        "label": "tests",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2896_python_aproveite_a_oferta",
+        "description": "1_Iniciante.Beecrowd_2896_python_aproveite_a_oferta",
+        "peekOfCode": "tests = int(input())\nfor i in range(tests):\n    values = input().split()\n    bottles = int(values[0]) // int(values[1])\n    bottles = int(values[0]) - (int(values[1]) * bottles) + bottles\n    print(bottles)",
+        "detail": "1_Iniciante.Beecrowd_2896_python_aproveite_a_oferta",
         "documentation": {}
     },
     {
@@ -3294,6 +3438,42 @@
         "documentation": {}
     },
     {
+        "label": "values",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2950_python_as_duas_torres",
+        "description": "1_Iniciante.Beecrowd_2950_python_as_duas_torres",
+        "peekOfCode": "values = input().split()\nicm = int(values[0]) / (int(values[1]) + int(values[2]))\nprint(f'{icm:.2f}')",
+        "detail": "1_Iniciante.Beecrowd_2950_python_as_duas_torres",
+        "documentation": {}
+    },
+    {
+        "label": "icm",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2950_python_as_duas_torres",
+        "description": "1_Iniciante.Beecrowd_2950_python_as_duas_torres",
+        "peekOfCode": "icm = int(values[0]) / (int(values[1]) + int(values[2]))\nprint(f'{icm:.2f}')",
+        "detail": "1_Iniciante.Beecrowd_2950_python_as_duas_torres",
+        "documentation": {}
+    },
+    {
+        "label": "letter",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2987_python_balao_de_honra",
+        "description": "1_Iniciante.Beecrowd_2987_python_balao_de_honra",
+        "peekOfCode": "letter = str(input())\nprint(ord(letter)-64)",
+        "detail": "1_Iniciante.Beecrowd_2987_python_balao_de_honra",
+        "documentation": {}
+    },
+    {
+        "label": "tests",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3040_python_a_arvore_de_natal",
+        "description": "1_Iniciante.Beecrowd_3040_python_a_arvore_de_natal",
+        "peekOfCode": "tests = int(input())\nfor i in range(tests):\n    values = input().split()\n    if 200 <= int(values[0]) <= 300:\n        if int(values[1]) >= 50:\n            if int(values[2]) >= 150:\n                print('Sim')\n                continue\n    print('Nao')",
+        "detail": "1_Iniciante.Beecrowd_3040_python_a_arvore_de_natal",
+        "documentation": {}
+    },
+    {
         "label": "numeroN",
         "kind": 5,
         "importPath": "1_Iniciante.Beecrowd_3046_python_domino",
@@ -3309,6 +3489,51 @@
         "description": "1_Iniciante.Beecrowd_3046_python_domino",
         "peekOfCode": "quantidadePeca = ((numeroN+1) * (numeroN+2))//2\nprint(quantidadePeca)",
         "detail": "1_Iniciante.Beecrowd_3046_python_domino",
+        "documentation": {}
+    },
+    {
+        "label": "monica",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "description": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "peekOfCode": "monica = int(input())\nfilho1 = int(input())\nfilho2 = int(input())\nmaior = 0\nif filho1 > filho2:\n    maior = filho1\nelse:\n    maior = filho2\nfilho3 = monica - (filho1+filho2)\nif maior > filho3:",
+        "detail": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "documentation": {}
+    },
+    {
+        "label": "filho1",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "description": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "peekOfCode": "filho1 = int(input())\nfilho2 = int(input())\nmaior = 0\nif filho1 > filho2:\n    maior = filho1\nelse:\n    maior = filho2\nfilho3 = monica - (filho1+filho2)\nif maior > filho3:\n    print(maior)",
+        "detail": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "documentation": {}
+    },
+    {
+        "label": "filho2",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "description": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "peekOfCode": "filho2 = int(input())\nmaior = 0\nif filho1 > filho2:\n    maior = filho1\nelse:\n    maior = filho2\nfilho3 = monica - (filho1+filho2)\nif maior > filho3:\n    print(maior)\nelse:",
+        "detail": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "documentation": {}
+    },
+    {
+        "label": "maior",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "description": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "peekOfCode": "maior = 0\nif filho1 > filho2:\n    maior = filho1\nelse:\n    maior = filho2\nfilho3 = monica - (filho1+filho2)\nif maior > filho3:\n    print(maior)\nelse:\n    print(filho3)",
+        "detail": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "documentation": {}
+    },
+    {
+        "label": "filho3",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "description": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
+        "peekOfCode": "filho3 = monica - (filho1+filho2)\nif maior > filho3:\n    print(maior)\nelse:\n    print(filho3)",
+        "detail": "1_Iniciante.Beecrowd_3047_python_a_idade_de_dona_monica",
         "documentation": {}
     },
     {
@@ -3336,6 +3561,96 @@
         "description": "1_Iniciante.Beecrowd_3055_python_nota_esquecida",
         "peekOfCode": "notaB = (media * 2) - notaA\nprint(notaB)",
         "detail": "1_Iniciante.Beecrowd_3055_python_nota_esquecida",
+        "documentation": {}
+    },
+    {
+        "label": "dividendo",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3091_python_resto_1",
+        "description": "1_Iniciante.Beecrowd_3091_python_resto_1",
+        "peekOfCode": "dividendo = int(input())\ndivisor = int(input())\nprint(dividendo%divisor)",
+        "detail": "1_Iniciante.Beecrowd_3091_python_resto_1",
+        "documentation": {}
+    },
+    {
+        "label": "divisor",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3091_python_resto_1",
+        "description": "1_Iniciante.Beecrowd_3091_python_resto_1",
+        "peekOfCode": "divisor = int(input())\nprint(dividendo%divisor)",
+        "detail": "1_Iniciante.Beecrowd_3091_python_resto_1",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3140_python_copiando_e_colando_codigo",
+        "description": "1_Iniciante.Beecrowd_3140_python_copiando_e_colando_codigo",
+        "peekOfCode": "run = 0\ntags = []\nwhile run != 3:\n    text = str(input())\n    text2 = text.strip()\n    if text2 == '<body>':\n        run = 1\n    if run == 1:\n        tags.append(text)\n    if text2 == '</body>':",
+        "detail": "1_Iniciante.Beecrowd_3140_python_copiando_e_colando_codigo",
+        "documentation": {}
+    },
+    {
+        "label": "tags",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3140_python_copiando_e_colando_codigo",
+        "description": "1_Iniciante.Beecrowd_3140_python_copiando_e_colando_codigo",
+        "peekOfCode": "tags = []\nwhile run != 3:\n    text = str(input())\n    text2 = text.strip()\n    if text2 == '<body>':\n        run = 1\n    if run == 1:\n        tags.append(text)\n    if text2 == '</body>':\n        run = 2",
+        "detail": "1_Iniciante.Beecrowd_3140_python_copiando_e_colando_codigo",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "description": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "peekOfCode": "values = input().split()\nsizeFrut = int(values[0])\nsizeText = int(values[1])\nfruts = []\nfrutsIndex = []\nreverseFruts = []\nfor i in range(sizeFrut):\n    frut = str(input()).lower()\n    fruts.append(frut)\n    frutsIndex.append(0)",
+        "detail": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "documentation": {}
+    },
+    {
+        "label": "sizeFrut",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "description": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "peekOfCode": "sizeFrut = int(values[0])\nsizeText = int(values[1])\nfruts = []\nfrutsIndex = []\nreverseFruts = []\nfor i in range(sizeFrut):\n    frut = str(input()).lower()\n    fruts.append(frut)\n    frutsIndex.append(0)\n    reverseFruts.append(frut[::-1])",
+        "detail": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "documentation": {}
+    },
+    {
+        "label": "sizeText",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "description": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "peekOfCode": "sizeText = int(values[1])\nfruts = []\nfrutsIndex = []\nreverseFruts = []\nfor i in range(sizeFrut):\n    frut = str(input()).lower()\n    fruts.append(frut)\n    frutsIndex.append(0)\n    reverseFruts.append(frut[::-1])\nfor i in range(sizeText):",
+        "detail": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "documentation": {}
+    },
+    {
+        "label": "fruts",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "description": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "peekOfCode": "fruts = []\nfrutsIndex = []\nreverseFruts = []\nfor i in range(sizeFrut):\n    frut = str(input()).lower()\n    fruts.append(frut)\n    frutsIndex.append(0)\n    reverseFruts.append(frut[::-1])\nfor i in range(sizeText):\n    text = str(input()).lower()",
+        "detail": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "documentation": {}
+    },
+    {
+        "label": "frutsIndex",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "description": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "peekOfCode": "frutsIndex = []\nreverseFruts = []\nfor i in range(sizeFrut):\n    frut = str(input()).lower()\n    fruts.append(frut)\n    frutsIndex.append(0)\n    reverseFruts.append(frut[::-1])\nfor i in range(sizeText):\n    text = str(input()).lower()\n    for j in range(sizeFrut):",
+        "detail": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "documentation": {}
+    },
+    {
+        "label": "reverseFruts",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "description": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
+        "peekOfCode": "reverseFruts = []\nfor i in range(sizeFrut):\n    frut = str(input()).lower()\n    fruts.append(frut)\n    frutsIndex.append(0)\n    reverseFruts.append(frut[::-1])\nfor i in range(sizeText):\n    text = str(input()).lower()\n    for j in range(sizeFrut):\n        if fruts[j] in text:",
+        "detail": "1_Iniciante.Beecrowd_3161_python_As_Frutas_esquecidas",
         "documentation": {}
     },
     {
