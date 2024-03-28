@@ -9,6 +9,30 @@
         "documentation": {}
     },
     {
+        "label": "floor",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "value",
         "kind": 5,
         "importPath": "1_Iniciante.Bee 1038 Lanche",
@@ -3678,6 +3702,87 @@
         "description": "1_Iniciante.Beecrowd_3170_python_bolinhas_de_natal",
         "peekOfCode": "bolinhas = (galhos//2) - bolinhaAtual\nif bolinhas > 0:\n    print(f'Faltam {bolinhas} bolinha(s)')\nelse:\n    print('Amelia tem todas bolinhas!')",
         "detail": "1_Iniciante.Beecrowd_3170_python_bolinhas_de_natal",
+        "documentation": {}
+    },
+    {
+        "label": "revolucao",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "description": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "peekOfCode": "revolucao = int(input())\nanoBissestoJupiter = round((11.9 * revolucao) /4)\ndiasJupiter = floor((revolucao * 365 * 11.9) + anoBissestoJupiter)\nanoBissestoSaturno = floor((29.6 * revolucao) /4)\ndiasSaturno = floor((revolucao * 365 * 29.6) + anoBissestoSaturno)\ndataInicial = \"2020-12-21\"\ndataInicial = datetime.strptime(dataInicial, \"%Y-%m-%d\")\ndataJupiter = dataInicial + timedelta(days=diasJupiter)\ndataSaturno = dataInicial + timedelta(days=diasSaturno)\nprint(f'Dias terrestres para Jupiter = {diasJupiter}')",
+        "detail": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "documentation": {}
+    },
+    {
+        "label": "anoBissestoJupiter",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "description": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "peekOfCode": "anoBissestoJupiter = round((11.9 * revolucao) /4)\ndiasJupiter = floor((revolucao * 365 * 11.9) + anoBissestoJupiter)\nanoBissestoSaturno = floor((29.6 * revolucao) /4)\ndiasSaturno = floor((revolucao * 365 * 29.6) + anoBissestoSaturno)\ndataInicial = \"2020-12-21\"\ndataInicial = datetime.strptime(dataInicial, \"%Y-%m-%d\")\ndataJupiter = dataInicial + timedelta(days=diasJupiter)\ndataSaturno = dataInicial + timedelta(days=diasSaturno)\nprint(f'Dias terrestres para Jupiter = {diasJupiter}')\nprint(f'Data terrestre para Jupiter: {dataJupiter.year}-{dataJupiter.month:02d}-{dataJupiter.day:02d}')",
+        "detail": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "documentation": {}
+    },
+    {
+        "label": "diasJupiter",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "description": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "peekOfCode": "diasJupiter = floor((revolucao * 365 * 11.9) + anoBissestoJupiter)\nanoBissestoSaturno = floor((29.6 * revolucao) /4)\ndiasSaturno = floor((revolucao * 365 * 29.6) + anoBissestoSaturno)\ndataInicial = \"2020-12-21\"\ndataInicial = datetime.strptime(dataInicial, \"%Y-%m-%d\")\ndataJupiter = dataInicial + timedelta(days=diasJupiter)\ndataSaturno = dataInicial + timedelta(days=diasSaturno)\nprint(f'Dias terrestres para Jupiter = {diasJupiter}')\nprint(f'Data terrestre para Jupiter: {dataJupiter.year}-{dataJupiter.month:02d}-{dataJupiter.day:02d}')\nprint(f'Dias terrestres para Saturno = {diasSaturno}')",
+        "detail": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "documentation": {}
+    },
+    {
+        "label": "anoBissestoSaturno",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "description": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "peekOfCode": "anoBissestoSaturno = floor((29.6 * revolucao) /4)\ndiasSaturno = floor((revolucao * 365 * 29.6) + anoBissestoSaturno)\ndataInicial = \"2020-12-21\"\ndataInicial = datetime.strptime(dataInicial, \"%Y-%m-%d\")\ndataJupiter = dataInicial + timedelta(days=diasJupiter)\ndataSaturno = dataInicial + timedelta(days=diasSaturno)\nprint(f'Dias terrestres para Jupiter = {diasJupiter}')\nprint(f'Data terrestre para Jupiter: {dataJupiter.year}-{dataJupiter.month:02d}-{dataJupiter.day:02d}')\nprint(f'Dias terrestres para Saturno = {diasSaturno}')\nprint(f'Data terrestre para Saturno: {dataSaturno.year}-{dataSaturno.month:02d}-{dataSaturno.day:02d}')",
+        "detail": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "documentation": {}
+    },
+    {
+        "label": "diasSaturno",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "description": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "peekOfCode": "diasSaturno = floor((revolucao * 365 * 29.6) + anoBissestoSaturno)\ndataInicial = \"2020-12-21\"\ndataInicial = datetime.strptime(dataInicial, \"%Y-%m-%d\")\ndataJupiter = dataInicial + timedelta(days=diasJupiter)\ndataSaturno = dataInicial + timedelta(days=diasSaturno)\nprint(f'Dias terrestres para Jupiter = {diasJupiter}')\nprint(f'Data terrestre para Jupiter: {dataJupiter.year}-{dataJupiter.month:02d}-{dataJupiter.day:02d}')\nprint(f'Dias terrestres para Saturno = {diasSaturno}')\nprint(f'Data terrestre para Saturno: {dataSaturno.year}-{dataSaturno.month:02d}-{dataSaturno.day:02d}')",
+        "detail": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "documentation": {}
+    },
+    {
+        "label": "dataInicial",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "description": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "peekOfCode": "dataInicial = \"2020-12-21\"\ndataInicial = datetime.strptime(dataInicial, \"%Y-%m-%d\")\ndataJupiter = dataInicial + timedelta(days=diasJupiter)\ndataSaturno = dataInicial + timedelta(days=diasSaturno)\nprint(f'Dias terrestres para Jupiter = {diasJupiter}')\nprint(f'Data terrestre para Jupiter: {dataJupiter.year}-{dataJupiter.month:02d}-{dataJupiter.day:02d}')\nprint(f'Dias terrestres para Saturno = {diasSaturno}')\nprint(f'Data terrestre para Saturno: {dataSaturno.year}-{dataSaturno.month:02d}-{dataSaturno.day:02d}')",
+        "detail": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "documentation": {}
+    },
+    {
+        "label": "dataInicial",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "description": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "peekOfCode": "dataInicial = datetime.strptime(dataInicial, \"%Y-%m-%d\")\ndataJupiter = dataInicial + timedelta(days=diasJupiter)\ndataSaturno = dataInicial + timedelta(days=diasSaturno)\nprint(f'Dias terrestres para Jupiter = {diasJupiter}')\nprint(f'Data terrestre para Jupiter: {dataJupiter.year}-{dataJupiter.month:02d}-{dataJupiter.day:02d}')\nprint(f'Dias terrestres para Saturno = {diasSaturno}')\nprint(f'Data terrestre para Saturno: {dataSaturno.year}-{dataSaturno.month:02d}-{dataSaturno.day:02d}')",
+        "detail": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "documentation": {}
+    },
+    {
+        "label": "dataJupiter",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "description": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "peekOfCode": "dataJupiter = dataInicial + timedelta(days=diasJupiter)\ndataSaturno = dataInicial + timedelta(days=diasSaturno)\nprint(f'Dias terrestres para Jupiter = {diasJupiter}')\nprint(f'Data terrestre para Jupiter: {dataJupiter.year}-{dataJupiter.month:02d}-{dataJupiter.day:02d}')\nprint(f'Dias terrestres para Saturno = {diasSaturno}')\nprint(f'Data terrestre para Saturno: {dataSaturno.year}-{dataSaturno.month:02d}-{dataSaturno.day:02d}')",
+        "detail": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "documentation": {}
+    },
+    {
+        "label": "dataSaturno",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "description": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
+        "peekOfCode": "dataSaturno = dataInicial + timedelta(days=diasSaturno)\nprint(f'Dias terrestres para Jupiter = {diasJupiter}')\nprint(f'Data terrestre para Jupiter: {dataJupiter.year}-{dataJupiter.month:02d}-{dataJupiter.day:02d}')\nprint(f'Dias terrestres para Saturno = {diasSaturno}')\nprint(f'Data terrestre para Saturno: {dataSaturno.year}-{dataSaturno.month:02d}-{dataSaturno.day:02d}')",
+        "detail": "1_Iniciante.Beecrowd_3173_python_Estrela_deNatal",
         "documentation": {}
     },
     {
