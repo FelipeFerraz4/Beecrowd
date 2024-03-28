@@ -3786,6 +3786,24 @@
         "documentation": {}
     },
     {
+        "label": "elfos",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3174_python_grupo_de_trabalho_do_noel",
+        "description": "1_Iniciante.Beecrowd_3174_python_grupo_de_trabalho_do_noel",
+        "peekOfCode": "elfos = int(input())\nhoras = [0, 0, 0, 0]\nfor i in range(elfos):\n    info = input().split()\n    if info[1] == 'bonecos':\n        horas[0] += int(info[2])\n    elif info[1] == 'arquitetos':\n        horas[1] += int(info[2])\n    elif info[1] == 'musicos':\n        horas[2] += int(info[2])",
+        "detail": "1_Iniciante.Beecrowd_3174_python_grupo_de_trabalho_do_noel",
+        "documentation": {}
+    },
+    {
+        "label": "horas",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3174_python_grupo_de_trabalho_do_noel",
+        "description": "1_Iniciante.Beecrowd_3174_python_grupo_de_trabalho_do_noel",
+        "peekOfCode": "horas = [0, 0, 0, 0]\nfor i in range(elfos):\n    info = input().split()\n    if info[1] == 'bonecos':\n        horas[0] += int(info[2])\n    elif info[1] == 'arquitetos':\n        horas[1] += int(info[2])\n    elif info[1] == 'musicos':\n        horas[2] += int(info[2])\n    else:",
+        "detail": "1_Iniciante.Beecrowd_3174_python_grupo_de_trabalho_do_noel",
+        "documentation": {}
+    },
+    {
         "label": "tamanho",
         "kind": 5,
         "importPath": "1_Iniciante.Bee_1478_Matriz_Quadrada_II",
