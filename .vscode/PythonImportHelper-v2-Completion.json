@@ -3654,6 +3654,33 @@
         "documentation": {}
     },
     {
+        "label": "bolinhaAtual",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3170_python_bolinhas_de_natal",
+        "description": "1_Iniciante.Beecrowd_3170_python_bolinhas_de_natal",
+        "peekOfCode": "bolinhaAtual = int(input())\ngalhos = int(input())\nbolinhas = (galhos//2) - bolinhaAtual\nif bolinhas > 0:\n    print(f'Faltam {bolinhas} bolinha(s)')\nelse:\n    print('Amelia tem todas bolinhas!')",
+        "detail": "1_Iniciante.Beecrowd_3170_python_bolinhas_de_natal",
+        "documentation": {}
+    },
+    {
+        "label": "galhos",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3170_python_bolinhas_de_natal",
+        "description": "1_Iniciante.Beecrowd_3170_python_bolinhas_de_natal",
+        "peekOfCode": "galhos = int(input())\nbolinhas = (galhos//2) - bolinhaAtual\nif bolinhas > 0:\n    print(f'Faltam {bolinhas} bolinha(s)')\nelse:\n    print('Amelia tem todas bolinhas!')",
+        "detail": "1_Iniciante.Beecrowd_3170_python_bolinhas_de_natal",
+        "documentation": {}
+    },
+    {
+        "label": "bolinhas",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3170_python_bolinhas_de_natal",
+        "description": "1_Iniciante.Beecrowd_3170_python_bolinhas_de_natal",
+        "peekOfCode": "bolinhas = (galhos//2) - bolinhaAtual\nif bolinhas > 0:\n    print(f'Faltam {bolinhas} bolinha(s)')\nelse:\n    print('Amelia tem todas bolinhas!')",
+        "detail": "1_Iniciante.Beecrowd_3170_python_bolinhas_de_natal",
+        "documentation": {}
+    },
+    {
         "label": "tamanho",
         "kind": 5,
         "importPath": "1_Iniciante.Bee_1478_Matriz_Quadrada_II",
