@@ -3804,6 +3804,15 @@
         "documentation": {}
     },
     {
+        "label": "values",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_3301_python_sobrinho_do_meio",
+        "description": "1_Iniciante.Beecrowd_3301_python_sobrinho_do_meio",
+        "peekOfCode": "values = input().split()\nif int(values[0]) > int(values[1]) > int(values[2]) or int(values[2]) > int(values[1]) > int(values[0]):\n    print('zezinho')\nelif int(values[1]) > int(values[0]) > int(values[2]) or int(values[2]) > int(values[0]) > int(values[1]):\n    print('huguinho')\nelse:\n    print('luisinho')",
+        "detail": "1_Iniciante.Beecrowd_3301_python_sobrinho_do_meio",
+        "documentation": {}
+    },
+    {
         "label": "tamanho",
         "kind": 5,
         "importPath": "1_Iniciante.Bee_1478_Matriz_Quadrada_II",
