@@ -3174,6 +3174,15 @@
         "documentation": {}
     },
     {
+        "label": "points",
+        "kind": 2,
+        "importPath": "1_Iniciante.Beecrowd_2626_python_turma_do_jb6",
+        "description": "1_Iniciante.Beecrowd_2626_python_turma_do_jb6",
+        "peekOfCode": "def points(play, other_play1, other_play2):\n    if (play == 'papel' and (other_play1 ==  other_play2 == 'pedra')):\n        return 1\n    elif (play == 'pedra' and (other_play1 == other_play2 == 'tesoura')):\n        return 1\n    elif (play == 'tesoura' and (other_play1 == other_play2 == 'papel')):\n        return 1\n    else:\n        return 0\nwhile True:",
+        "detail": "1_Iniciante.Beecrowd_2626_python_turma_do_jb6",
+        "documentation": {}
+    },
+    {
         "label": "meals",
         "kind": 5,
         "importPath": "1_Iniciante.Beecrowd_2702_python_escolha_dificil",
