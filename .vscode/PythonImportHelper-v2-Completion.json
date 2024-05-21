@@ -3156,6 +3156,24 @@
         "documentation": {}
     },
     {
+        "label": "music",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2582_python_system_of_a_download",
+        "description": "1_Iniciante.Beecrowd_2582_python_system_of_a_download",
+        "peekOfCode": "music = [ 'PROXYCITY', 'P.Y.N.G.', 'DNSUEY!', 'SERVERS', 'HOST!', 'CRIPTONIZE', 'OFFLINE DAY', 'SALT', 'ANSWER!', 'RAR?', 'WIFI ANTENNAS']\ntimes = int(input())\nfor x in range(times):\n    values = input().split()\n    print(music[ int(values[0]) + int(values[1]) ])",
+        "detail": "1_Iniciante.Beecrowd_2582_python_system_of_a_download",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2582_python_system_of_a_download",
+        "description": "1_Iniciante.Beecrowd_2582_python_system_of_a_download",
+        "peekOfCode": "times = int(input())\nfor x in range(times):\n    values = input().split()\n    print(music[ int(values[0]) + int(values[1]) ])",
+        "detail": "1_Iniciante.Beecrowd_2582_python_system_of_a_download",
+        "documentation": {}
+    },
+    {
         "label": "meals",
         "kind": 5,
         "importPath": "1_Iniciante.Beecrowd_2702_python_escolha_dificil",
