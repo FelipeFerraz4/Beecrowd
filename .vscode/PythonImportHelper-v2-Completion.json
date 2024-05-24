@@ -3183,6 +3183,15 @@
         "documentation": {}
     },
     {
+        "label": "time",
+        "kind": 5,
+        "importPath": "1_Iniciante.Beecrowd_2630_python_escala_de_cinza",
+        "description": "1_Iniciante.Beecrowd_2630_python_escala_de_cinza",
+        "peekOfCode": "time = int(input())\nfor x in range(time):\n    operational_type = str(input())\n    values = input().split()\n    red = int(values[0])\n    green = int(values[1])\n    blue = int(values[2])\n    grey_scale = 0\n    if(operational_type == 'eye'):\n        grey_scale = (red*0.3) + (green*0.59) + (blue*0.11)",
+        "detail": "1_Iniciante.Beecrowd_2630_python_escala_de_cinza",
+        "documentation": {}
+    },
+    {
         "label": "meals",
         "kind": 5,
         "importPath": "1_Iniciante.Beecrowd_2702_python_escolha_dificil",
