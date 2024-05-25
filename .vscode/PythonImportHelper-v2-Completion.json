@@ -33,6 +33,69 @@
         "documentation": {}
     },
     {
+        "label": "jogadas",
+        "kind": 5,
+        "importPath": "10_contests.questãoF",
+        "description": "10_contests.questãoF",
+        "peekOfCode": "jogadas = str(input())\nsacando = 1\njogador1_pontos = 0\njogador2_pontos = 0\njogador1_games = 0\njogador2_games = 0\njogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:",
+        "detail": "10_contests.questãoF",
+        "documentation": {}
+    },
+    {
+        "label": "sacando",
+        "kind": 5,
+        "importPath": "10_contests.questãoF",
+        "description": "10_contests.questãoF",
+        "peekOfCode": "sacando = 1\njogador1_pontos = 0\njogador2_pontos = 0\njogador1_games = 0\njogador2_games = 0\njogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:\n            jogador1_pontos += 1",
+        "detail": "10_contests.questãoF",
+        "documentation": {}
+    },
+    {
+        "label": "jogador1_pontos",
+        "kind": 5,
+        "importPath": "10_contests.questãoF",
+        "description": "10_contests.questãoF",
+        "peekOfCode": "jogador1_pontos = 0\njogador2_pontos = 0\njogador1_games = 0\njogador2_games = 0\njogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:\n            jogador1_pontos += 1\n        else:",
+        "detail": "10_contests.questãoF",
+        "documentation": {}
+    },
+    {
+        "label": "jogador2_pontos",
+        "kind": 5,
+        "importPath": "10_contests.questãoF",
+        "description": "10_contests.questãoF",
+        "peekOfCode": "jogador2_pontos = 0\njogador1_games = 0\njogador2_games = 0\njogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:\n            jogador1_pontos += 1\n        else:\n            jogador2_pontos += 1",
+        "detail": "10_contests.questãoF",
+        "documentation": {}
+    },
+    {
+        "label": "jogador1_games",
+        "kind": 5,
+        "importPath": "10_contests.questãoF",
+        "description": "10_contests.questãoF",
+        "peekOfCode": "jogador1_games = 0\njogador2_games = 0\njogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:\n            jogador1_pontos += 1\n        else:\n            jogador2_pontos += 1\n    elif jogada == 'R':",
+        "detail": "10_contests.questãoF",
+        "documentation": {}
+    },
+    {
+        "label": "jogador2_games",
+        "kind": 5,
+        "importPath": "10_contests.questãoF",
+        "description": "10_contests.questãoF",
+        "peekOfCode": "jogador2_games = 0\njogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:\n            jogador1_pontos += 1\n        else:\n            jogador2_pontos += 1\n    elif jogada == 'R':\n        if sacando == 1:",
+        "detail": "10_contests.questãoF",
+        "documentation": {}
+    },
+    {
+        "label": "jogadorVencedor",
+        "kind": 5,
+        "importPath": "10_contests.questãoF",
+        "description": "10_contests.questãoF",
+        "peekOfCode": "jogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:\n            jogador1_pontos += 1\n        else:\n            jogador2_pontos += 1\n    elif jogada == 'R':\n        if sacando == 1:\n            jogador2_pontos += 1",
+        "detail": "10_contests.questãoF",
+        "documentation": {}
+    },
+    {
         "label": "value",
         "kind": 5,
         "importPath": "1_Iniciante.Bee 1038 Lanche",
