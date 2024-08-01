@@ -1,5 +1,13 @@
 [
     {
+        "label": "permutations",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
         "label": "math",
         "kind": 6,
         "isExtraImport": true,
@@ -33,66 +41,219 @@
         "documentation": {}
     },
     {
-        "label": "jogadas",
+        "label": "valores",
         "kind": 5,
-        "importPath": "10_contests.questãoF",
-        "description": "10_contests.questãoF",
-        "peekOfCode": "jogadas = str(input())\nsacando = 1\njogador1_pontos = 0\njogador2_pontos = 0\njogador1_games = 0\njogador2_games = 0\njogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:",
-        "detail": "10_contests.questãoF",
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoA",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoA",
+        "peekOfCode": "valores = input().split()\nsoma = int(valores[0]) + int(valores[1]) + int(valores[2])\nif soma == 3:\n    print(3)\nelif soma == 4:\n    print(2)\nelse:\n    print(1)",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoA",
         "documentation": {}
     },
     {
-        "label": "sacando",
+        "label": "soma",
         "kind": 5,
-        "importPath": "10_contests.questãoF",
-        "description": "10_contests.questãoF",
-        "peekOfCode": "sacando = 1\njogador1_pontos = 0\njogador2_pontos = 0\njogador1_games = 0\njogador2_games = 0\njogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:\n            jogador1_pontos += 1",
-        "detail": "10_contests.questãoF",
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoA",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoA",
+        "peekOfCode": "soma = int(valores[0]) + int(valores[1]) + int(valores[2])\nif soma == 3:\n    print(3)\nelif soma == 4:\n    print(2)\nelse:\n    print(1)",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoA",
         "documentation": {}
     },
     {
-        "label": "jogador1_pontos",
+        "label": "valores",
         "kind": 5,
-        "importPath": "10_contests.questãoF",
-        "description": "10_contests.questãoF",
-        "peekOfCode": "jogador1_pontos = 0\njogador2_pontos = 0\njogador1_games = 0\njogador2_games = 0\njogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:\n            jogador1_pontos += 1\n        else:",
-        "detail": "10_contests.questãoF",
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "peekOfCode": "valores = input().split()\ndistancia = int(valores[0])\nvelocidade = int(valores[1])\ntempo = ((distancia / velocidade) + 19) % 24\nhora = int(tempo)\nminuto = int((tempo % 1) * 60)\nprint(f'{hora:02}:{minuto:02}')",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
         "documentation": {}
     },
     {
-        "label": "jogador2_pontos",
+        "label": "distancia",
         "kind": 5,
-        "importPath": "10_contests.questãoF",
-        "description": "10_contests.questãoF",
-        "peekOfCode": "jogador2_pontos = 0\njogador1_games = 0\njogador2_games = 0\njogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:\n            jogador1_pontos += 1\n        else:\n            jogador2_pontos += 1",
-        "detail": "10_contests.questãoF",
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "peekOfCode": "distancia = int(valores[0])\nvelocidade = int(valores[1])\ntempo = ((distancia / velocidade) + 19) % 24\nhora = int(tempo)\nminuto = int((tempo % 1) * 60)\nprint(f'{hora:02}:{minuto:02}')",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
         "documentation": {}
     },
     {
-        "label": "jogador1_games",
+        "label": "velocidade",
         "kind": 5,
-        "importPath": "10_contests.questãoF",
-        "description": "10_contests.questãoF",
-        "peekOfCode": "jogador1_games = 0\njogador2_games = 0\njogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:\n            jogador1_pontos += 1\n        else:\n            jogador2_pontos += 1\n    elif jogada == 'R':",
-        "detail": "10_contests.questãoF",
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "peekOfCode": "velocidade = int(valores[1])\ntempo = ((distancia / velocidade) + 19) % 24\nhora = int(tempo)\nminuto = int((tempo % 1) * 60)\nprint(f'{hora:02}:{minuto:02}')",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
         "documentation": {}
     },
     {
-        "label": "jogador2_games",
+        "label": "tempo",
         "kind": 5,
-        "importPath": "10_contests.questãoF",
-        "description": "10_contests.questãoF",
-        "peekOfCode": "jogador2_games = 0\njogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:\n            jogador1_pontos += 1\n        else:\n            jogador2_pontos += 1\n    elif jogada == 'R':\n        if sacando == 1:",
-        "detail": "10_contests.questãoF",
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "peekOfCode": "tempo = ((distancia / velocidade) + 19) % 24\nhora = int(tempo)\nminuto = int((tempo % 1) * 60)\nprint(f'{hora:02}:{minuto:02}')",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
         "documentation": {}
     },
     {
-        "label": "jogadorVencedor",
+        "label": "hora",
         "kind": 5,
-        "importPath": "10_contests.questãoF",
-        "description": "10_contests.questãoF",
-        "peekOfCode": "jogadorVencedor = 0\nfor jogada in jogadas:\n    if jogada == 'S':\n        if sacando == 1:\n            jogador1_pontos += 1\n        else:\n            jogador2_pontos += 1\n    elif jogada == 'R':\n        if sacando == 1:\n            jogador2_pontos += 1",
-        "detail": "10_contests.questãoF",
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "peekOfCode": "hora = int(tempo)\nminuto = int((tempo % 1) * 60)\nprint(f'{hora:02}:{minuto:02}')",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "documentation": {}
+    },
+    {
+        "label": "minuto",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "peekOfCode": "minuto = int((tempo % 1) * 60)\nprint(f'{hora:02}:{minuto:02}')",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoD",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoF",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoF",
+        "peekOfCode": "valor = int(input())\ngrupoDeParentes = input()\ngrupo = '()' * (valor//2)\nprint(permutations(grupo))",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoF",
+        "documentation": {}
+    },
+    {
+        "label": "grupoDeParentes",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoF",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoF",
+        "peekOfCode": "grupoDeParentes = input()\ngrupo = '()' * (valor//2)\nprint(permutations(grupo))",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoF",
+        "documentation": {}
+    },
+    {
+        "label": "grupo",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoF",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoF",
+        "peekOfCode": "grupo = '()' * (valor//2)\nprint(permutations(grupo))",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoF",
+        "documentation": {}
+    },
+    {
+        "label": "eh_primo",
+        "kind": 2,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoH",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoH",
+        "peekOfCode": "def eh_primo(numero):\n    if numero == 1:\n        return False\n    for i in range (2, numero):\n        if numero % i == 0:\n            return False\n    return True\ntestes = int(input())\nfor i in range(testes):\n    numero = int(input())",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoH",
+        "documentation": {}
+    },
+    {
+        "label": "testes",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoH",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoH",
+        "peekOfCode": "testes = int(input())\nfor i in range(testes):\n    numero = int(input())\n    respostas = []\n    desempate = []\n    for x in range(numero):\n        if eh_primo(x):\n            continue\n        for y in range(numero):\n            if eh_primo(y) or x >= y:",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoH",
+        "documentation": {}
+    },
+    {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "peekOfCode": "valores = input().split()\nn = int(valores[0])\nm = int(valores[1])\ncolar = str(input())\nfim_antecipado = False\ninicio = 0\nfim = m\ncontasPretas = []\nfor i in range(n):\n    bloco = colar[inicio:fim]",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "peekOfCode": "n = int(valores[0])\nm = int(valores[1])\ncolar = str(input())\nfim_antecipado = False\ninicio = 0\nfim = m\ncontasPretas = []\nfor i in range(n):\n    bloco = colar[inicio:fim]\n    contasPreta = bloco.count('1')",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "peekOfCode": "m = int(valores[1])\ncolar = str(input())\nfim_antecipado = False\ninicio = 0\nfim = m\ncontasPretas = []\nfor i in range(n):\n    bloco = colar[inicio:fim]\n    contasPreta = bloco.count('1')\n    print(f'{bloco} > {inicio} - {fim}')",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "documentation": {}
+    },
+    {
+        "label": "colar",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "peekOfCode": "colar = str(input())\nfim_antecipado = False\ninicio = 0\nfim = m\ncontasPretas = []\nfor i in range(n):\n    bloco = colar[inicio:fim]\n    contasPreta = bloco.count('1')\n    print(f'{bloco} > {inicio} - {fim}')\n    if contasPreta in contasPretas:",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "documentation": {}
+    },
+    {
+        "label": "fim_antecipado",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "peekOfCode": "fim_antecipado = False\ninicio = 0\nfim = m\ncontasPretas = []\nfor i in range(n):\n    bloco = colar[inicio:fim]\n    contasPreta = bloco.count('1')\n    print(f'{bloco} > {inicio} - {fim}')\n    if contasPreta in contasPretas:\n        fim_antecipado = True",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "peekOfCode": "inicio = 0\nfim = m\ncontasPretas = []\nfor i in range(n):\n    bloco = colar[inicio:fim]\n    contasPreta = bloco.count('1')\n    print(f'{bloco} > {inicio} - {fim}')\n    if contasPreta in contasPretas:\n        fim_antecipado = True\n        break",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "documentation": {}
+    },
+    {
+        "label": "fim",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "peekOfCode": "fim = m\ncontasPretas = []\nfor i in range(n):\n    bloco = colar[inicio:fim]\n    contasPreta = bloco.count('1')\n    print(f'{bloco} > {inicio} - {fim}')\n    if contasPreta in contasPretas:\n        fim_antecipado = True\n        break\n    contasPretas.append(contasPreta)",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "documentation": {}
+    },
+    {
+        "label": "contasPretas",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "peekOfCode": "contasPretas = []\nfor i in range(n):\n    bloco = colar[inicio:fim]\n    contasPreta = bloco.count('1')\n    print(f'{bloco} > {inicio} - {fim}')\n    if contasPreta in contasPretas:\n        fim_antecipado = True\n        break\n    contasPretas.append(contasPreta)\n    inicio += m",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoI",
+        "documentation": {}
+    },
+    {
+        "label": "numeroCrianca",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoL",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoL",
+        "peekOfCode": "numeroCrianca = int(input())\ncriancas = input().split()\ncriancasEmOrdem = input().split()\nfor i in range(numeroCrianca):\n    if i != numeroCrianca - 1:\n        print(criancasEmOrdem[0], end=' ')\n    else:\n        print(criancasEmOrdem[0])\n    if criancas[0] == criancasEmOrdem[0]:\n        criancas.pop(0)",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoL",
+        "documentation": {}
+    },
+    {
+        "label": "criancas",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoL",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoL",
+        "peekOfCode": "criancas = input().split()\ncriancasEmOrdem = input().split()\nfor i in range(numeroCrianca):\n    if i != numeroCrianca - 1:\n        print(criancasEmOrdem[0], end=' ')\n    else:\n        print(criancasEmOrdem[0])\n    if criancas[0] == criancasEmOrdem[0]:\n        criancas.pop(0)\n        criancasEmOrdem.pop(0)",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoL",
+        "documentation": {}
+    },
+    {
+        "label": "criancasEmOrdem",
+        "kind": 5,
+        "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoL",
+        "description": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoL",
+        "peekOfCode": "criancasEmOrdem = input().split()\nfor i in range(numeroCrianca):\n    if i != numeroCrianca - 1:\n        print(criancasEmOrdem[0], end=' ')\n    else:\n        print(criancasEmOrdem[0])\n    if criancas[0] == criancasEmOrdem[0]:\n        criancas.pop(0)\n        criancasEmOrdem.pop(0)\n    else:",
+        "detail": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoL",
         "documentation": {}
     },
     {
