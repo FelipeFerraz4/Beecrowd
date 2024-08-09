@@ -5225,6 +5225,15 @@
         "documentation": {}
     },
     {
+        "label": "tests_number",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1238_python_Combinador",
+        "description": "3_Strings.beecrowd_1238_python_Combinador",
+        "peekOfCode": "tests_number = int(input())\nfor i in range(tests_number):\n    words = input().split()\n    word1 = words[0]\n    word2 = words[1]\n    count1 = 0\n    count2 = 0\n    while count1 < len(word1) or count2 < len(word2):\n        if count1 < len(word1):\n            print(word1[count1], end='')",
+        "detail": "3_Strings.beecrowd_1238_python_Combinador",
+        "documentation": {}
+    },
+    {
         "label": "quantidade_teste",
         "kind": 5,
         "importPath": "3_Strings.beecrowd_1253_python_Cifra_de_Cesar",
