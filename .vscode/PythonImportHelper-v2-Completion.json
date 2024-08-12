@@ -5162,12 +5162,30 @@
         "documentation": {}
     },
     {
+        "label": "test_number",
+        "kind": 5,
+        "importPath": "3_Strings.Beecrowd_1255_python_Frequencia_de_Letras",
+        "description": "3_Strings.Beecrowd_1255_python_Frequencia_de_Letras",
+        "peekOfCode": "test_number = int(input())\nfor i in range(test_number):\n    phaser = input().lower()\n    letter_frequnet = {}\n    for letter in phaser:\n        if 'a' <= letter <= 'z':\n            if letter in letter_frequnet:\n                letter_frequnet[letter] += 1 \n            else:\n                letter_frequnet[letter] = 1",
+        "detail": "3_Strings.Beecrowd_1255_python_Frequencia_de_Letras",
+        "documentation": {}
+    },
+    {
         "label": "stop",
         "kind": 5,
         "importPath": "3_Strings.Beecrowd_1278_python_justificador_II",
         "description": "3_Strings.Beecrowd_1278_python_justificador_II",
         "peekOfCode": "stop = int(input())\nwhile stop != 0:\n    text = []\n    bigSizeLine = -1\n    for i in range(stop):\n        linhaTexto = input().strip().split()\n        linhaTexto = ' '.join(linhaTexto)\n        if i == 0 or len(linhaTexto) > bigSizeLine:\n            bigSizeLine = len(linhaTexto)\n        text.append(linhaTexto)",
         "detail": "3_Strings.Beecrowd_1278_python_justificador_II",
+        "documentation": {}
+    },
+    {
+        "label": "subString",
+        "kind": 2,
+        "importPath": "3_Strings.Beecrowd_1530_python_quantas_substrings",
+        "description": "3_Strings.Beecrowd_1530_python_quantas_substrings",
+        "peekOfCode": "def subString(palavra_teste):\n    soma = 0\n    for i in range(1, len(palavra_teste)+1):\n        conjunto = set()\n        for j in range(len(palavra_teste)):\n            if len(palavra_teste) >= j+i:\n                letra = palavra_teste[j:j+i]\n                conjunto.add(letra)\n        soma += len(conjunto)   \n    return soma",
+        "detail": "3_Strings.Beecrowd_1530_python_quantas_substrings",
         "documentation": {}
     },
     {
@@ -5240,6 +5258,51 @@
         "description": "3_Strings.beecrowd_1253_python_Cifra_de_Cesar",
         "peekOfCode": "quantidade_teste = int(input())\nfor i in range(quantidade_teste):\n    cifra = input()\n    passo = int(input())\n    for j in range(len(cifra)):\n        cifragem = ord(cifra[j]) - passo\n        if cifragem < 65:\n            cifragem = 91 - (65 - cifragem)\n        print(chr(cifragem), end='')\n    print()",
         "detail": "3_Strings.beecrowd_1253_python_Cifra_de_Cesar",
+        "documentation": {}
+    },
+    {
+        "label": "tests_number",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_2157_python_Sequencia_Espelho",
+        "description": "3_Strings.beecrowd_2157_python_Sequencia_Espelho",
+        "peekOfCode": "tests_number = int(input())\nfor i in range(tests_number):\n    values = input().split()\n    number1 = int(values[0])\n    number2 =  int(values[1])\n    for number in range(number1, number2+1):\n        print(number, end='')\n    for number in range(number2, number1-1, -1):\n        print(str(number)[::-1], end='')\n    print()",
+        "detail": "3_Strings.beecrowd_2157_python_Sequencia_Espelho",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
+        "description": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
+        "peekOfCode": "word = input()\nvowels = []\nfor letter in word:\n    if letter in 'aeiou':\n        vowels.append(letter)\nhalf = len(vowels)//2\nhappy = True\nfor i in range(half):\n    if vowels[i] != vowels[len(vowels) - i - 1]:\n        happy = False",
+        "detail": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
+        "documentation": {}
+    },
+    {
+        "label": "vowels",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
+        "description": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
+        "peekOfCode": "vowels = []\nfor letter in word:\n    if letter in 'aeiou':\n        vowels.append(letter)\nhalf = len(vowels)//2\nhappy = True\nfor i in range(half):\n    if vowels[i] != vowels[len(vowels) - i - 1]:\n        happy = False\nif happy:",
+        "detail": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
+        "documentation": {}
+    },
+    {
+        "label": "half",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
+        "description": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
+        "peekOfCode": "half = len(vowels)//2\nhappy = True\nfor i in range(half):\n    if vowels[i] != vowels[len(vowels) - i - 1]:\n        happy = False\nif happy:\n    print('S')\nelse:\n    print('N')",
+        "detail": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
+        "documentation": {}
+    },
+    {
+        "label": "happy",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
+        "description": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
+        "peekOfCode": "happy = True\nfor i in range(half):\n    if vowels[i] != vowels[len(vowels) - i - 1]:\n        happy = False\nif happy:\n    print('S')\nelse:\n    print('N')",
+        "detail": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
         "documentation": {}
     }
 ]
