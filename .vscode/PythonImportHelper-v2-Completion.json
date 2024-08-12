@@ -5243,6 +5243,15 @@
         "documentation": {}
     },
     {
+        "label": "values",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1120_python_Revisão_de_Contrato",
+        "description": "3_Strings.beecrowd_1120_python_Revisão_de_Contrato",
+        "peekOfCode": "values = input().split()\nwhile values[0] != '0' and values[1] != '0':\n    number1 = values[0]\n    number2 = values[1]\n    number2 = number2.replace(number1, '')\n    if number2 == '':\n        print(0)\n    else:\n        print(int(number2))\n    values = input().split()",
+        "detail": "3_Strings.beecrowd_1120_python_Revisão_de_Contrato",
+        "documentation": {}
+    },
+    {
         "label": "tests_number",
         "kind": 5,
         "importPath": "3_Strings.beecrowd_1238_python_Combinador",
