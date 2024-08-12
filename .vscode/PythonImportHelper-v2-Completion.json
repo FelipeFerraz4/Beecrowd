@@ -5279,6 +5279,15 @@
         "documentation": {}
     },
     {
+        "label": "tests_numbers",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1257_python_Array_Hash",
+        "description": "3_Strings.beecrowd_1257_python_Array_Hash",
+        "peekOfCode": "tests_numbers = int(input())\nfor i in range(tests_numbers):\n    line_number = int(input())\n    words = []\n    for j in range(line_number):\n        words.append(input())\n    hash = 0\n    for j in range(len(words)):\n        for k in range(len(words[j])):\n            hash += (ord(words[j][k]) % 65) + j + k",
+        "detail": "3_Strings.beecrowd_1257_python_Array_Hash",
+        "documentation": {}
+    },
+    {
         "label": "tests_number",
         "kind": 5,
         "importPath": "3_Strings.beecrowd_2157_python_Sequencia_Espelho",
