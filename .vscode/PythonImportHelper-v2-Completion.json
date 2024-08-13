@@ -5236,6 +5236,15 @@
     {
         "label": "numbers_test",
         "kind": 5,
+        "importPath": "3_Strings.beecrowd_1551_python_Frase_Completa",
+        "description": "3_Strings.beecrowd_1551_python_Frase_Completa",
+        "peekOfCode": "numbers_test = int(input())\nfor i in range(numbers_test):\n    phase = input().replace(' ', '').replace(',', '')\n    alphabet = []\n    for j in range(len(phase)):\n        if phase[j] not in alphabet:\n            alphabet.append(phase[j])\n    if len(alphabet) == 26:\n        print(\"frase completa\")\n    elif len(alphabet) >= 13:",
+        "detail": "3_Strings.beecrowd_1551_python_Frase_Completa",
+        "documentation": {}
+    },
+    {
+        "label": "numbers_test",
+        "kind": 5,
         "importPath": "3_Strings.beecrowd_1581_python_Conversa_Internacional",
         "description": "3_Strings.beecrowd_1581_python_Conversa_Internacional",
         "peekOfCode": "numbers_test = int(input())\nfor i in range(numbers_test):\n    people_numbers = int(input())\n    english = False\n    previous_language = ''\n    for item in range(people_numbers):\n        language = input()\n        if item == 0:\n            previous_language = language\n        if language != previous_language:",
