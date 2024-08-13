@@ -41,6 +41,15 @@
         "documentation": {}
     },
     {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
         "label": "valores",
         "kind": 5,
         "importPath": "10_contests.fase_zero_da_maratona_de_programação_2024.QuestãoA",
