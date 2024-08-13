@@ -5306,6 +5306,15 @@
         "documentation": {}
     },
     {
+        "label": "numbers_test",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1873_python_Pedra_papel_tesoura_lagarto_Spock",
+        "description": "3_Strings.beecrowd_1873_python_Pedra_papel_tesoura_lagarto_Spock",
+        "peekOfCode": "numbers_test = int(input())\nfor i in range(numbers_test):\n    options = input().split()\n    option1 = options[0]\n    option2 = options[1]\n    if option1 == option2:\n        print('empate')\n    elif (option1 == 'tesouro' and option2 == 'papel') or (option1 == 'papel' and option2 == 'pedra') or (option1 == 'pedra' and option2 == 'lagarto') or (option1 == 'lagarto' and option2 == 'spock') or (option1 == 'spock' and option2 == 'tesoura') or (option1 == 'tesoura' and option2 == 'lagarto') or (option1 == 'lagarto' and option2 == 'papel') or (option1 == 'papel' and option2 == 'spock') or (option1 == 'spock' and option2 == 'pedra') or (option1 == 'pedra' and option2 == 'tesoura'):\n        print('rajesh')\n    else:",
+        "detail": "3_Strings.beecrowd_1873_python_Pedra_papel_tesoura_lagarto_Spock",
+        "documentation": {}
+    },
+    {
         "label": "tests_number",
         "kind": 5,
         "importPath": "3_Strings.beecrowd_2157_python_Sequencia_Espelho",
