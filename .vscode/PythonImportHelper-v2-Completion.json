@@ -5324,6 +5324,24 @@
         "documentation": {}
     },
     {
+        "label": "numbers_pomekon",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_2174_python_Coleção_de_Pomekon",
+        "description": "3_Strings.beecrowd_2174_python_Coleção_de_Pomekon",
+        "peekOfCode": "numbers_pomekon = int(input())\npomekons = []\nfor i in range(numbers_pomekon):\n    pomekon = input()\n    if pomekon not in pomekons:\n        pomekons.append(pomekon)\nprint(f'Falta(m) {151-len(pomekons)} pomekon(s).')",
+        "detail": "3_Strings.beecrowd_2174_python_Coleção_de_Pomekon",
+        "documentation": {}
+    },
+    {
+        "label": "pomekons",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_2174_python_Coleção_de_Pomekon",
+        "description": "3_Strings.beecrowd_2174_python_Coleção_de_Pomekon",
+        "peekOfCode": "pomekons = []\nfor i in range(numbers_pomekon):\n    pomekon = input()\n    if pomekon not in pomekons:\n        pomekons.append(pomekon)\nprint(f'Falta(m) {151-len(pomekons)} pomekon(s).')",
+        "detail": "3_Strings.beecrowd_2174_python_Coleção_de_Pomekon",
+        "documentation": {}
+    },
+    {
         "label": "word",
         "kind": 5,
         "importPath": "3_Strings.beecrowd_2242_python_Huaauhahhuahau",
