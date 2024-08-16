@@ -5324,6 +5324,15 @@
         "documentation": {}
     },
     {
+        "label": "test_number",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1607_python_Avance_as_Letras",
+        "description": "3_Strings.beecrowd_1607_python_Avance_as_Letras",
+        "peekOfCode": "test_number = int(input())\nfor i in range(test_number):\n    lettes = input().split()\n    word1 = list(lettes[0])\n    word2 = list(lettes[1])\n    count = 0\n    for j in range(len(word1)):\n        while word1[j] != word2[j]:\n            letter_number = ord(word1[j]) + 1\n            if letter_number > ord('z'):",
+        "detail": "3_Strings.beecrowd_1607_python_Avance_as_Letras",
+        "documentation": {}
+    },
+    {
         "label": "numbers_test",
         "kind": 5,
         "importPath": "3_Strings.beecrowd_1873_python_Pedra_papel_tesoura_lagarto_Spock",
