@@ -5405,6 +5405,15 @@
         "documentation": {}
     },
     {
+        "label": "number_test",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_2587_python_Jetiqui",
+        "description": "3_Strings.beecrowd_2587_python_Jetiqui",
+        "peekOfCode": "number_test = int(input())\nfor i in range(number_test):\n    word1 = input()\n    word2 = input()\n    word_test = input()\n    verificate = 'N'\n    modifer_word1 = ''\n    modifer_word2 = ''\n    for j in range(len(word_test)):\n        if word_test[j] == '_':",
+        "detail": "3_Strings.beecrowd_2587_python_Jetiqui",
+        "documentation": {}
+    },
+    {
         "label": "fat",
         "kind": 2,
         "importPath": "5_Matematica.beecrowd _1161_python_Soma_de_Fatoriais",
