@@ -5162,6 +5162,24 @@
         "documentation": {}
     },
     {
+        "label": "diameter",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_2375_python_Sedex",
+        "description": "2_Ad-hoc.beecrowd_2375_python_Sedex",
+        "peekOfCode": "diameter = int(input())\ndimensions = list(map(int, input().split()))\nif all(d >= diameter for d in dimensions):\n    print('S')\nelse:\n    print('N')",
+        "detail": "2_Ad-hoc.beecrowd_2375_python_Sedex",
+        "documentation": {}
+    },
+    {
+        "label": "dimensions",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_2375_python_Sedex",
+        "description": "2_Ad-hoc.beecrowd_2375_python_Sedex",
+        "peekOfCode": "dimensions = list(map(int, input().split()))\nif all(d >= diameter for d in dimensions):\n    print('S')\nelse:\n    print('N')",
+        "detail": "2_Ad-hoc.beecrowd_2375_python_Sedex",
+        "documentation": {}
+    },
+    {
         "label": "numbers",
         "kind": 5,
         "importPath": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
