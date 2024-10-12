@@ -5162,6 +5162,24 @@
         "documentation": {}
     },
     {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_2414_python_Desafio_do_Maior_Numero",
+        "description": "2_Ad-hoc.beecrowd_2414_python_Desafio_do_Maior_Numero",
+        "peekOfCode": "numbers = list(map(int, input().split()))\nbiggest_number = max(numbers)\nprint(biggest_number)",
+        "detail": "2_Ad-hoc.beecrowd_2414_python_Desafio_do_Maior_Numero",
+        "documentation": {}
+    },
+    {
+        "label": "biggest_number",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_2414_python_Desafio_do_Maior_Numero",
+        "description": "2_Ad-hoc.beecrowd_2414_python_Desafio_do_Maior_Numero",
+        "peekOfCode": "biggest_number = max(numbers)\nprint(biggest_number)",
+        "detail": "2_Ad-hoc.beecrowd_2414_python_Desafio_do_Maior_Numero",
+        "documentation": {}
+    },
+    {
         "label": "number",
         "kind": 5,
         "importPath": "2_Ad-hoc.beecrowd_2679_python_Sucessor_Par",
