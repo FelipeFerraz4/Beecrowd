@@ -5162,6 +5162,15 @@
         "documentation": {}
     },
     {
+        "label": "number",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_2679_python_Sucessor_Par",
+        "description": "2_Ad-hoc.beecrowd_2679_python_Sucessor_Par",
+        "peekOfCode": "number = int(input())\nif number % 2 == 0:\n    print(number+2)\nelse:\n    print(number+1)",
+        "detail": "2_Ad-hoc.beecrowd_2679_python_Sucessor_Par",
+        "documentation": {}
+    },
+    {
         "label": "times",
         "kind": 5,
         "importPath": "3_Strings.Beecrowd_1024_python_Crriptografia",
