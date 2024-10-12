@@ -5164,6 +5164,42 @@
     {
         "label": "numbers",
         "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
+        "description": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
+        "peekOfCode": "numbers = list(map(int, input().split()))\nprices = list(map(int, input().split()))\ntoll = 0\nif numbers[0] >= numbers[1]:\n    toll = (numbers[0] // numbers[1]) * prices[1]\nprice_total = (numbers[0] * prices[0]) + toll\nprint(price_total)",
+        "detail": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
+        "documentation": {}
+    },
+    {
+        "label": "prices",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
+        "description": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
+        "peekOfCode": "prices = list(map(int, input().split()))\ntoll = 0\nif numbers[0] >= numbers[1]:\n    toll = (numbers[0] // numbers[1]) * prices[1]\nprice_total = (numbers[0] * prices[0]) + toll\nprint(price_total)",
+        "detail": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
+        "documentation": {}
+    },
+    {
+        "label": "toll",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
+        "description": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
+        "peekOfCode": "toll = 0\nif numbers[0] >= numbers[1]:\n    toll = (numbers[0] // numbers[1]) * prices[1]\nprice_total = (numbers[0] * prices[0]) + toll\nprint(price_total)",
+        "detail": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
+        "documentation": {}
+    },
+    {
+        "label": "price_total",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
+        "description": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
+        "peekOfCode": "price_total = (numbers[0] * prices[0]) + toll\nprint(price_total)",
+        "detail": "2_Ad-hoc.beecrowd_2377_python_Pedagio",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
         "importPath": "2_Ad-hoc.beecrowd_2414_python_Desafio_do_Maior_Numero",
         "description": "2_Ad-hoc.beecrowd_2414_python_Desafio_do_Maior_Numero",
         "peekOfCode": "numbers = list(map(int, input().split()))\nbiggest_number = max(numbers)\nprint(biggest_number)",
