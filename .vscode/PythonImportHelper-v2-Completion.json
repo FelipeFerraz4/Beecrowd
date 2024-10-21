@@ -5511,5 +5511,41 @@
         "peekOfCode": "number_tests = int(input())\nfor i in range(number_tests):\n    values = input().split()\n    number1 = int(values[0])\n    number2 = int(values[1])\n    if number1 >= number2:\n        big = number1\n        small = number2\n    else:\n        big = number2",
         "detail": "5_Matematica.beecrowd_1028_python_Figurinhas",
         "documentation": {}
+    },
+    {
+        "label": "rafa_function",
+        "kind": 2,
+        "importPath": "5_Matematica.beecrowd_1555_python_Funcoes",
+        "description": "5_Matematica.beecrowd_1555_python_Funcoes",
+        "peekOfCode": "def rafa_function(number1, number2):\n    return ((3 * number1)**2) + (number2**2)\ndef beto_function(number1, number2):\n    return (2*(number1**2)) + ((5*number2)**2)\ndef carlos_function(number1, number2):\n    return (-100 * number1) + (number2**3)\nnumber_times = int(input())\nfor item in range(number_times):\n    numbers = list(map(int, input().split()))\n    if rafa_function(numbers[0], numbers[1]) > beto_function(numbers[0], numbers[1]) and rafa_function(numbers[0], numbers[1]) > carlos_function(numbers[0], numbers[1]):",
+        "detail": "5_Matematica.beecrowd_1555_python_Funcoes",
+        "documentation": {}
+    },
+    {
+        "label": "beto_function",
+        "kind": 2,
+        "importPath": "5_Matematica.beecrowd_1555_python_Funcoes",
+        "description": "5_Matematica.beecrowd_1555_python_Funcoes",
+        "peekOfCode": "def beto_function(number1, number2):\n    return (2*(number1**2)) + ((5*number2)**2)\ndef carlos_function(number1, number2):\n    return (-100 * number1) + (number2**3)\nnumber_times = int(input())\nfor item in range(number_times):\n    numbers = list(map(int, input().split()))\n    if rafa_function(numbers[0], numbers[1]) > beto_function(numbers[0], numbers[1]) and rafa_function(numbers[0], numbers[1]) > carlos_function(numbers[0], numbers[1]):\n        print(\"Rafael ganhou\")\n    elif beto_function(numbers[0], numbers[1]) > rafa_function(numbers[0], numbers[1]) and beto_function(numbers[0], numbers[1]) > carlos_function(numbers[0], numbers[1]):",
+        "detail": "5_Matematica.beecrowd_1555_python_Funcoes",
+        "documentation": {}
+    },
+    {
+        "label": "carlos_function",
+        "kind": 2,
+        "importPath": "5_Matematica.beecrowd_1555_python_Funcoes",
+        "description": "5_Matematica.beecrowd_1555_python_Funcoes",
+        "peekOfCode": "def carlos_function(number1, number2):\n    return (-100 * number1) + (number2**3)\nnumber_times = int(input())\nfor item in range(number_times):\n    numbers = list(map(int, input().split()))\n    if rafa_function(numbers[0], numbers[1]) > beto_function(numbers[0], numbers[1]) and rafa_function(numbers[0], numbers[1]) > carlos_function(numbers[0], numbers[1]):\n        print(\"Rafael ganhou\")\n    elif beto_function(numbers[0], numbers[1]) > rafa_function(numbers[0], numbers[1]) and beto_function(numbers[0], numbers[1]) > carlos_function(numbers[0], numbers[1]):\n        print(\"Beto ganhou\")\n    else:",
+        "detail": "5_Matematica.beecrowd_1555_python_Funcoes",
+        "documentation": {}
+    },
+    {
+        "label": "number_times",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1555_python_Funcoes",
+        "description": "5_Matematica.beecrowd_1555_python_Funcoes",
+        "peekOfCode": "number_times = int(input())\nfor item in range(number_times):\n    numbers = list(map(int, input().split()))\n    if rafa_function(numbers[0], numbers[1]) > beto_function(numbers[0], numbers[1]) and rafa_function(numbers[0], numbers[1]) > carlos_function(numbers[0], numbers[1]):\n        print(\"Rafael ganhou\")\n    elif beto_function(numbers[0], numbers[1]) > rafa_function(numbers[0], numbers[1]) and beto_function(numbers[0], numbers[1]) > carlos_function(numbers[0], numbers[1]):\n        print(\"Beto ganhou\")\n    else:\n        print(\"Carlos ganhou\")",
+        "detail": "5_Matematica.beecrowd_1555_python_Funcoes",
+        "documentation": {}
     }
 ]
