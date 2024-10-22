@@ -4973,6 +4973,24 @@
         "documentation": {}
     },
     {
+        "label": "number_tests",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_2373_python_Garcom",
+        "description": "2_Ad-hoc.beecrowd_2373_python_Garcom",
+        "peekOfCode": "number_tests = int(input())\nglasses = 0\nfor item in range(number_tests):\n    values = list(map(int, input().split()))\n    if values[0] > values[1]:\n        glasses += values[1]\nprint(glasses)",
+        "detail": "2_Ad-hoc.beecrowd_2373_python_Garcom",
+        "documentation": {}
+    },
+    {
+        "label": "glasses",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_2373_python_Garcom",
+        "description": "2_Ad-hoc.beecrowd_2373_python_Garcom",
+        "peekOfCode": "glasses = 0\nfor item in range(number_tests):\n    values = list(map(int, input().split()))\n    if values[0] > values[1]:\n        glasses += values[1]\nprint(glasses)",
+        "detail": "2_Ad-hoc.beecrowd_2373_python_Garcom",
+        "documentation": {}
+    },
+    {
         "label": "pressaoDesejada",
         "kind": 5,
         "importPath": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
