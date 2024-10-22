@@ -4865,6 +4865,42 @@
         "documentation": {}
     },
     {
+        "label": "roupas",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_1794_python_PJ_Lavanderia",
+        "description": "2_Ad-hoc.beecrowd_1794_python_PJ_Lavanderia",
+        "peekOfCode": "roupas = int(input())\nlavadeira = list(map(int, input().split()))\nsecadeira = list(map(int, input().split()))\ntest = False\nif lavadeira[0] <= roupas <= lavadeira[1]:\n    if secadeira[0] <= roupas <= secadeira[1]:\n        test = True\nif test:\n    print('possivel')\nelse:",
+        "detail": "2_Ad-hoc.beecrowd_1794_python_PJ_Lavanderia",
+        "documentation": {}
+    },
+    {
+        "label": "lavadeira",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_1794_python_PJ_Lavanderia",
+        "description": "2_Ad-hoc.beecrowd_1794_python_PJ_Lavanderia",
+        "peekOfCode": "lavadeira = list(map(int, input().split()))\nsecadeira = list(map(int, input().split()))\ntest = False\nif lavadeira[0] <= roupas <= lavadeira[1]:\n    if secadeira[0] <= roupas <= secadeira[1]:\n        test = True\nif test:\n    print('possivel')\nelse:\n    print('impossivel')",
+        "detail": "2_Ad-hoc.beecrowd_1794_python_PJ_Lavanderia",
+        "documentation": {}
+    },
+    {
+        "label": "secadeira",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_1794_python_PJ_Lavanderia",
+        "description": "2_Ad-hoc.beecrowd_1794_python_PJ_Lavanderia",
+        "peekOfCode": "secadeira = list(map(int, input().split()))\ntest = False\nif lavadeira[0] <= roupas <= lavadeira[1]:\n    if secadeira[0] <= roupas <= secadeira[1]:\n        test = True\nif test:\n    print('possivel')\nelse:\n    print('impossivel')",
+        "detail": "2_Ad-hoc.beecrowd_1794_python_PJ_Lavanderia",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_1794_python_PJ_Lavanderia",
+        "description": "2_Ad-hoc.beecrowd_1794_python_PJ_Lavanderia",
+        "peekOfCode": "test = False\nif lavadeira[0] <= roupas <= lavadeira[1]:\n    if secadeira[0] <= roupas <= secadeira[1]:\n        test = True\nif test:\n    print('possivel')\nelse:\n    print('impossivel')",
+        "detail": "2_Ad-hoc.beecrowd_1794_python_PJ_Lavanderia",
+        "documentation": {}
+    },
+    {
         "label": "ranks",
         "kind": 5,
         "importPath": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
