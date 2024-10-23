@@ -5699,5 +5699,14 @@
         "peekOfCode": "number_tests = int(input())\nfor item in range(number_tests):\n    test = int(input())\n    print(number_regions(test))",
         "detail": "5_Matematica.beecrowd_2218_python_O_Temivel_Evil_Son",
         "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_2839_python_As_Meias_de_Rangel",
+        "description": "5_Matematica.beecrowd_2839_python_As_Meias_de_Rangel",
+        "peekOfCode": "number = int(input())\nprint(number+1)",
+        "detail": "5_Matematica.beecrowd_2839_python_As_Meias_de_Rangel",
+        "documentation": {}
     }
 ]
