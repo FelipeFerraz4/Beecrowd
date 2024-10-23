@@ -5297,6 +5297,33 @@
         "documentation": {}
     },
     {
+        "label": "number_tests",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_3126_python_Lista_de_Treinamento",
+        "description": "2_Ad-hoc.beecrowd_3126_python_Lista_de_Treinamento",
+        "peekOfCode": "number_tests = int(input())\nvalues = input().split()\ninvite = 0\nfor i in range(number_tests):\n    if values[i] == '1':\n        invite += 1\nprint(invite)",
+        "detail": "2_Ad-hoc.beecrowd_3126_python_Lista_de_Treinamento",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_3126_python_Lista_de_Treinamento",
+        "description": "2_Ad-hoc.beecrowd_3126_python_Lista_de_Treinamento",
+        "peekOfCode": "values = input().split()\ninvite = 0\nfor i in range(number_tests):\n    if values[i] == '1':\n        invite += 1\nprint(invite)",
+        "detail": "2_Ad-hoc.beecrowd_3126_python_Lista_de_Treinamento",
+        "documentation": {}
+    },
+    {
+        "label": "invite",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_3126_python_Lista_de_Treinamento",
+        "description": "2_Ad-hoc.beecrowd_3126_python_Lista_de_Treinamento",
+        "peekOfCode": "invite = 0\nfor i in range(number_tests):\n    if values[i] == '1':\n        invite += 1\nprint(invite)",
+        "detail": "2_Ad-hoc.beecrowd_3126_python_Lista_de_Treinamento",
+        "documentation": {}
+    },
+    {
         "label": "times",
         "kind": 5,
         "importPath": "3_Strings.Beecrowd_1024_python_Crriptografia",
