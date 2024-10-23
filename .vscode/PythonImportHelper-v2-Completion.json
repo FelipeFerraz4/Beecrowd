@@ -1993,780 +1993,6 @@
         "documentation": {}
     },
     {
-        "label": "tamanho",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1478_Matriz_Quadrada_II",
-        "description": "1_Iniciante.Bee_1478_Matriz_Quadrada_II",
-        "peekOfCode": "tamanho = int(input())\nwhile tamanho != 0:\n    for i in range(0, tamanho):\n        for j in range(0, tamanho):\n            valor = abs(i - j) + 1\n            if j != tamanho-1:\n                print(f'{valor:3} ', end='')\n            else:\n                print(f'{valor:3}', end='')\n        print()",
-        "detail": "1_Iniciante.Bee_1478_Matriz_Quadrada_II",
-        "documentation": {}
-    },
-    {
-        "label": "tamanho",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1557_Matriz_Quadrada_III",
-        "description": "1_Iniciante.Bee_1557_Matriz_Quadrada_III",
-        "peekOfCode": "tamanho = int(input())\nwhile tamanho != 0:\n    tamanhoMaximoDoNumero = len(str(2**((tamanho*2) - 2)))\n    for i in range(0, tamanho):\n        for j in range(0, tamanho):\n            valor = 2**(i+j)\n            if j != tamanho-1:\n                print(f'{valor:{tamanhoMaximoDoNumero}} ', end='')\n            else:\n                print(f'{valor:{tamanhoMaximoDoNumero}}', end='')",
-        "detail": "1_Iniciante.Bee_1557_Matriz_Quadrada_III",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1589_Bob_Conduite",
-        "description": "1_Iniciante.Bee_1589_Bob_Conduite",
-        "peekOfCode": "times = int(input())\nfor x in range(times):\n valores = input().split()\n raio1 = int(valores[0])\n raio2 = int(valores[1])\n print(raio1+raio2)",
-        "detail": "1_Iniciante.Bee_1589_Bob_Conduite",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1759_Ho_ho_ho",
-        "description": "1_Iniciante.Bee_1759_Ho_ho_ho",
-        "peekOfCode": "times = int(input())\nfor x in range(times):\n if x == times-1:\n   print('Ho', end='!\\n')\n else:\n   print('Ho', end=' ')",
-        "detail": "1_Iniciante.Bee_1759_Ho_ho_ho",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1828_Bazinda",
-        "description": "1_Iniciante.Bee_1828_Bazinda",
-        "peekOfCode": "times = int(input())\nfor x in range(times):\n    jogo = input().lower().split()\n    sheldon = jogo[0]\n    raj = jogo[1]\n    option = ['pedra', 'papel', 'tesoura', 'lagarto', 'spock']\n    reposta = 1\n    if sheldon == 'pedra':\n        if raj == 'lagarto' or raj == 'tesoura' :\n            reposta = 1",
-        "detail": "1_Iniciante.Bee_1828_Bazinda",
-        "documentation": {}
-    },
-    {
-        "label": "valores",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1837_prefacio",
-        "description": "1_Iniciante.Bee_1837_prefacio",
-        "peekOfCode": "valores = input().split()\ndividendo = int(valores[0])\ndivisor = int(valores[1])\nif divisor < 0:\n  quociente = math.ceil(dividendo/divisor)\n  resto = dividendo % (-divisor)\nelse:\n  quociente = math.floor(dividendo/divisor)\n  resto = dividendo % divisor\nprint(f'{quociente} {resto}')",
-        "detail": "1_Iniciante.Bee_1837_prefacio",
-        "documentation": {}
-    },
-    {
-        "label": "dividendo",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1837_prefacio",
-        "description": "1_Iniciante.Bee_1837_prefacio",
-        "peekOfCode": "dividendo = int(valores[0])\ndivisor = int(valores[1])\nif divisor < 0:\n  quociente = math.ceil(dividendo/divisor)\n  resto = dividendo % (-divisor)\nelse:\n  quociente = math.floor(dividendo/divisor)\n  resto = dividendo % divisor\nprint(f'{quociente} {resto}')",
-        "detail": "1_Iniciante.Bee_1837_prefacio",
-        "documentation": {}
-    },
-    {
-        "label": "divisor",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1837_prefacio",
-        "description": "1_Iniciante.Bee_1837_prefacio",
-        "peekOfCode": "divisor = int(valores[1])\nif divisor < 0:\n  quociente = math.ceil(dividendo/divisor)\n  resto = dividendo % (-divisor)\nelse:\n  quociente = math.floor(dividendo/divisor)\n  resto = dividendo % divisor\nprint(f'{quociente} {resto}')",
-        "detail": "1_Iniciante.Bee_1837_prefacio",
-        "documentation": {}
-    },
-    {
-        "label": "valores",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "description": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "peekOfCode": "valores = input().split()\ndia1 = int(valores[0])\ndia2 = int(valores[1])\ndia3 = int(valores[2])\nrespostas = [':)', ':(']\nresposta = 0\nif (dia1 < dia2) and (dia2 >= dia3):\n    resposta = 1\nelif (dia1 < dia2 < dia3) and (dia3 - dia2 < dia2 - dia1):\n    resposta = 1",
-        "detail": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "documentation": {}
-    },
-    {
-        "label": "dia1",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "description": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "peekOfCode": "dia1 = int(valores[0])\ndia2 = int(valores[1])\ndia3 = int(valores[2])\nrespostas = [':)', ':(']\nresposta = 0\nif (dia1 < dia2) and (dia2 >= dia3):\n    resposta = 1\nelif (dia1 < dia2 < dia3) and (dia3 - dia2 < dia2 - dia1):\n    resposta = 1\nelif (dia1 > dia2 > dia3) and (dia2 - dia3 >= dia1 - dia2):",
-        "detail": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "documentation": {}
-    },
-    {
-        "label": "dia2",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "description": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "peekOfCode": "dia2 = int(valores[1])\ndia3 = int(valores[2])\nrespostas = [':)', ':(']\nresposta = 0\nif (dia1 < dia2) and (dia2 >= dia3):\n    resposta = 1\nelif (dia1 < dia2 < dia3) and (dia3 - dia2 < dia2 - dia1):\n    resposta = 1\nelif (dia1 > dia2 > dia3) and (dia2 - dia3 >= dia1 - dia2):\n    resposta = 1",
-        "detail": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "documentation": {}
-    },
-    {
-        "label": "dia3",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "description": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "peekOfCode": "dia3 = int(valores[2])\nrespostas = [':)', ':(']\nresposta = 0\nif (dia1 < dia2) and (dia2 >= dia3):\n    resposta = 1\nelif (dia1 < dia2 < dia3) and (dia3 - dia2 < dia2 - dia1):\n    resposta = 1\nelif (dia1 > dia2 > dia3) and (dia2 - dia3 >= dia1 - dia2):\n    resposta = 1\nelif (dia1 == dia2) and (dia2 >= dia3):",
-        "detail": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "documentation": {}
-    },
-    {
-        "label": "respostas",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "description": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "peekOfCode": "respostas = [':)', ':(']\nresposta = 0\nif (dia1 < dia2) and (dia2 >= dia3):\n    resposta = 1\nelif (dia1 < dia2 < dia3) and (dia3 - dia2 < dia2 - dia1):\n    resposta = 1\nelif (dia1 > dia2 > dia3) and (dia2 - dia3 >= dia1 - dia2):\n    resposta = 1\nelif (dia1 == dia2) and (dia2 >= dia3):\n    resposta = 1",
-        "detail": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "documentation": {}
-    },
-    {
-        "label": "resposta",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "description": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "peekOfCode": "resposta = 0\nif (dia1 < dia2) and (dia2 >= dia3):\n    resposta = 1\nelif (dia1 < dia2 < dia3) and (dia3 - dia2 < dia2 - dia1):\n    resposta = 1\nelif (dia1 > dia2 > dia3) and (dia2 - dia3 >= dia1 - dia2):\n    resposta = 1\nelif (dia1 == dia2) and (dia2 >= dia3):\n    resposta = 1\nprint(respostas[resposta])",
-        "detail": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
-        "documentation": {}
-    },
-    {
-        "label": "contador",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1848_Corvo_contador",
-        "description": "1_Iniciante.Bee_1848_Corvo_contador",
-        "peekOfCode": "contador = 0\nsomador = 0 \nwhile contador < 3:\n  falaCorvo = input()\n  if falaCorvo[0] == 'c':\n      contador += 1\n      print(somador)\n      somador = 0\n  else:\n      if falaCorvo[0] == '*':",
-        "detail": "1_Iniciante.Bee_1848_Corvo_contador",
-        "documentation": {}
-    },
-    {
-        "label": "somador",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1848_Corvo_contador",
-        "description": "1_Iniciante.Bee_1848_Corvo_contador",
-        "peekOfCode": "somador = 0 \nwhile contador < 3:\n  falaCorvo = input()\n  if falaCorvo[0] == 'c':\n      contador += 1\n      print(somador)\n      somador = 0\n  else:\n      if falaCorvo[0] == '*':\n          somador += 4",
-        "detail": "1_Iniciante.Bee_1848_Corvo_contador",
-        "documentation": {}
-    },
-    {
-        "label": "quantidadePessoas",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
-        "description": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
-        "peekOfCode": "quantidadePessoas = int(input())\npessoas = input().split()\nmenor = int(pessoas[0])\nfor x in range(quantidadePessoas):\n    pessoa = int(pessoas[x])\n    if pessoa <= menor:\n        menor = pessoa\nposition = pessoas.index(str(menor))\nprint(position+1)",
-        "detail": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
-        "documentation": {}
-    },
-    {
-        "label": "pessoas",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
-        "description": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
-        "peekOfCode": "pessoas = input().split()\nmenor = int(pessoas[0])\nfor x in range(quantidadePessoas):\n    pessoa = int(pessoas[x])\n    if pessoa <= menor:\n        menor = pessoa\nposition = pessoas.index(str(menor))\nprint(position+1)",
-        "detail": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
-        "documentation": {}
-    },
-    {
-        "label": "menor",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
-        "description": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
-        "peekOfCode": "menor = int(pessoas[0])\nfor x in range(quantidadePessoas):\n    pessoa = int(pessoas[x])\n    if pessoa <= menor:\n        menor = pessoa\nposition = pessoas.index(str(menor))\nprint(position+1)",
-        "detail": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
-        "documentation": {}
-    },
-    {
-        "label": "position",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
-        "description": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
-        "peekOfCode": "position = pessoas.index(str(menor))\nprint(position+1)",
-        "detail": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
-        "documentation": {}
-    },
-    {
-        "label": "frase",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1864_Nossos_dias_nunca_voltarao",
-        "description": "1_Iniciante.Bee_1864_Nossos_dias_nunca_voltarao",
-        "peekOfCode": "frase = 'LIFE IS NOT A PROBLEM TO BE SOLVED'\nquantidadeLetra = int(input())\nfor x in range(quantidadeLetra):\n print(frase[x], end='')\nprint()",
-        "detail": "1_Iniciante.Bee_1864_Nossos_dias_nunca_voltarao",
-        "documentation": {}
-    },
-    {
-        "label": "quantidadeLetra",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1864_Nossos_dias_nunca_voltarao",
-        "description": "1_Iniciante.Bee_1864_Nossos_dias_nunca_voltarao",
-        "peekOfCode": "quantidadeLetra = int(input())\nfor x in range(quantidadeLetra):\n print(frase[x], end='')\nprint()",
-        "detail": "1_Iniciante.Bee_1864_Nossos_dias_nunca_voltarao",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1865_Mjolnir",
-        "description": "1_Iniciante.Bee_1865_Mjolnir",
-        "peekOfCode": "times = int(input())\nfor x in range(times):\n    dadosDaPessoa = input().split()\n    if dadosDaPessoa[0] == 'Thor':\n        print('Y')\n    else:\n        print('N')",
-        "detail": "1_Iniciante.Bee_1865_Mjolnir",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1866_Conta",
-        "description": "1_Iniciante.Bee_1866_Conta",
-        "peekOfCode": "times = int(input())\nfor x in range(times):\n numero = int(input())\n print(numero%2)",
-        "detail": "1_Iniciante.Bee_1866_Conta",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1914_De_quem_e_a_vez",
-        "description": "1_Iniciante.Bee_1914_De_quem_e_a_vez",
-        "peekOfCode": "times = int(input())\nfor x in range(times):\n    dadosPessoas = input().split()\n    dadosJogo = input().split()\n    soma = int(dadosJogo[0]) + int(dadosJogo[1])\n    if soma % 2 == 0:\n        if dadosPessoas[1] == 'PAR':\n          print(dadosPessoas[0])\n        else:\n          print(dadosPessoas[2])",
-        "detail": "1_Iniciante.Bee_1914_De_quem_e_a_vez",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1924_vitoria_e_a_indecisao",
-        "description": "1_Iniciante.Bee_1924_vitoria_e_a_indecisao",
-        "peekOfCode": "times = int(input())\nfor x in range(times):\n    curso = input()\nprint('Ciencia da Computacao')",
-        "detail": "1_Iniciante.Bee_1924_vitoria_e_a_indecisao",
-        "documentation": {}
-    },
-    {
-        "label": "trinaguloExiste",
-        "kind": 2,
-        "importPath": "1_Iniciante.Bee_1929_Triangulo",
-        "description": "1_Iniciante.Bee_1929_Triangulo",
-        "peekOfCode": "def trinaguloExiste(a, b, c):\n    if abs(b - c) < a < (b + c):\n      if abs(a - c) < b < (a + c):\n        if abs(a - b) < c < (a + b):\n            return True\n    return False\nvalores = input().split()\na = int(valores[0])\nb = int(valores[1])\nc = int(valores[2])",
-        "detail": "1_Iniciante.Bee_1929_Triangulo",
-        "documentation": {}
-    },
-    {
-        "label": "valores",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1929_Triangulo",
-        "description": "1_Iniciante.Bee_1929_Triangulo",
-        "peekOfCode": "valores = input().split()\na = int(valores[0])\nb = int(valores[1])\nc = int(valores[2])\nd = int(valores[3])\nif trinaguloExiste(a, b, c) or trinaguloExiste(a, b, d) or trinaguloExiste(a, c, d) or trinaguloExiste(c, b, d):\n  print('S')\nelse:\n  print('N')",
-        "detail": "1_Iniciante.Bee_1929_Triangulo",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1929_Triangulo",
-        "description": "1_Iniciante.Bee_1929_Triangulo",
-        "peekOfCode": "a = int(valores[0])\nb = int(valores[1])\nc = int(valores[2])\nd = int(valores[3])\nif trinaguloExiste(a, b, c) or trinaguloExiste(a, b, d) or trinaguloExiste(a, c, d) or trinaguloExiste(c, b, d):\n  print('S')\nelse:\n  print('N')",
-        "detail": "1_Iniciante.Bee_1929_Triangulo",
-        "documentation": {}
-    },
-    {
-        "label": "b",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1929_Triangulo",
-        "description": "1_Iniciante.Bee_1929_Triangulo",
-        "peekOfCode": "b = int(valores[1])\nc = int(valores[2])\nd = int(valores[3])\nif trinaguloExiste(a, b, c) or trinaguloExiste(a, b, d) or trinaguloExiste(a, c, d) or trinaguloExiste(c, b, d):\n  print('S')\nelse:\n  print('N')",
-        "detail": "1_Iniciante.Bee_1929_Triangulo",
-        "documentation": {}
-    },
-    {
-        "label": "c",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1929_Triangulo",
-        "description": "1_Iniciante.Bee_1929_Triangulo",
-        "peekOfCode": "c = int(valores[2])\nd = int(valores[3])\nif trinaguloExiste(a, b, c) or trinaguloExiste(a, b, d) or trinaguloExiste(a, c, d) or trinaguloExiste(c, b, d):\n  print('S')\nelse:\n  print('N')",
-        "detail": "1_Iniciante.Bee_1929_Triangulo",
-        "documentation": {}
-    },
-    {
-        "label": "d",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1929_Triangulo",
-        "description": "1_Iniciante.Bee_1929_Triangulo",
-        "peekOfCode": "d = int(valores[3])\nif trinaguloExiste(a, b, c) or trinaguloExiste(a, b, d) or trinaguloExiste(a, c, d) or trinaguloExiste(c, b, d):\n  print('S')\nelse:\n  print('N')",
-        "detail": "1_Iniciante.Bee_1929_Triangulo",
-        "documentation": {}
-    },
-    {
-        "label": "valores",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1930_Tomadas",
-        "description": "1_Iniciante.Bee_1930_Tomadas",
-        "peekOfCode": "valores = input().split()\nsoma = 0\nfor x in valores:\n  soma += int(x)\nprint(soma-3)",
-        "detail": "1_Iniciante.Bee_1930_Tomadas",
-        "documentation": {}
-    },
-    {
-        "label": "soma",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1930_Tomadas",
-        "description": "1_Iniciante.Bee_1930_Tomadas",
-        "peekOfCode": "soma = 0\nfor x in valores:\n  soma += int(x)\nprint(soma-3)",
-        "detail": "1_Iniciante.Bee_1930_Tomadas",
-        "documentation": {}
-    },
-    {
-        "label": "valores",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1933_Tri-du",
-        "description": "1_Iniciante.Bee_1933_Tri-du",
-        "peekOfCode": "valores = input().split()\nvalor1 = int(valores[0])\nvalor2 = int(valores[1])\nif valor1 > valor2:\n    print(valor1)\nelse:\n    print(valor2)",
-        "detail": "1_Iniciante.Bee_1933_Tri-du",
-        "documentation": {}
-    },
-    {
-        "label": "valor1",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1933_Tri-du",
-        "description": "1_Iniciante.Bee_1933_Tri-du",
-        "peekOfCode": "valor1 = int(valores[0])\nvalor2 = int(valores[1])\nif valor1 > valor2:\n    print(valor1)\nelse:\n    print(valor2)",
-        "detail": "1_Iniciante.Bee_1933_Tri-du",
-        "documentation": {}
-    },
-    {
-        "label": "valor2",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1933_Tri-du",
-        "description": "1_Iniciante.Bee_1933_Tri-du",
-        "peekOfCode": "valor2 = int(valores[1])\nif valor1 > valor2:\n    print(valor1)\nelse:\n    print(valor2)",
-        "detail": "1_Iniciante.Bee_1933_Tri-du",
-        "documentation": {}
-    },
-    {
-        "label": "valorBase10",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1957_Converter_para_hexadecimal",
-        "description": "1_Iniciante.Bee_1957_Converter_para_hexadecimal",
-        "peekOfCode": "valorBase10 = int(input())\nvalorBase16 = hex(valorBase10)[2:]\nprint(valorBase16.upper())",
-        "detail": "1_Iniciante.Bee_1957_Converter_para_hexadecimal",
-        "documentation": {}
-    },
-    {
-        "label": "valorBase16",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1957_Converter_para_hexadecimal",
-        "description": "1_Iniciante.Bee_1957_Converter_para_hexadecimal",
-        "peekOfCode": "valorBase16 = hex(valorBase10)[2:]\nprint(valorBase16.upper())",
-        "detail": "1_Iniciante.Bee_1957_Converter_para_hexadecimal",
-        "documentation": {}
-    },
-    {
-        "label": "valor",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1958_Notacao_cientifica",
-        "description": "1_Iniciante.Bee_1958_Notacao_cientifica",
-        "peekOfCode": "valor = input()\nif valor[0] != '-':\n    print(f'+{float(valor):.4E}')\nelse:\n    print(f'{float(valor):.4E}')",
-        "detail": "1_Iniciante.Bee_1958_Notacao_cientifica",
-        "documentation": {}
-    },
-    {
-        "label": "valores",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1959_Poligonos_regulares_simples",
-        "description": "1_Iniciante.Bee_1959_Poligonos_regulares_simples",
-        "peekOfCode": "valores = input().split()\nprint(int(valores[0]) * int(valores[1]))",
-        "detail": "1_Iniciante.Bee_1959_Poligonos_regulares_simples",
-        "documentation": {}
-    },
-    {
-        "label": "valor",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
-        "description": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
-        "peekOfCode": "valor = input()\nunidadeRomanas = ['', 'I','II','III','IV','V','VI','VII','VIII','IX']\ndezenaRomanas = ['', 'X','XX','XXX','XL','L','LX','LXX','LXXX','XC']\ncentenaRomanas = ['', 'C','CC','CCC','CD','D','DC','DCC','DCCC','CM']\nif  len(valor) == 3:\n    centena = centenaRomanas[int(valor[0])]\n    dezena = dezenaRomanas[int(valor[1])]\n    unidade = unidadeRomanas[int(valor[2])]\n    print(f'{centena}{dezena}{unidade}')\nelif len(valor) == 2:",
-        "detail": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
-        "documentation": {}
-    },
-    {
-        "label": "unidadeRomanas",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
-        "description": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
-        "peekOfCode": "unidadeRomanas = ['', 'I','II','III','IV','V','VI','VII','VIII','IX']\ndezenaRomanas = ['', 'X','XX','XXX','XL','L','LX','LXX','LXXX','XC']\ncentenaRomanas = ['', 'C','CC','CCC','CD','D','DC','DCC','DCCC','CM']\nif  len(valor) == 3:\n    centena = centenaRomanas[int(valor[0])]\n    dezena = dezenaRomanas[int(valor[1])]\n    unidade = unidadeRomanas[int(valor[2])]\n    print(f'{centena}{dezena}{unidade}')\nelif len(valor) == 2:\n    dezena = dezenaRomanas[int(valor[0])]",
-        "detail": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
-        "documentation": {}
-    },
-    {
-        "label": "dezenaRomanas",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
-        "description": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
-        "peekOfCode": "dezenaRomanas = ['', 'X','XX','XXX','XL','L','LX','LXX','LXXX','XC']\ncentenaRomanas = ['', 'C','CC','CCC','CD','D','DC','DCC','DCCC','CM']\nif  len(valor) == 3:\n    centena = centenaRomanas[int(valor[0])]\n    dezena = dezenaRomanas[int(valor[1])]\n    unidade = unidadeRomanas[int(valor[2])]\n    print(f'{centena}{dezena}{unidade}')\nelif len(valor) == 2:\n    dezena = dezenaRomanas[int(valor[0])]\n    unidade = unidadeRomanas[int(valor[1])]",
-        "detail": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
-        "documentation": {}
-    },
-    {
-        "label": "centenaRomanas",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
-        "description": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
-        "peekOfCode": "centenaRomanas = ['', 'C','CC','CCC','CD','D','DC','DCC','DCCC','CM']\nif  len(valor) == 3:\n    centena = centenaRomanas[int(valor[0])]\n    dezena = dezenaRomanas[int(valor[1])]\n    unidade = unidadeRomanas[int(valor[2])]\n    print(f'{centena}{dezena}{unidade}')\nelif len(valor) == 2:\n    dezena = dezenaRomanas[int(valor[0])]\n    unidade = unidadeRomanas[int(valor[1])]\n    print(f'{dezena}{unidade}')",
-        "detail": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
-        "documentation": {}
-    },
-    {
-        "label": "respostas",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
-        "description": "1_Iniciante.Bee_1961_Pula_sapo",
-        "peekOfCode": "respostas = ['YOU WIN', 'GAME OVER']\ndadoJogo = input().split()\npuloDoSapo = int(dadoJogo[0])\ntimes = int(dadoJogo[1])\ndadosCanos = input().split()\ncanoAtual = int(dadosCanos[0])\nresposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1",
-        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
-        "documentation": {}
-    },
-    {
-        "label": "dadoJogo",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
-        "description": "1_Iniciante.Bee_1961_Pula_sapo",
-        "peekOfCode": "dadoJogo = input().split()\npuloDoSapo = int(dadoJogo[0])\ntimes = int(dadoJogo[1])\ndadosCanos = input().split()\ncanoAtual = int(dadosCanos[0])\nresposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1\n  canoAtual = int(x)",
-        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
-        "documentation": {}
-    },
-    {
-        "label": "puloDoSapo",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
-        "description": "1_Iniciante.Bee_1961_Pula_sapo",
-        "peekOfCode": "puloDoSapo = int(dadoJogo[0])\ntimes = int(dadoJogo[1])\ndadosCanos = input().split()\ncanoAtual = int(dadosCanos[0])\nresposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1\n  canoAtual = int(x)\nprint(respostas[resposta])",
-        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
-        "description": "1_Iniciante.Bee_1961_Pula_sapo",
-        "peekOfCode": "times = int(dadoJogo[1])\ndadosCanos = input().split()\ncanoAtual = int(dadosCanos[0])\nresposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1\n  canoAtual = int(x)\nprint(respostas[resposta])",
-        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
-        "documentation": {}
-    },
-    {
-        "label": "dadosCanos",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
-        "description": "1_Iniciante.Bee_1961_Pula_sapo",
-        "peekOfCode": "dadosCanos = input().split()\ncanoAtual = int(dadosCanos[0])\nresposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1\n  canoAtual = int(x)\nprint(respostas[resposta])",
-        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
-        "documentation": {}
-    },
-    {
-        "label": "canoAtual",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
-        "description": "1_Iniciante.Bee_1961_Pula_sapo",
-        "peekOfCode": "canoAtual = int(dadosCanos[0])\nresposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1\n  canoAtual = int(x)\nprint(respostas[resposta])",
-        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
-        "documentation": {}
-    },
-    {
-        "label": "resposta",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
-        "description": "1_Iniciante.Bee_1961_Pula_sapo",
-        "peekOfCode": "resposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1\n  canoAtual = int(x)\nprint(respostas[resposta])",
-        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1962_Ha_muito_muito_tempo_atras",
-        "description": "1_Iniciante.Bee_1962_Ha_muito_muito_tempo_atras",
-        "peekOfCode": "times = int(input())\nfor x in range(times):\n    anosPassados = int(input())\n    if anosPassados > 2015:\n        print(f'{anosPassados-2014} A.C.')\n    elif anosPassados == 2015:\n        print(f'1 A.C.')\n    else: \n        print(f'{2015 - anosPassados} D.C.')",
-        "detail": "1_Iniciante.Bee_1962_Ha_muito_muito_tempo_atras",
-        "documentation": {}
-    },
-    {
-        "label": "valores",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1963_O_filme",
-        "description": "1_Iniciante.Bee_1963_O_filme",
-        "peekOfCode": "valores = input().split()\nbilheteAntigo = float(valores[0])\nbilheteAtual = float(valores[1])\naumento = ((bilheteAtual-bilheteAntigo)/bilheteAntigo) * 100\nprint(f'{aumento:.2f}%')",
-        "detail": "1_Iniciante.Bee_1963_O_filme",
-        "documentation": {}
-    },
-    {
-        "label": "bilheteAntigo",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1963_O_filme",
-        "description": "1_Iniciante.Bee_1963_O_filme",
-        "peekOfCode": "bilheteAntigo = float(valores[0])\nbilheteAtual = float(valores[1])\naumento = ((bilheteAtual-bilheteAntigo)/bilheteAntigo) * 100\nprint(f'{aumento:.2f}%')",
-        "detail": "1_Iniciante.Bee_1963_O_filme",
-        "documentation": {}
-    },
-    {
-        "label": "bilheteAtual",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1963_O_filme",
-        "description": "1_Iniciante.Bee_1963_O_filme",
-        "peekOfCode": "bilheteAtual = float(valores[1])\naumento = ((bilheteAtual-bilheteAntigo)/bilheteAntigo) * 100\nprint(f'{aumento:.2f}%')",
-        "detail": "1_Iniciante.Bee_1963_O_filme",
-        "documentation": {}
-    },
-    {
-        "label": "aumento",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1963_O_filme",
-        "description": "1_Iniciante.Bee_1963_O_filme",
-        "peekOfCode": "aumento = ((bilheteAtual-bilheteAntigo)/bilheteAntigo) * 100\nprint(f'{aumento:.2f}%')",
-        "detail": "1_Iniciante.Bee_1963_O_filme",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "description": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "peekOfCode": "times = int(input())\nvalores = input().split()\ncarneiros = []\nLocaisRoubados = []\nfor x in valores:\n  carneiros.append(int(x))\n  LocaisRoubados.append(0)\ncontador = 0\nwhile 0 <= contador < times:\n    if carneiros[contador] > 0:",
-        "detail": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "documentation": {}
-    },
-    {
-        "label": "valores",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "description": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "peekOfCode": "valores = input().split()\ncarneiros = []\nLocaisRoubados = []\nfor x in valores:\n  carneiros.append(int(x))\n  LocaisRoubados.append(0)\ncontador = 0\nwhile 0 <= contador < times:\n    if carneiros[contador] > 0:\n        carneirosAntigos = carneiros[contador]",
-        "detail": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "documentation": {}
-    },
-    {
-        "label": "carneiros",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "description": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "peekOfCode": "carneiros = []\nLocaisRoubados = []\nfor x in valores:\n  carneiros.append(int(x))\n  LocaisRoubados.append(0)\ncontador = 0\nwhile 0 <= contador < times:\n    if carneiros[contador] > 0:\n        carneirosAntigos = carneiros[contador]\n        carneiros[contador] -= 1",
-        "detail": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "documentation": {}
-    },
-    {
-        "label": "LocaisRoubados",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "description": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "peekOfCode": "LocaisRoubados = []\nfor x in valores:\n  carneiros.append(int(x))\n  LocaisRoubados.append(0)\ncontador = 0\nwhile 0 <= contador < times:\n    if carneiros[contador] > 0:\n        carneirosAntigos = carneiros[contador]\n        carneiros[contador] -= 1\n        LocaisRoubados[contador] = 1",
-        "detail": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "documentation": {}
-    },
-    {
-        "label": "contador",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "description": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "peekOfCode": "contador = 0\nwhile 0 <= contador < times:\n    if carneiros[contador] > 0:\n        carneirosAntigos = carneiros[contador]\n        carneiros[contador] -= 1\n        LocaisRoubados[contador] = 1\n        if carneirosAntigos % 2 == 0:\n            contador -= 1\n        else:\n            contador += 1",
-        "detail": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1983_O_escolhido",
-        "description": "1_Iniciante.Bee_1983_O_escolhido",
-        "peekOfCode": "times = int(input())\nmaiorNota = -1\nmatricula = 0\nfor x in range(times):\n    valores = input().split()\n    if float(valores[1]) > maiorNota:\n        maiorNota = float(valores[1])\n        matricula = valores[0]\nif maiorNota < 8:\n    print('Minimum note not reached')",
-        "detail": "1_Iniciante.Bee_1983_O_escolhido",
-        "documentation": {}
-    },
-    {
-        "label": "maiorNota",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1983_O_escolhido",
-        "description": "1_Iniciante.Bee_1983_O_escolhido",
-        "peekOfCode": "maiorNota = -1\nmatricula = 0\nfor x in range(times):\n    valores = input().split()\n    if float(valores[1]) > maiorNota:\n        maiorNota = float(valores[1])\n        matricula = valores[0]\nif maiorNota < 8:\n    print('Minimum note not reached')\nelse:",
-        "detail": "1_Iniciante.Bee_1983_O_escolhido",
-        "documentation": {}
-    },
-    {
-        "label": "matricula",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1983_O_escolhido",
-        "description": "1_Iniciante.Bee_1983_O_escolhido",
-        "peekOfCode": "matricula = 0\nfor x in range(times):\n    valores = input().split()\n    if float(valores[1]) > maiorNota:\n        maiorNota = float(valores[1])\n        matricula = valores[0]\nif maiorNota < 8:\n    print('Minimum note not reached')\nelse:\n    print(matricula)",
-        "detail": "1_Iniciante.Bee_1983_O_escolhido",
-        "documentation": {}
-    },
-    {
-        "label": "numero",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1984_o_enigma_do_pronalandia",
-        "description": "1_Iniciante.Bee_1984_o_enigma_do_pronalandia",
-        "peekOfCode": "numero = int(input())\nnumero = str(numero)\nprint(numero[::-1])",
-        "detail": "1_Iniciante.Bee_1984_o_enigma_do_pronalandia",
-        "documentation": {}
-    },
-    {
-        "label": "numero",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1984_o_enigma_do_pronalandia",
-        "description": "1_Iniciante.Bee_1984_o_enigma_do_pronalandia",
-        "peekOfCode": "numero = str(numero)\nprint(numero[::-1])",
-        "detail": "1_Iniciante.Bee_1984_o_enigma_do_pronalandia",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1985_MacPronalts",
-        "description": "1_Iniciante.Bee_1985_MacPronalts",
-        "peekOfCode": "times = int(input())\npedidos = {'1001': 1.5, '1002': 2.5, '1003': 3.5, '1004': 4.5, '1005': 5.5}\nsoma = 0\nfor x in range(times):\n    valores = input().split()\n    soma += pedidos[valores[0]] * int(valores[1])\nprint(f'{soma:.2f}')",
-        "detail": "1_Iniciante.Bee_1985_MacPronalts",
-        "documentation": {}
-    },
-    {
-        "label": "pedidos",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1985_MacPronalts",
-        "description": "1_Iniciante.Bee_1985_MacPronalts",
-        "peekOfCode": "pedidos = {'1001': 1.5, '1002': 2.5, '1003': 3.5, '1004': 4.5, '1005': 5.5}\nsoma = 0\nfor x in range(times):\n    valores = input().split()\n    soma += pedidos[valores[0]] * int(valores[1])\nprint(f'{soma:.2f}')",
-        "detail": "1_Iniciante.Bee_1985_MacPronalts",
-        "documentation": {}
-    },
-    {
-        "label": "soma",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_1985_MacPronalts",
-        "description": "1_Iniciante.Bee_1985_MacPronalts",
-        "peekOfCode": "soma = 0\nfor x in range(times):\n    valores = input().split()\n    soma += pedidos[valores[0]] * int(valores[1])\nprint(f'{soma:.2f}')",
-        "detail": "1_Iniciante.Bee_1985_MacPronalts",
-        "documentation": {}
-    },
-    {
-        "label": "cha",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2006_Identificando_o_cha",
-        "description": "1_Iniciante.Bee_2006_Identificando_o_cha",
-        "peekOfCode": "cha = input()\nchutes = input().split()\ncontador = 0\nfor x in chutes:\n    if x == cha:\n        contador += 1\nprint(contador)",
-        "detail": "1_Iniciante.Bee_2006_Identificando_o_cha",
-        "documentation": {}
-    },
-    {
-        "label": "chutes",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2006_Identificando_o_cha",
-        "description": "1_Iniciante.Bee_2006_Identificando_o_cha",
-        "peekOfCode": "chutes = input().split()\ncontador = 0\nfor x in chutes:\n    if x == cha:\n        contador += 1\nprint(contador)",
-        "detail": "1_Iniciante.Bee_2006_Identificando_o_cha",
-        "documentation": {}
-    },
-    {
-        "label": "contador",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2006_Identificando_o_cha",
-        "description": "1_Iniciante.Bee_2006_Identificando_o_cha",
-        "peekOfCode": "contador = 0\nfor x in chutes:\n    if x == cha:\n        contador += 1\nprint(contador)",
-        "detail": "1_Iniciante.Bee_2006_Identificando_o_cha",
-        "documentation": {}
-    },
-    {
-        "label": "contador",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2028_sequencia_de_sequecia",
-        "description": "1_Iniciante.Bee_2028_sequencia_de_sequecia",
-        "peekOfCode": "contador = 1\nwhile True:\n    try:\n      numeroDoCaso = int(input())\n      quantidade = 0\n      numero = []\n      valor = 1\n      while valor <= numeroDoCaso:\n        for x in range(valor):\n            quantidade += 1",
-        "detail": "1_Iniciante.Bee_2028_sequencia_de_sequecia",
-        "documentation": {}
-    },
-    {
-        "label": "respostas",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2031_Pedra_papel_ataque_aereo",
-        "description": "1_Iniciante.Bee_2031_Pedra_papel_ataque_aereo",
-        "peekOfCode": "respostas = ['Jogador 1 venceu', 'Jogador 2 venceu', 'Ambos venceram', 'Sem ganhador', 'Aniquilacao mutua']\ntimes = int(input())\nfor x in range(times):\n    jogador1 = input()\n    jogador2 = input()\n    resposta = 4\n    if jogador1 == jogador2:\n        if jogador1 == 'papel':\n            resposta = 2\n        elif jogador1 == 'pedra':",
-        "detail": "1_Iniciante.Bee_2031_Pedra_papel_ataque_aereo",
-        "documentation": {}
-    },
-    {
-        "label": "times",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2031_Pedra_papel_ataque_aereo",
-        "description": "1_Iniciante.Bee_2031_Pedra_papel_ataque_aereo",
-        "peekOfCode": "times = int(input())\nfor x in range(times):\n    jogador1 = input()\n    jogador2 = input()\n    resposta = 4\n    if jogador1 == jogador2:\n        if jogador1 == 'papel':\n            resposta = 2\n        elif jogador1 == 'pedra':\n            resposta = 3",
-        "detail": "1_Iniciante.Bee_2031_Pedra_papel_ataque_aereo",
-        "documentation": {}
-    },
-    {
-        "label": "valores",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2057_Fuso_horario",
-        "description": "1_Iniciante.Bee_2057_Fuso_horario",
-        "peekOfCode": "valores = input().split()\nhora = int(valores[0]) + int(valores[1]) + int(valores[2])\nif hora >= 24:\n    hora -= 24\nif hora < 0:\n    hora += 24\nprint(hora)",
-        "detail": "1_Iniciante.Bee_2057_Fuso_horario",
-        "documentation": {}
-    },
-    {
-        "label": "hora",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2057_Fuso_horario",
-        "description": "1_Iniciante.Bee_2057_Fuso_horario",
-        "peekOfCode": "hora = int(valores[0]) + int(valores[1]) + int(valores[2])\nif hora >= 24:\n    hora -= 24\nif hora < 0:\n    hora += 24\nprint(hora)",
-        "detail": "1_Iniciante.Bee_2057_Fuso_horario",
-        "documentation": {}
-    },
-    {
-        "label": "valores",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "peekOfCode": "valores = input().split()\np = int(valores[0])\nj1 = int(valores[1])\nj2 = int(valores[2])\nr = int(valores[3])\na = int(valores[4])\nrespostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1",
-        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "documentation": {}
-    },
-    {
-        "label": "p",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "peekOfCode": "p = int(valores[0])\nj1 = int(valores[1])\nj2 = int(valores[2])\nr = int(valores[3])\na = int(valores[4])\nrespostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:",
-        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "documentation": {}
-    },
-    {
-        "label": "j1",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "peekOfCode": "j1 = int(valores[1])\nj2 = int(valores[2])\nr = int(valores[3])\na = int(valores[4])\nrespostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:\n    if (j1 + j2) % 2 == 0:",
-        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "documentation": {}
-    },
-    {
-        "label": "j2",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "peekOfCode": "j2 = int(valores[2])\nr = int(valores[3])\na = int(valores[4])\nrespostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:\n    if (j1 + j2) % 2 == 0:\n        if p == 0:",
-        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "documentation": {}
-    },
-    {
-        "label": "r",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "peekOfCode": "r = int(valores[3])\na = int(valores[4])\nrespostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:\n    if (j1 + j2) % 2 == 0:\n        if p == 0:\n            resposta = 1",
-        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "peekOfCode": "a = int(valores[4])\nrespostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:\n    if (j1 + j2) % 2 == 0:\n        if p == 0:\n            resposta = 1\n    else:",
-        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "documentation": {}
-    },
-    {
-        "label": "respostas",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "peekOfCode": "respostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:\n    if (j1 + j2) % 2 == 0:\n        if p == 0:\n            resposta = 1\n    else:\n        if p == 1:",
-        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "documentation": {}
-    },
-    {
-        "label": "resposta",
-        "kind": 5,
-        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "peekOfCode": "resposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:\n    if (j1 + j2) % 2 == 0:\n        if p == 0:\n            resposta = 1\n    else:\n        if p == 1:\n            resposta = 1",
-        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
-        "documentation": {}
-    },
-    {
         "label": "numberA",
         "kind": 5,
         "importPath": "1_Iniciante.Beecrowd_1001",
@@ -4864,309 +4090,777 @@
         "documentation": {}
     },
     {
-        "label": "ranks",
+        "label": "tamanho",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
-        "description": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
-        "peekOfCode": "ranks = [1, 3, 5, 10, 25, 50, 100]\ncolocacao = int(input())\nfor i in range(len(ranks)):\n    if colocacao <= ranks[i]:\n        print(f'Top {ranks[i]}')\n        break",
-        "detail": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
+        "importPath": "1_Iniciante.Bee_1478_Matriz_Quadrada_II",
+        "description": "1_Iniciante.Bee_1478_Matriz_Quadrada_II",
+        "peekOfCode": "tamanho = int(input())\nwhile tamanho != 0:\n    for i in range(0, tamanho):\n        for j in range(0, tamanho):\n            valor = abs(i - j) + 1\n            if j != tamanho-1:\n                print(f'{valor:3} ', end='')\n            else:\n                print(f'{valor:3}', end='')\n        print()",
+        "detail": "1_Iniciante.Bee_1478_Matriz_Quadrada_II",
         "documentation": {}
     },
     {
-        "label": "colocacao",
+        "label": "tamanho",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
-        "description": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
-        "peekOfCode": "colocacao = int(input())\nfor i in range(len(ranks)):\n    if colocacao <= ranks[i]:\n        print(f'Top {ranks[i]}')\n        break",
-        "detail": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
+        "importPath": "1_Iniciante.Bee_1557_Matriz_Quadrada_III",
+        "description": "1_Iniciante.Bee_1557_Matriz_Quadrada_III",
+        "peekOfCode": "tamanho = int(input())\nwhile tamanho != 0:\n    tamanhoMaximoDoNumero = len(str(2**((tamanho*2) - 2)))\n    for i in range(0, tamanho):\n        for j in range(0, tamanho):\n            valor = 2**(i+j)\n            if j != tamanho-1:\n                print(f'{valor:{tamanhoMaximoDoNumero}} ', end='')\n            else:\n                print(f'{valor:{tamanhoMaximoDoNumero}}', end='')",
+        "detail": "1_Iniciante.Bee_1557_Matriz_Quadrada_III",
         "documentation": {}
     },
     {
-        "label": "lados",
+        "label": "times",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2058_python_triangulos_e_poligonos_regulares",
-        "description": "2_Ad-hoc.Beecrowd_2058_python_triangulos_e_poligonos_regulares",
-        "peekOfCode": "lados = int(input())\ntriangulos = lados - 3 + 1\nprint(triangulos)",
-        "detail": "2_Ad-hoc.Beecrowd_2058_python_triangulos_e_poligonos_regulares",
+        "importPath": "1_Iniciante.Bee_1589_Bob_Conduite",
+        "description": "1_Iniciante.Bee_1589_Bob_Conduite",
+        "peekOfCode": "times = int(input())\nfor x in range(times):\n valores = input().split()\n raio1 = int(valores[0])\n raio2 = int(valores[1])\n print(raio1+raio2)",
+        "detail": "1_Iniciante.Bee_1589_Bob_Conduite",
         "documentation": {}
     },
     {
-        "label": "triangulos",
+        "label": "times",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2058_python_triangulos_e_poligonos_regulares",
-        "description": "2_Ad-hoc.Beecrowd_2058_python_triangulos_e_poligonos_regulares",
-        "peekOfCode": "triangulos = lados - 3 + 1\nprint(triangulos)",
-        "detail": "2_Ad-hoc.Beecrowd_2058_python_triangulos_e_poligonos_regulares",
+        "importPath": "1_Iniciante.Bee_1759_Ho_ho_ho",
+        "description": "1_Iniciante.Bee_1759_Ho_ho_ho",
+        "peekOfCode": "times = int(input())\nfor x in range(times):\n if x == times-1:\n   print('Ho', end='!\\n')\n else:\n   print('Ho', end=' ')",
+        "detail": "1_Iniciante.Bee_1759_Ho_ho_ho",
         "documentation": {}
     },
     {
-        "label": "valores",
+        "label": "times",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
-        "description": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
-        "peekOfCode": "valores = input().split()\nquantidadeCompetidores = int(valores[0])\nquantidadeFolhas = int(valores[1])\nquantidadeJuizes = int(valores[2])\nif quantidadeFolhas >= quantidadeCompetidores * quantidadeJuizes:\n    print('S')\nelse:\n    print('N')",
-        "detail": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
-        "documentation": {}
-    },
-    {
-        "label": "quantidadeCompetidores",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
-        "description": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
-        "peekOfCode": "quantidadeCompetidores = int(valores[0])\nquantidadeFolhas = int(valores[1])\nquantidadeJuizes = int(valores[2])\nif quantidadeFolhas >= quantidadeCompetidores * quantidadeJuizes:\n    print('S')\nelse:\n    print('N')",
-        "detail": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
-        "documentation": {}
-    },
-    {
-        "label": "quantidadeFolhas",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
-        "description": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
-        "peekOfCode": "quantidadeFolhas = int(valores[1])\nquantidadeJuizes = int(valores[2])\nif quantidadeFolhas >= quantidadeCompetidores * quantidadeJuizes:\n    print('S')\nelse:\n    print('N')",
-        "detail": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
-        "documentation": {}
-    },
-    {
-        "label": "quantidadeJuizes",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
-        "description": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
-        "peekOfCode": "quantidadeJuizes = int(valores[2])\nif quantidadeFolhas >= quantidadeCompetidores * quantidadeJuizes:\n    print('S')\nelse:\n    print('N')",
-        "detail": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
-        "documentation": {}
-    },
-    {
-        "label": "pressaoDesejada",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
-        "description": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
-        "peekOfCode": "pressaoDesejada = int(input())\npressaoAtual = int(input())\ndiferenca = pressaoDesejada - pressaoAtual\nprint(diferenca)",
-        "detail": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
-        "documentation": {}
-    },
-    {
-        "label": "pressaoAtual",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
-        "description": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
-        "peekOfCode": "pressaoAtual = int(input())\ndiferenca = pressaoDesejada - pressaoAtual\nprint(diferenca)",
-        "detail": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
-        "documentation": {}
-    },
-    {
-        "label": "diferenca",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
-        "description": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
-        "peekOfCode": "diferenca = pressaoDesejada - pressaoAtual\nprint(diferenca)",
-        "detail": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
-        "documentation": {}
-    },
-    {
-        "label": "quantidadeIntervalo",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2388_python_Tacografo",
-        "description": "2_Ad-hoc.Beecrowd_2388_python_Tacografo",
-        "peekOfCode": "quantidadeIntervalo = int(input())\ndistanciaTotal = 0\nfor i in range(quantidadeIntervalo):\n    valores = input().split()\n    tempo = int(valores[0])\n    velocidade = int(valores[1])\n    distancia = tempo * velocidade\n    distanciaTotal += distancia\nprint(distanciaTotal)",
-        "detail": "2_Ad-hoc.Beecrowd_2388_python_Tacografo",
-        "documentation": {}
-    },
-    {
-        "label": "distanciaTotal",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2388_python_Tacografo",
-        "description": "2_Ad-hoc.Beecrowd_2388_python_Tacografo",
-        "peekOfCode": "distanciaTotal = 0\nfor i in range(quantidadeIntervalo):\n    valores = input().split()\n    tempo = int(valores[0])\n    velocidade = int(valores[1])\n    distancia = tempo * velocidade\n    distanciaTotal += distancia\nprint(distanciaTotal)",
-        "detail": "2_Ad-hoc.Beecrowd_2388_python_Tacografo",
-        "documentation": {}
-    },
-    {
-        "label": "clickTerceiroLink",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
-        "description": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
-        "peekOfCode": "clickTerceiroLink = int(input())\nclickSegundoLink = clickTerceiroLink * 2\nclickPrimeiroLink = clickSegundoLink * 2\nprint(clickPrimeiroLink)",
-        "detail": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
-        "documentation": {}
-    },
-    {
-        "label": "clickSegundoLink",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
-        "description": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
-        "peekOfCode": "clickSegundoLink = clickTerceiroLink * 2\nclickPrimeiroLink = clickSegundoLink * 2\nprint(clickPrimeiroLink)",
-        "detail": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
-        "documentation": {}
-    },
-    {
-        "label": "clickPrimeiroLink",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
-        "description": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
-        "peekOfCode": "clickPrimeiroLink = clickSegundoLink * 2\nprint(clickPrimeiroLink)",
-        "detail": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
+        "importPath": "1_Iniciante.Bee_1828_Bazinda",
+        "description": "1_Iniciante.Bee_1828_Bazinda",
+        "peekOfCode": "times = int(input())\nfor x in range(times):\n    jogo = input().lower().split()\n    sheldon = jogo[0]\n    raj = jogo[1]\n    option = ['pedra', 'papel', 'tesoura', 'lagarto', 'spock']\n    reposta = 1\n    if sheldon == 'pedra':\n        if raj == 'lagarto' or raj == 'tesoura' :\n            reposta = 1",
+        "detail": "1_Iniciante.Bee_1828_Bazinda",
         "documentation": {}
     },
     {
         "label": "valores",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2416_python_corrida",
-        "description": "2_Ad-hoc.Beecrowd_2416_python_corrida",
-        "peekOfCode": "valores = input().split()\ntreino = int(valores[0])\npista = int(valores[1])\npontoTermino = treino % pista\nprint(pontoTermino)",
-        "detail": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "importPath": "1_Iniciante.Bee_1837_prefacio",
+        "description": "1_Iniciante.Bee_1837_prefacio",
+        "peekOfCode": "valores = input().split()\ndividendo = int(valores[0])\ndivisor = int(valores[1])\nif divisor < 0:\n  quociente = math.ceil(dividendo/divisor)\n  resto = dividendo % (-divisor)\nelse:\n  quociente = math.floor(dividendo/divisor)\n  resto = dividendo % divisor\nprint(f'{quociente} {resto}')",
+        "detail": "1_Iniciante.Bee_1837_prefacio",
         "documentation": {}
     },
     {
-        "label": "treino",
+        "label": "dividendo",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2416_python_corrida",
-        "description": "2_Ad-hoc.Beecrowd_2416_python_corrida",
-        "peekOfCode": "treino = int(valores[0])\npista = int(valores[1])\npontoTermino = treino % pista\nprint(pontoTermino)",
-        "detail": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "importPath": "1_Iniciante.Bee_1837_prefacio",
+        "description": "1_Iniciante.Bee_1837_prefacio",
+        "peekOfCode": "dividendo = int(valores[0])\ndivisor = int(valores[1])\nif divisor < 0:\n  quociente = math.ceil(dividendo/divisor)\n  resto = dividendo % (-divisor)\nelse:\n  quociente = math.floor(dividendo/divisor)\n  resto = dividendo % divisor\nprint(f'{quociente} {resto}')",
+        "detail": "1_Iniciante.Bee_1837_prefacio",
         "documentation": {}
     },
     {
-        "label": "pista",
+        "label": "divisor",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2416_python_corrida",
-        "description": "2_Ad-hoc.Beecrowd_2416_python_corrida",
-        "peekOfCode": "pista = int(valores[1])\npontoTermino = treino % pista\nprint(pontoTermino)",
-        "detail": "2_Ad-hoc.Beecrowd_2416_python_corrida",
-        "documentation": {}
-    },
-    {
-        "label": "pontoTermino",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2416_python_corrida",
-        "description": "2_Ad-hoc.Beecrowd_2416_python_corrida",
-        "peekOfCode": "pontoTermino = treino % pista\nprint(pontoTermino)",
-        "detail": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "importPath": "1_Iniciante.Bee_1837_prefacio",
+        "description": "1_Iniciante.Bee_1837_prefacio",
+        "peekOfCode": "divisor = int(valores[1])\nif divisor < 0:\n  quociente = math.ceil(dividendo/divisor)\n  resto = dividendo % (-divisor)\nelse:\n  quociente = math.floor(dividendo/divisor)\n  resto = dividendo % divisor\nprint(f'{quociente} {resto}')",
+        "detail": "1_Iniciante.Bee_1837_prefacio",
         "documentation": {}
     },
     {
         "label": "valores",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
-        "description": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
-        "peekOfCode": "valores = input().split()\ndias = int(valores[0])\nsaldo = int(valores[1])\nmenorSaldo = saldo\nfor i in range(dias):\n    valor = int(input())\n    saldo += valor\n    if saldo < menorSaldo:\n        menorSaldo = saldo\nprint(menorSaldo)",
-        "detail": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "importPath": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
+        "description": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
+        "peekOfCode": "valores = input().split()\ndia1 = int(valores[0])\ndia2 = int(valores[1])\ndia3 = int(valores[2])\nrespostas = [':)', ':(']\nresposta = 0\nif (dia1 < dia2) and (dia2 >= dia3):\n    resposta = 1\nelif (dia1 < dia2 < dia3) and (dia3 - dia2 < dia2 - dia1):\n    resposta = 1",
+        "detail": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
         "documentation": {}
     },
     {
-        "label": "dias",
+        "label": "dia1",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
-        "description": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
-        "peekOfCode": "dias = int(valores[0])\nsaldo = int(valores[1])\nmenorSaldo = saldo\nfor i in range(dias):\n    valor = int(input())\n    saldo += valor\n    if saldo < menorSaldo:\n        menorSaldo = saldo\nprint(menorSaldo)",
-        "detail": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "importPath": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
+        "description": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
+        "peekOfCode": "dia1 = int(valores[0])\ndia2 = int(valores[1])\ndia3 = int(valores[2])\nrespostas = [':)', ':(']\nresposta = 0\nif (dia1 < dia2) and (dia2 >= dia3):\n    resposta = 1\nelif (dia1 < dia2 < dia3) and (dia3 - dia2 < dia2 - dia1):\n    resposta = 1\nelif (dia1 > dia2 > dia3) and (dia2 - dia3 >= dia1 - dia2):",
+        "detail": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
         "documentation": {}
     },
     {
-        "label": "saldo",
+        "label": "dia2",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
-        "description": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
-        "peekOfCode": "saldo = int(valores[1])\nmenorSaldo = saldo\nfor i in range(dias):\n    valor = int(input())\n    saldo += valor\n    if saldo < menorSaldo:\n        menorSaldo = saldo\nprint(menorSaldo)",
-        "detail": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "importPath": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
+        "description": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
+        "peekOfCode": "dia2 = int(valores[1])\ndia3 = int(valores[2])\nrespostas = [':)', ':(']\nresposta = 0\nif (dia1 < dia2) and (dia2 >= dia3):\n    resposta = 1\nelif (dia1 < dia2 < dia3) and (dia3 - dia2 < dia2 - dia1):\n    resposta = 1\nelif (dia1 > dia2 > dia3) and (dia2 - dia3 >= dia1 - dia2):\n    resposta = 1",
+        "detail": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
         "documentation": {}
     },
     {
-        "label": "menorSaldo",
+        "label": "dia3",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
-        "description": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
-        "peekOfCode": "menorSaldo = saldo\nfor i in range(dias):\n    valor = int(input())\n    saldo += valor\n    if saldo < menorSaldo:\n        menorSaldo = saldo\nprint(menorSaldo)",
-        "detail": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "importPath": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
+        "description": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
+        "peekOfCode": "dia3 = int(valores[2])\nrespostas = [':)', ':(']\nresposta = 0\nif (dia1 < dia2) and (dia2 >= dia3):\n    resposta = 1\nelif (dia1 < dia2 < dia3) and (dia3 - dia2 < dia2 - dia1):\n    resposta = 1\nelif (dia1 > dia2 > dia3) and (dia2 - dia3 >= dia1 - dia2):\n    resposta = 1\nelif (dia1 == dia2) and (dia2 >= dia3):",
+        "detail": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
         "documentation": {}
     },
     {
-        "label": "valores",
+        "label": "respostas",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "description": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "peekOfCode": "valores = input().split()\npeso1 = int(valores[0])\ncomprimento1 = int(valores[1])\npeso2 = int(valores[2])\ncomprimento2 = int(valores[3])\ndiferenca = (peso1 * comprimento1) - (peso2 * comprimento2)\nif diferenca > 0:\n    print('-1')\nelif diferenca < 0:\n    print('1')",
-        "detail": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "importPath": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
+        "description": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
+        "peekOfCode": "respostas = [':)', ':(']\nresposta = 0\nif (dia1 < dia2) and (dia2 >= dia3):\n    resposta = 1\nelif (dia1 < dia2 < dia3) and (dia3 - dia2 < dia2 - dia1):\n    resposta = 1\nelif (dia1 > dia2 > dia3) and (dia2 - dia3 >= dia1 - dia2):\n    resposta = 1\nelif (dia1 == dia2) and (dia2 >= dia3):\n    resposta = 1",
+        "detail": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
         "documentation": {}
     },
     {
-        "label": "peso1",
+        "label": "resposta",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "description": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "peekOfCode": "peso1 = int(valores[0])\ncomprimento1 = int(valores[1])\npeso2 = int(valores[2])\ncomprimento2 = int(valores[3])\ndiferenca = (peso1 * comprimento1) - (peso2 * comprimento2)\nif diferenca > 0:\n    print('-1')\nelif diferenca < 0:\n    print('1')\nelse:",
-        "detail": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "documentation": {}
-    },
-    {
-        "label": "comprimento1",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "description": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "peekOfCode": "comprimento1 = int(valores[1])\npeso2 = int(valores[2])\ncomprimento2 = int(valores[3])\ndiferenca = (peso1 * comprimento1) - (peso2 * comprimento2)\nif diferenca > 0:\n    print('-1')\nelif diferenca < 0:\n    print('1')\nelse:\n    print('0')",
-        "detail": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "documentation": {}
-    },
-    {
-        "label": "peso2",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "description": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "peekOfCode": "peso2 = int(valores[2])\ncomprimento2 = int(valores[3])\ndiferenca = (peso1 * comprimento1) - (peso2 * comprimento2)\nif diferenca > 0:\n    print('-1')\nelif diferenca < 0:\n    print('1')\nelse:\n    print('0')",
-        "detail": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "documentation": {}
-    },
-    {
-        "label": "comprimento2",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "description": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "peekOfCode": "comprimento2 = int(valores[3])\ndiferenca = (peso1 * comprimento1) - (peso2 * comprimento2)\nif diferenca > 0:\n    print('-1')\nelif diferenca < 0:\n    print('1')\nelse:\n    print('0')",
-        "detail": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "documentation": {}
-    },
-    {
-        "label": "diferenca",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "description": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "peekOfCode": "diferenca = (peso1 * comprimento1) - (peso2 * comprimento2)\nif diferenca > 0:\n    print('-1')\nelif diferenca < 0:\n    print('1')\nelse:\n    print('0')",
-        "detail": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
-        "documentation": {}
-    },
-    {
-        "label": "tamanhoSequencia",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
-        "description": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
-        "peekOfCode": "tamanhoSequencia = int(input())\nsequencia = []\nfor i in range(tamanhoSequencia):\n    valor = int(input())\n    sequencia.append(valor)\nvalorAtual = 1\ncontador = 1\nfor item in sequencia:\n    if item != valorAtual:\n        contador += 1",
-        "detail": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
-        "documentation": {}
-    },
-    {
-        "label": "sequencia",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
-        "description": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
-        "peekOfCode": "sequencia = []\nfor i in range(tamanhoSequencia):\n    valor = int(input())\n    sequencia.append(valor)\nvalorAtual = 1\ncontador = 1\nfor item in sequencia:\n    if item != valorAtual:\n        contador += 1\n        valorAtual = item",
-        "detail": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
-        "documentation": {}
-    },
-    {
-        "label": "valorAtual",
-        "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
-        "description": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
-        "peekOfCode": "valorAtual = 1\ncontador = 1\nfor item in sequencia:\n    if item != valorAtual:\n        contador += 1\n        valorAtual = item\nprint(contador)",
-        "detail": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "importPath": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
+        "description": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
+        "peekOfCode": "resposta = 0\nif (dia1 < dia2) and (dia2 >= dia3):\n    resposta = 1\nelif (dia1 < dia2 < dia3) and (dia3 - dia2 < dia2 - dia1):\n    resposta = 1\nelif (dia1 > dia2 > dia3) and (dia2 - dia3 >= dia1 - dia2):\n    resposta = 1\nelif (dia1 == dia2) and (dia2 >= dia3):\n    resposta = 1\nprint(respostas[resposta])",
+        "detail": "1_Iniciante.Bee_1847_Bem-vindos_e_bem-vindas_ao_inverno",
         "documentation": {}
     },
     {
         "label": "contador",
         "kind": 5,
-        "importPath": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
-        "description": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
-        "peekOfCode": "contador = 1\nfor item in sequencia:\n    if item != valorAtual:\n        contador += 1\n        valorAtual = item\nprint(contador)",
-        "detail": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "importPath": "1_Iniciante.Bee_1848_Corvo_contador",
+        "description": "1_Iniciante.Bee_1848_Corvo_contador",
+        "peekOfCode": "contador = 0\nsomador = 0 \nwhile contador < 3:\n  falaCorvo = input()\n  if falaCorvo[0] == 'c':\n      contador += 1\n      print(somador)\n      somador = 0\n  else:\n      if falaCorvo[0] == '*':",
+        "detail": "1_Iniciante.Bee_1848_Corvo_contador",
+        "documentation": {}
+    },
+    {
+        "label": "somador",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1848_Corvo_contador",
+        "description": "1_Iniciante.Bee_1848_Corvo_contador",
+        "peekOfCode": "somador = 0 \nwhile contador < 3:\n  falaCorvo = input()\n  if falaCorvo[0] == 'c':\n      contador += 1\n      print(somador)\n      somador = 0\n  else:\n      if falaCorvo[0] == '*':\n          somador += 4",
+        "detail": "1_Iniciante.Bee_1848_Corvo_contador",
+        "documentation": {}
+    },
+    {
+        "label": "quantidadePessoas",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
+        "description": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
+        "peekOfCode": "quantidadePessoas = int(input())\npessoas = input().split()\nmenor = int(pessoas[0])\nfor x in range(quantidadePessoas):\n    pessoa = int(pessoas[x])\n    if pessoa <= menor:\n        menor = pessoa\nposition = pessoas.index(str(menor))\nprint(position+1)",
+        "detail": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
+        "documentation": {}
+    },
+    {
+        "label": "pessoas",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
+        "description": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
+        "peekOfCode": "pessoas = input().split()\nmenor = int(pessoas[0])\nfor x in range(quantidadePessoas):\n    pessoa = int(pessoas[x])\n    if pessoa <= menor:\n        menor = pessoa\nposition = pessoas.index(str(menor))\nprint(position+1)",
+        "detail": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
+        "documentation": {}
+    },
+    {
+        "label": "menor",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
+        "description": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
+        "peekOfCode": "menor = int(pessoas[0])\nfor x in range(quantidadePessoas):\n    pessoa = int(pessoas[x])\n    if pessoa <= menor:\n        menor = pessoa\nposition = pessoas.index(str(menor))\nprint(position+1)",
+        "detail": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
+        "documentation": {}
+    },
+    {
+        "label": "position",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
+        "description": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
+        "peekOfCode": "position = pessoas.index(str(menor))\nprint(position+1)",
+        "detail": "1_Iniciante.Bee_1858_A_resposta_de_Theon",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1864_Nossos_dias_nunca_voltarao",
+        "description": "1_Iniciante.Bee_1864_Nossos_dias_nunca_voltarao",
+        "peekOfCode": "frase = 'LIFE IS NOT A PROBLEM TO BE SOLVED'\nquantidadeLetra = int(input())\nfor x in range(quantidadeLetra):\n print(frase[x], end='')\nprint()",
+        "detail": "1_Iniciante.Bee_1864_Nossos_dias_nunca_voltarao",
+        "documentation": {}
+    },
+    {
+        "label": "quantidadeLetra",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1864_Nossos_dias_nunca_voltarao",
+        "description": "1_Iniciante.Bee_1864_Nossos_dias_nunca_voltarao",
+        "peekOfCode": "quantidadeLetra = int(input())\nfor x in range(quantidadeLetra):\n print(frase[x], end='')\nprint()",
+        "detail": "1_Iniciante.Bee_1864_Nossos_dias_nunca_voltarao",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1865_Mjolnir",
+        "description": "1_Iniciante.Bee_1865_Mjolnir",
+        "peekOfCode": "times = int(input())\nfor x in range(times):\n    dadosDaPessoa = input().split()\n    if dadosDaPessoa[0] == 'Thor':\n        print('Y')\n    else:\n        print('N')",
+        "detail": "1_Iniciante.Bee_1865_Mjolnir",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1866_Conta",
+        "description": "1_Iniciante.Bee_1866_Conta",
+        "peekOfCode": "times = int(input())\nfor x in range(times):\n numero = int(input())\n print(numero%2)",
+        "detail": "1_Iniciante.Bee_1866_Conta",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1914_De_quem_e_a_vez",
+        "description": "1_Iniciante.Bee_1914_De_quem_e_a_vez",
+        "peekOfCode": "times = int(input())\nfor x in range(times):\n    dadosPessoas = input().split()\n    dadosJogo = input().split()\n    soma = int(dadosJogo[0]) + int(dadosJogo[1])\n    if soma % 2 == 0:\n        if dadosPessoas[1] == 'PAR':\n          print(dadosPessoas[0])\n        else:\n          print(dadosPessoas[2])",
+        "detail": "1_Iniciante.Bee_1914_De_quem_e_a_vez",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1924_vitoria_e_a_indecisao",
+        "description": "1_Iniciante.Bee_1924_vitoria_e_a_indecisao",
+        "peekOfCode": "times = int(input())\nfor x in range(times):\n    curso = input()\nprint('Ciencia da Computacao')",
+        "detail": "1_Iniciante.Bee_1924_vitoria_e_a_indecisao",
+        "documentation": {}
+    },
+    {
+        "label": "trinaguloExiste",
+        "kind": 2,
+        "importPath": "1_Iniciante.Bee_1929_Triangulo",
+        "description": "1_Iniciante.Bee_1929_Triangulo",
+        "peekOfCode": "def trinaguloExiste(a, b, c):\n    if abs(b - c) < a < (b + c):\n      if abs(a - c) < b < (a + c):\n        if abs(a - b) < c < (a + b):\n            return True\n    return False\nvalores = input().split()\na = int(valores[0])\nb = int(valores[1])\nc = int(valores[2])",
+        "detail": "1_Iniciante.Bee_1929_Triangulo",
+        "documentation": {}
+    },
+    {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1929_Triangulo",
+        "description": "1_Iniciante.Bee_1929_Triangulo",
+        "peekOfCode": "valores = input().split()\na = int(valores[0])\nb = int(valores[1])\nc = int(valores[2])\nd = int(valores[3])\nif trinaguloExiste(a, b, c) or trinaguloExiste(a, b, d) or trinaguloExiste(a, c, d) or trinaguloExiste(c, b, d):\n  print('S')\nelse:\n  print('N')",
+        "detail": "1_Iniciante.Bee_1929_Triangulo",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1929_Triangulo",
+        "description": "1_Iniciante.Bee_1929_Triangulo",
+        "peekOfCode": "a = int(valores[0])\nb = int(valores[1])\nc = int(valores[2])\nd = int(valores[3])\nif trinaguloExiste(a, b, c) or trinaguloExiste(a, b, d) or trinaguloExiste(a, c, d) or trinaguloExiste(c, b, d):\n  print('S')\nelse:\n  print('N')",
+        "detail": "1_Iniciante.Bee_1929_Triangulo",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1929_Triangulo",
+        "description": "1_Iniciante.Bee_1929_Triangulo",
+        "peekOfCode": "b = int(valores[1])\nc = int(valores[2])\nd = int(valores[3])\nif trinaguloExiste(a, b, c) or trinaguloExiste(a, b, d) or trinaguloExiste(a, c, d) or trinaguloExiste(c, b, d):\n  print('S')\nelse:\n  print('N')",
+        "detail": "1_Iniciante.Bee_1929_Triangulo",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1929_Triangulo",
+        "description": "1_Iniciante.Bee_1929_Triangulo",
+        "peekOfCode": "c = int(valores[2])\nd = int(valores[3])\nif trinaguloExiste(a, b, c) or trinaguloExiste(a, b, d) or trinaguloExiste(a, c, d) or trinaguloExiste(c, b, d):\n  print('S')\nelse:\n  print('N')",
+        "detail": "1_Iniciante.Bee_1929_Triangulo",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1929_Triangulo",
+        "description": "1_Iniciante.Bee_1929_Triangulo",
+        "peekOfCode": "d = int(valores[3])\nif trinaguloExiste(a, b, c) or trinaguloExiste(a, b, d) or trinaguloExiste(a, c, d) or trinaguloExiste(c, b, d):\n  print('S')\nelse:\n  print('N')",
+        "detail": "1_Iniciante.Bee_1929_Triangulo",
+        "documentation": {}
+    },
+    {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1930_Tomadas",
+        "description": "1_Iniciante.Bee_1930_Tomadas",
+        "peekOfCode": "valores = input().split()\nsoma = 0\nfor x in valores:\n  soma += int(x)\nprint(soma-3)",
+        "detail": "1_Iniciante.Bee_1930_Tomadas",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1930_Tomadas",
+        "description": "1_Iniciante.Bee_1930_Tomadas",
+        "peekOfCode": "soma = 0\nfor x in valores:\n  soma += int(x)\nprint(soma-3)",
+        "detail": "1_Iniciante.Bee_1930_Tomadas",
+        "documentation": {}
+    },
+    {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1933_Tri-du",
+        "description": "1_Iniciante.Bee_1933_Tri-du",
+        "peekOfCode": "valores = input().split()\nvalor1 = int(valores[0])\nvalor2 = int(valores[1])\nif valor1 > valor2:\n    print(valor1)\nelse:\n    print(valor2)",
+        "detail": "1_Iniciante.Bee_1933_Tri-du",
+        "documentation": {}
+    },
+    {
+        "label": "valor1",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1933_Tri-du",
+        "description": "1_Iniciante.Bee_1933_Tri-du",
+        "peekOfCode": "valor1 = int(valores[0])\nvalor2 = int(valores[1])\nif valor1 > valor2:\n    print(valor1)\nelse:\n    print(valor2)",
+        "detail": "1_Iniciante.Bee_1933_Tri-du",
+        "documentation": {}
+    },
+    {
+        "label": "valor2",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1933_Tri-du",
+        "description": "1_Iniciante.Bee_1933_Tri-du",
+        "peekOfCode": "valor2 = int(valores[1])\nif valor1 > valor2:\n    print(valor1)\nelse:\n    print(valor2)",
+        "detail": "1_Iniciante.Bee_1933_Tri-du",
+        "documentation": {}
+    },
+    {
+        "label": "valorBase10",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1957_Converter_para_hexadecimal",
+        "description": "1_Iniciante.Bee_1957_Converter_para_hexadecimal",
+        "peekOfCode": "valorBase10 = int(input())\nvalorBase16 = hex(valorBase10)[2:]\nprint(valorBase16.upper())",
+        "detail": "1_Iniciante.Bee_1957_Converter_para_hexadecimal",
+        "documentation": {}
+    },
+    {
+        "label": "valorBase16",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1957_Converter_para_hexadecimal",
+        "description": "1_Iniciante.Bee_1957_Converter_para_hexadecimal",
+        "peekOfCode": "valorBase16 = hex(valorBase10)[2:]\nprint(valorBase16.upper())",
+        "detail": "1_Iniciante.Bee_1957_Converter_para_hexadecimal",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1958_Notacao_cientifica",
+        "description": "1_Iniciante.Bee_1958_Notacao_cientifica",
+        "peekOfCode": "valor = input()\nif valor[0] != '-':\n    print(f'+{float(valor):.4E}')\nelse:\n    print(f'{float(valor):.4E}')",
+        "detail": "1_Iniciante.Bee_1958_Notacao_cientifica",
+        "documentation": {}
+    },
+    {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1959_Poligonos_regulares_simples",
+        "description": "1_Iniciante.Bee_1959_Poligonos_regulares_simples",
+        "peekOfCode": "valores = input().split()\nprint(int(valores[0]) * int(valores[1]))",
+        "detail": "1_Iniciante.Bee_1959_Poligonos_regulares_simples",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
+        "description": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
+        "peekOfCode": "valor = input()\nunidadeRomanas = ['', 'I','II','III','IV','V','VI','VII','VIII','IX']\ndezenaRomanas = ['', 'X','XX','XXX','XL','L','LX','LXX','LXXX','XC']\ncentenaRomanas = ['', 'C','CC','CCC','CD','D','DC','DCC','DCCC','CM']\nif  len(valor) == 3:\n    centena = centenaRomanas[int(valor[0])]\n    dezena = dezenaRomanas[int(valor[1])]\n    unidade = unidadeRomanas[int(valor[2])]\n    print(f'{centena}{dezena}{unidade}')\nelif len(valor) == 2:",
+        "detail": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
+        "documentation": {}
+    },
+    {
+        "label": "unidadeRomanas",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
+        "description": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
+        "peekOfCode": "unidadeRomanas = ['', 'I','II','III','IV','V','VI','VII','VIII','IX']\ndezenaRomanas = ['', 'X','XX','XXX','XL','L','LX','LXX','LXXX','XC']\ncentenaRomanas = ['', 'C','CC','CCC','CD','D','DC','DCC','DCCC','CM']\nif  len(valor) == 3:\n    centena = centenaRomanas[int(valor[0])]\n    dezena = dezenaRomanas[int(valor[1])]\n    unidade = unidadeRomanas[int(valor[2])]\n    print(f'{centena}{dezena}{unidade}')\nelif len(valor) == 2:\n    dezena = dezenaRomanas[int(valor[0])]",
+        "detail": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
+        "documentation": {}
+    },
+    {
+        "label": "dezenaRomanas",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
+        "description": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
+        "peekOfCode": "dezenaRomanas = ['', 'X','XX','XXX','XL','L','LX','LXX','LXXX','XC']\ncentenaRomanas = ['', 'C','CC','CCC','CD','D','DC','DCC','DCCC','CM']\nif  len(valor) == 3:\n    centena = centenaRomanas[int(valor[0])]\n    dezena = dezenaRomanas[int(valor[1])]\n    unidade = unidadeRomanas[int(valor[2])]\n    print(f'{centena}{dezena}{unidade}')\nelif len(valor) == 2:\n    dezena = dezenaRomanas[int(valor[0])]\n    unidade = unidadeRomanas[int(valor[1])]",
+        "detail": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
+        "documentation": {}
+    },
+    {
+        "label": "centenaRomanas",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
+        "description": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
+        "peekOfCode": "centenaRomanas = ['', 'C','CC','CCC','CD','D','DC','DCC','DCCC','CM']\nif  len(valor) == 3:\n    centena = centenaRomanas[int(valor[0])]\n    dezena = dezenaRomanas[int(valor[1])]\n    unidade = unidadeRomanas[int(valor[2])]\n    print(f'{centena}{dezena}{unidade}')\nelif len(valor) == 2:\n    dezena = dezenaRomanas[int(valor[0])]\n    unidade = unidadeRomanas[int(valor[1])]\n    print(f'{dezena}{unidade}')",
+        "detail": "1_Iniciante.Bee_1960_Numeracao_romana_para_numeros_de_pagina",
+        "documentation": {}
+    },
+    {
+        "label": "respostas",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
+        "description": "1_Iniciante.Bee_1961_Pula_sapo",
+        "peekOfCode": "respostas = ['YOU WIN', 'GAME OVER']\ndadoJogo = input().split()\npuloDoSapo = int(dadoJogo[0])\ntimes = int(dadoJogo[1])\ndadosCanos = input().split()\ncanoAtual = int(dadosCanos[0])\nresposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1",
+        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
+        "documentation": {}
+    },
+    {
+        "label": "dadoJogo",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
+        "description": "1_Iniciante.Bee_1961_Pula_sapo",
+        "peekOfCode": "dadoJogo = input().split()\npuloDoSapo = int(dadoJogo[0])\ntimes = int(dadoJogo[1])\ndadosCanos = input().split()\ncanoAtual = int(dadosCanos[0])\nresposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1\n  canoAtual = int(x)",
+        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
+        "documentation": {}
+    },
+    {
+        "label": "puloDoSapo",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
+        "description": "1_Iniciante.Bee_1961_Pula_sapo",
+        "peekOfCode": "puloDoSapo = int(dadoJogo[0])\ntimes = int(dadoJogo[1])\ndadosCanos = input().split()\ncanoAtual = int(dadosCanos[0])\nresposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1\n  canoAtual = int(x)\nprint(respostas[resposta])",
+        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
+        "description": "1_Iniciante.Bee_1961_Pula_sapo",
+        "peekOfCode": "times = int(dadoJogo[1])\ndadosCanos = input().split()\ncanoAtual = int(dadosCanos[0])\nresposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1\n  canoAtual = int(x)\nprint(respostas[resposta])",
+        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
+        "documentation": {}
+    },
+    {
+        "label": "dadosCanos",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
+        "description": "1_Iniciante.Bee_1961_Pula_sapo",
+        "peekOfCode": "dadosCanos = input().split()\ncanoAtual = int(dadosCanos[0])\nresposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1\n  canoAtual = int(x)\nprint(respostas[resposta])",
+        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
+        "documentation": {}
+    },
+    {
+        "label": "canoAtual",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
+        "description": "1_Iniciante.Bee_1961_Pula_sapo",
+        "peekOfCode": "canoAtual = int(dadosCanos[0])\nresposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1\n  canoAtual = int(x)\nprint(respostas[resposta])",
+        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1961_Pula_sapo",
+        "description": "1_Iniciante.Bee_1961_Pula_sapo",
+        "peekOfCode": "resposta = 0\nfor x in dadosCanos:\n  if abs(canoAtual-(int(x))) > puloDoSapo:\n      resposta = 1\n  canoAtual = int(x)\nprint(respostas[resposta])",
+        "detail": "1_Iniciante.Bee_1961_Pula_sapo",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1962_Ha_muito_muito_tempo_atras",
+        "description": "1_Iniciante.Bee_1962_Ha_muito_muito_tempo_atras",
+        "peekOfCode": "times = int(input())\nfor x in range(times):\n    anosPassados = int(input())\n    if anosPassados > 2015:\n        print(f'{anosPassados-2014} A.C.')\n    elif anosPassados == 2015:\n        print(f'1 A.C.')\n    else: \n        print(f'{2015 - anosPassados} D.C.')",
+        "detail": "1_Iniciante.Bee_1962_Ha_muito_muito_tempo_atras",
+        "documentation": {}
+    },
+    {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1963_O_filme",
+        "description": "1_Iniciante.Bee_1963_O_filme",
+        "peekOfCode": "valores = input().split()\nbilheteAntigo = float(valores[0])\nbilheteAtual = float(valores[1])\naumento = ((bilheteAtual-bilheteAntigo)/bilheteAntigo) * 100\nprint(f'{aumento:.2f}%')",
+        "detail": "1_Iniciante.Bee_1963_O_filme",
+        "documentation": {}
+    },
+    {
+        "label": "bilheteAntigo",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1963_O_filme",
+        "description": "1_Iniciante.Bee_1963_O_filme",
+        "peekOfCode": "bilheteAntigo = float(valores[0])\nbilheteAtual = float(valores[1])\naumento = ((bilheteAtual-bilheteAntigo)/bilheteAntigo) * 100\nprint(f'{aumento:.2f}%')",
+        "detail": "1_Iniciante.Bee_1963_O_filme",
+        "documentation": {}
+    },
+    {
+        "label": "bilheteAtual",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1963_O_filme",
+        "description": "1_Iniciante.Bee_1963_O_filme",
+        "peekOfCode": "bilheteAtual = float(valores[1])\naumento = ((bilheteAtual-bilheteAntigo)/bilheteAntigo) * 100\nprint(f'{aumento:.2f}%')",
+        "detail": "1_Iniciante.Bee_1963_O_filme",
+        "documentation": {}
+    },
+    {
+        "label": "aumento",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1963_O_filme",
+        "description": "1_Iniciante.Bee_1963_O_filme",
+        "peekOfCode": "aumento = ((bilheteAtual-bilheteAntigo)/bilheteAntigo) * 100\nprint(f'{aumento:.2f}%')",
+        "detail": "1_Iniciante.Bee_1963_O_filme",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "description": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "peekOfCode": "times = int(input())\nvalores = input().split()\ncarneiros = []\nLocaisRoubados = []\nfor x in valores:\n  carneiros.append(int(x))\n  LocaisRoubados.append(0)\ncontador = 0\nwhile 0 <= contador < times:\n    if carneiros[contador] > 0:",
+        "detail": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "documentation": {}
+    },
+    {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "description": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "peekOfCode": "valores = input().split()\ncarneiros = []\nLocaisRoubados = []\nfor x in valores:\n  carneiros.append(int(x))\n  LocaisRoubados.append(0)\ncontador = 0\nwhile 0 <= contador < times:\n    if carneiros[contador] > 0:\n        carneirosAntigos = carneiros[contador]",
+        "detail": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "documentation": {}
+    },
+    {
+        "label": "carneiros",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "description": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "peekOfCode": "carneiros = []\nLocaisRoubados = []\nfor x in valores:\n  carneiros.append(int(x))\n  LocaisRoubados.append(0)\ncontador = 0\nwhile 0 <= contador < times:\n    if carneiros[contador] > 0:\n        carneirosAntigos = carneiros[contador]\n        carneiros[contador] -= 1",
+        "detail": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "documentation": {}
+    },
+    {
+        "label": "LocaisRoubados",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "description": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "peekOfCode": "LocaisRoubados = []\nfor x in valores:\n  carneiros.append(int(x))\n  LocaisRoubados.append(0)\ncontador = 0\nwhile 0 <= contador < times:\n    if carneiros[contador] > 0:\n        carneirosAntigos = carneiros[contador]\n        carneiros[contador] -= 1\n        LocaisRoubados[contador] = 1",
+        "detail": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "description": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "peekOfCode": "contador = 0\nwhile 0 <= contador < times:\n    if carneiros[contador] > 0:\n        carneirosAntigos = carneiros[contador]\n        carneiros[contador] -= 1\n        LocaisRoubados[contador] = 1\n        if carneirosAntigos % 2 == 0:\n            contador -= 1\n        else:\n            contador += 1",
+        "detail": "1_Iniciante.Bee_1973_Jornada_nas_Estrelas",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1983_O_escolhido",
+        "description": "1_Iniciante.Bee_1983_O_escolhido",
+        "peekOfCode": "times = int(input())\nmaiorNota = -1\nmatricula = 0\nfor x in range(times):\n    valores = input().split()\n    if float(valores[1]) > maiorNota:\n        maiorNota = float(valores[1])\n        matricula = valores[0]\nif maiorNota < 8:\n    print('Minimum note not reached')",
+        "detail": "1_Iniciante.Bee_1983_O_escolhido",
+        "documentation": {}
+    },
+    {
+        "label": "maiorNota",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1983_O_escolhido",
+        "description": "1_Iniciante.Bee_1983_O_escolhido",
+        "peekOfCode": "maiorNota = -1\nmatricula = 0\nfor x in range(times):\n    valores = input().split()\n    if float(valores[1]) > maiorNota:\n        maiorNota = float(valores[1])\n        matricula = valores[0]\nif maiorNota < 8:\n    print('Minimum note not reached')\nelse:",
+        "detail": "1_Iniciante.Bee_1983_O_escolhido",
+        "documentation": {}
+    },
+    {
+        "label": "matricula",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1983_O_escolhido",
+        "description": "1_Iniciante.Bee_1983_O_escolhido",
+        "peekOfCode": "matricula = 0\nfor x in range(times):\n    valores = input().split()\n    if float(valores[1]) > maiorNota:\n        maiorNota = float(valores[1])\n        matricula = valores[0]\nif maiorNota < 8:\n    print('Minimum note not reached')\nelse:\n    print(matricula)",
+        "detail": "1_Iniciante.Bee_1983_O_escolhido",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1984_o_enigma_do_pronalandia",
+        "description": "1_Iniciante.Bee_1984_o_enigma_do_pronalandia",
+        "peekOfCode": "numero = int(input())\nnumero = str(numero)\nprint(numero[::-1])",
+        "detail": "1_Iniciante.Bee_1984_o_enigma_do_pronalandia",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1984_o_enigma_do_pronalandia",
+        "description": "1_Iniciante.Bee_1984_o_enigma_do_pronalandia",
+        "peekOfCode": "numero = str(numero)\nprint(numero[::-1])",
+        "detail": "1_Iniciante.Bee_1984_o_enigma_do_pronalandia",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1985_MacPronalts",
+        "description": "1_Iniciante.Bee_1985_MacPronalts",
+        "peekOfCode": "times = int(input())\npedidos = {'1001': 1.5, '1002': 2.5, '1003': 3.5, '1004': 4.5, '1005': 5.5}\nsoma = 0\nfor x in range(times):\n    valores = input().split()\n    soma += pedidos[valores[0]] * int(valores[1])\nprint(f'{soma:.2f}')",
+        "detail": "1_Iniciante.Bee_1985_MacPronalts",
+        "documentation": {}
+    },
+    {
+        "label": "pedidos",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1985_MacPronalts",
+        "description": "1_Iniciante.Bee_1985_MacPronalts",
+        "peekOfCode": "pedidos = {'1001': 1.5, '1002': 2.5, '1003': 3.5, '1004': 4.5, '1005': 5.5}\nsoma = 0\nfor x in range(times):\n    valores = input().split()\n    soma += pedidos[valores[0]] * int(valores[1])\nprint(f'{soma:.2f}')",
+        "detail": "1_Iniciante.Bee_1985_MacPronalts",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_1985_MacPronalts",
+        "description": "1_Iniciante.Bee_1985_MacPronalts",
+        "peekOfCode": "soma = 0\nfor x in range(times):\n    valores = input().split()\n    soma += pedidos[valores[0]] * int(valores[1])\nprint(f'{soma:.2f}')",
+        "detail": "1_Iniciante.Bee_1985_MacPronalts",
+        "documentation": {}
+    },
+    {
+        "label": "cha",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2006_Identificando_o_cha",
+        "description": "1_Iniciante.Bee_2006_Identificando_o_cha",
+        "peekOfCode": "cha = input()\nchutes = input().split()\ncontador = 0\nfor x in chutes:\n    if x == cha:\n        contador += 1\nprint(contador)",
+        "detail": "1_Iniciante.Bee_2006_Identificando_o_cha",
+        "documentation": {}
+    },
+    {
+        "label": "chutes",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2006_Identificando_o_cha",
+        "description": "1_Iniciante.Bee_2006_Identificando_o_cha",
+        "peekOfCode": "chutes = input().split()\ncontador = 0\nfor x in chutes:\n    if x == cha:\n        contador += 1\nprint(contador)",
+        "detail": "1_Iniciante.Bee_2006_Identificando_o_cha",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2006_Identificando_o_cha",
+        "description": "1_Iniciante.Bee_2006_Identificando_o_cha",
+        "peekOfCode": "contador = 0\nfor x in chutes:\n    if x == cha:\n        contador += 1\nprint(contador)",
+        "detail": "1_Iniciante.Bee_2006_Identificando_o_cha",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2028_sequencia_de_sequecia",
+        "description": "1_Iniciante.Bee_2028_sequencia_de_sequecia",
+        "peekOfCode": "contador = 1\nwhile True:\n    try:\n      numeroDoCaso = int(input())\n      quantidade = 0\n      numero = []\n      valor = 1\n      while valor <= numeroDoCaso:\n        for x in range(valor):\n            quantidade += 1",
+        "detail": "1_Iniciante.Bee_2028_sequencia_de_sequecia",
+        "documentation": {}
+    },
+    {
+        "label": "respostas",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2031_Pedra_papel_ataque_aereo",
+        "description": "1_Iniciante.Bee_2031_Pedra_papel_ataque_aereo",
+        "peekOfCode": "respostas = ['Jogador 1 venceu', 'Jogador 2 venceu', 'Ambos venceram', 'Sem ganhador', 'Aniquilacao mutua']\ntimes = int(input())\nfor x in range(times):\n    jogador1 = input()\n    jogador2 = input()\n    resposta = 4\n    if jogador1 == jogador2:\n        if jogador1 == 'papel':\n            resposta = 2\n        elif jogador1 == 'pedra':",
+        "detail": "1_Iniciante.Bee_2031_Pedra_papel_ataque_aereo",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2031_Pedra_papel_ataque_aereo",
+        "description": "1_Iniciante.Bee_2031_Pedra_papel_ataque_aereo",
+        "peekOfCode": "times = int(input())\nfor x in range(times):\n    jogador1 = input()\n    jogador2 = input()\n    resposta = 4\n    if jogador1 == jogador2:\n        if jogador1 == 'papel':\n            resposta = 2\n        elif jogador1 == 'pedra':\n            resposta = 3",
+        "detail": "1_Iniciante.Bee_2031_Pedra_papel_ataque_aereo",
+        "documentation": {}
+    },
+    {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2057_Fuso_horario",
+        "description": "1_Iniciante.Bee_2057_Fuso_horario",
+        "peekOfCode": "valores = input().split()\nhora = int(valores[0]) + int(valores[1]) + int(valores[2])\nif hora >= 24:\n    hora -= 24\nif hora < 0:\n    hora += 24\nprint(hora)",
+        "detail": "1_Iniciante.Bee_2057_Fuso_horario",
+        "documentation": {}
+    },
+    {
+        "label": "hora",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2057_Fuso_horario",
+        "description": "1_Iniciante.Bee_2057_Fuso_horario",
+        "peekOfCode": "hora = int(valores[0]) + int(valores[1]) + int(valores[2])\nif hora >= 24:\n    hora -= 24\nif hora < 0:\n    hora += 24\nprint(hora)",
+        "detail": "1_Iniciante.Bee_2057_Fuso_horario",
+        "documentation": {}
+    },
+    {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "peekOfCode": "valores = input().split()\np = int(valores[0])\nj1 = int(valores[1])\nj2 = int(valores[2])\nr = int(valores[3])\na = int(valores[4])\nrespostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1",
+        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "peekOfCode": "p = int(valores[0])\nj1 = int(valores[1])\nj2 = int(valores[2])\nr = int(valores[3])\na = int(valores[4])\nrespostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:",
+        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "documentation": {}
+    },
+    {
+        "label": "j1",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "peekOfCode": "j1 = int(valores[1])\nj2 = int(valores[2])\nr = int(valores[3])\na = int(valores[4])\nrespostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:\n    if (j1 + j2) % 2 == 0:",
+        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "documentation": {}
+    },
+    {
+        "label": "j2",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "peekOfCode": "j2 = int(valores[2])\nr = int(valores[3])\na = int(valores[4])\nrespostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:\n    if (j1 + j2) % 2 == 0:\n        if p == 0:",
+        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "peekOfCode": "r = int(valores[3])\na = int(valores[4])\nrespostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:\n    if (j1 + j2) % 2 == 0:\n        if p == 0:\n            resposta = 1",
+        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "peekOfCode": "a = int(valores[4])\nrespostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:\n    if (j1 + j2) % 2 == 0:\n        if p == 0:\n            resposta = 1\n    else:",
+        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "documentation": {}
+    },
+    {
+        "label": "respostas",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "peekOfCode": "respostas = ['Jogador 1 ganha!', 'Jogador 2 ganha!']\nresposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:\n    if (j1 + j2) % 2 == 0:\n        if p == 0:\n            resposta = 1\n    else:\n        if p == 1:",
+        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "description": "1_Iniciante.Bee_2059_impar_par_roubo",
+        "peekOfCode": "resposta = 0\nif r == a == 1:\n    resposta = 1\nif r == a == 0:\n    if (j1 + j2) % 2 == 0:\n        if p == 0:\n            resposta = 1\n    else:\n        if p == 1:\n            resposta = 1",
+        "detail": "1_Iniciante.Bee_2059_impar_par_roubo",
         "documentation": {}
     },
     {
@@ -5242,6 +4936,78 @@
         "documentation": {}
     },
     {
+        "label": "ranks",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
+        "description": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
+        "peekOfCode": "ranks = [1, 3, 5, 10, 25, 50, 100]\ncolocacao = int(input())\nfor i in range(len(ranks)):\n    if colocacao <= ranks[i]:\n        print(f'Top {ranks[i]}')\n        break",
+        "detail": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
+        "documentation": {}
+    },
+    {
+        "label": "colocacao",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
+        "description": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
+        "peekOfCode": "colocacao = int(input())\nfor i in range(len(ranks)):\n    if colocacao <= ranks[i]:\n        print(f'Top {ranks[i]}')\n        break",
+        "detail": "2_Ad-hoc.Beecrowd_1943_python_Top_N",
+        "documentation": {}
+    },
+    {
+        "label": "lados",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2058_python_triangulos_e_poligonos_regulares",
+        "description": "2_Ad-hoc.Beecrowd_2058_python_triangulos_e_poligonos_regulares",
+        "peekOfCode": "lados = int(input())\ntriangulos = lados - 3 + 1\nprint(triangulos)",
+        "detail": "2_Ad-hoc.Beecrowd_2058_python_triangulos_e_poligonos_regulares",
+        "documentation": {}
+    },
+    {
+        "label": "triangulos",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2058_python_triangulos_e_poligonos_regulares",
+        "description": "2_Ad-hoc.Beecrowd_2058_python_triangulos_e_poligonos_regulares",
+        "peekOfCode": "triangulos = lados - 3 + 1\nprint(triangulos)",
+        "detail": "2_Ad-hoc.Beecrowd_2058_python_triangulos_e_poligonos_regulares",
+        "documentation": {}
+    },
+    {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
+        "description": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
+        "peekOfCode": "valores = input().split()\nquantidadeCompetidores = int(valores[0])\nquantidadeFolhas = int(valores[1])\nquantidadeJuizes = int(valores[2])\nif quantidadeFolhas >= quantidadeCompetidores * quantidadeJuizes:\n    print('S')\nelse:\n    print('N')",
+        "detail": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
+        "documentation": {}
+    },
+    {
+        "label": "quantidadeCompetidores",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
+        "description": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
+        "peekOfCode": "quantidadeCompetidores = int(valores[0])\nquantidadeFolhas = int(valores[1])\nquantidadeJuizes = int(valores[2])\nif quantidadeFolhas >= quantidadeCompetidores * quantidadeJuizes:\n    print('S')\nelse:\n    print('N')",
+        "detail": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
+        "documentation": {}
+    },
+    {
+        "label": "quantidadeFolhas",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
+        "description": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
+        "peekOfCode": "quantidadeFolhas = int(valores[1])\nquantidadeJuizes = int(valores[2])\nif quantidadeFolhas >= quantidadeCompetidores * quantidadeJuizes:\n    print('S')\nelse:\n    print('N')",
+        "detail": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
+        "documentation": {}
+    },
+    {
+        "label": "quantidadeJuizes",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
+        "description": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
+        "peekOfCode": "quantidadeJuizes = int(valores[2])\nif quantidadeFolhas >= quantidadeCompetidores * quantidadeJuizes:\n    print('S')\nelse:\n    print('N')",
+        "detail": "2_Ad-hoc.Beecrowd_2339_pyhton_aviao_de_papel",
+        "documentation": {}
+    },
+    {
         "label": "number_tests",
         "kind": 5,
         "importPath": "2_Ad-hoc.beecrowd_2373_python_Garcom",
@@ -5257,6 +5023,33 @@
         "description": "2_Ad-hoc.beecrowd_2373_python_Garcom",
         "peekOfCode": "glasses = 0\nfor item in range(number_tests):\n    values = list(map(int, input().split()))\n    if values[0] > values[1]:\n        glasses += values[1]\nprint(glasses)",
         "detail": "2_Ad-hoc.beecrowd_2373_python_Garcom",
+        "documentation": {}
+    },
+    {
+        "label": "pressaoDesejada",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
+        "description": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
+        "peekOfCode": "pressaoDesejada = int(input())\npressaoAtual = int(input())\ndiferenca = pressaoDesejada - pressaoAtual\nprint(diferenca)",
+        "detail": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
+        "documentation": {}
+    },
+    {
+        "label": "pressaoAtual",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
+        "description": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
+        "peekOfCode": "pressaoAtual = int(input())\ndiferenca = pressaoDesejada - pressaoAtual\nprint(diferenca)",
+        "detail": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
+        "documentation": {}
+    },
+    {
+        "label": "diferenca",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
+        "description": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
+        "peekOfCode": "diferenca = pressaoDesejada - pressaoAtual\nprint(diferenca)",
+        "detail": "2_Ad-hoc.Beecrowd_2374_python_Pneu",
         "documentation": {}
     },
     {
@@ -5314,6 +5107,51 @@
         "documentation": {}
     },
     {
+        "label": "quantidadeIntervalo",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2388_python_Tacografo",
+        "description": "2_Ad-hoc.Beecrowd_2388_python_Tacografo",
+        "peekOfCode": "quantidadeIntervalo = int(input())\ndistanciaTotal = 0\nfor i in range(quantidadeIntervalo):\n    valores = input().split()\n    tempo = int(valores[0])\n    velocidade = int(valores[1])\n    distancia = tempo * velocidade\n    distanciaTotal += distancia\nprint(distanciaTotal)",
+        "detail": "2_Ad-hoc.Beecrowd_2388_python_Tacografo",
+        "documentation": {}
+    },
+    {
+        "label": "distanciaTotal",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2388_python_Tacografo",
+        "description": "2_Ad-hoc.Beecrowd_2388_python_Tacografo",
+        "peekOfCode": "distanciaTotal = 0\nfor i in range(quantidadeIntervalo):\n    valores = input().split()\n    tempo = int(valores[0])\n    velocidade = int(valores[1])\n    distancia = tempo * velocidade\n    distanciaTotal += distancia\nprint(distanciaTotal)",
+        "detail": "2_Ad-hoc.Beecrowd_2388_python_Tacografo",
+        "documentation": {}
+    },
+    {
+        "label": "clickTerceiroLink",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
+        "description": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
+        "peekOfCode": "clickTerceiroLink = int(input())\nclickSegundoLink = clickTerceiroLink * 2\nclickPrimeiroLink = clickSegundoLink * 2\nprint(clickPrimeiroLink)",
+        "detail": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
+        "documentation": {}
+    },
+    {
+        "label": "clickSegundoLink",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
+        "description": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
+        "peekOfCode": "clickSegundoLink = clickTerceiroLink * 2\nclickPrimeiroLink = clickSegundoLink * 2\nprint(clickPrimeiroLink)",
+        "detail": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
+        "documentation": {}
+    },
+    {
+        "label": "clickPrimeiroLink",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
+        "description": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
+        "peekOfCode": "clickPrimeiroLink = clickSegundoLink * 2\nprint(clickPrimeiroLink)",
+        "detail": "2_Ad-hoc.Beecrowd_2413_python_busca_na_internet",
+        "documentation": {}
+    },
+    {
         "label": "numbers",
         "kind": 5,
         "importPath": "2_Ad-hoc.beecrowd_2414_python_Desafio_do_Maior_Numero",
@@ -5332,6 +5170,78 @@
         "documentation": {}
     },
     {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "description": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "peekOfCode": "valores = input().split()\ntreino = int(valores[0])\npista = int(valores[1])\npontoTermino = treino % pista\nprint(pontoTermino)",
+        "detail": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "documentation": {}
+    },
+    {
+        "label": "treino",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "description": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "peekOfCode": "treino = int(valores[0])\npista = int(valores[1])\npontoTermino = treino % pista\nprint(pontoTermino)",
+        "detail": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "documentation": {}
+    },
+    {
+        "label": "pista",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "description": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "peekOfCode": "pista = int(valores[1])\npontoTermino = treino % pista\nprint(pontoTermino)",
+        "detail": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "documentation": {}
+    },
+    {
+        "label": "pontoTermino",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "description": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "peekOfCode": "pontoTermino = treino % pista\nprint(pontoTermino)",
+        "detail": "2_Ad-hoc.Beecrowd_2416_python_corrida",
+        "documentation": {}
+    },
+    {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "description": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "peekOfCode": "valores = input().split()\ndias = int(valores[0])\nsaldo = int(valores[1])\nmenorSaldo = saldo\nfor i in range(dias):\n    valor = int(input())\n    saldo += valor\n    if saldo < menorSaldo:\n        menorSaldo = saldo\nprint(menorSaldo)",
+        "detail": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "documentation": {}
+    },
+    {
+        "label": "dias",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "description": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "peekOfCode": "dias = int(valores[0])\nsaldo = int(valores[1])\nmenorSaldo = saldo\nfor i in range(dias):\n    valor = int(input())\n    saldo += valor\n    if saldo < menorSaldo:\n        menorSaldo = saldo\nprint(menorSaldo)",
+        "detail": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "documentation": {}
+    },
+    {
+        "label": "saldo",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "description": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "peekOfCode": "saldo = int(valores[1])\nmenorSaldo = saldo\nfor i in range(dias):\n    valor = int(input())\n    saldo += valor\n    if saldo < menorSaldo:\n        menorSaldo = saldo\nprint(menorSaldo)",
+        "detail": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "documentation": {}
+    },
+    {
+        "label": "menorSaldo",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "description": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "peekOfCode": "menorSaldo = saldo\nfor i in range(dias):\n    valor = int(input())\n    saldo += valor\n    if saldo < menorSaldo:\n        menorSaldo = saldo\nprint(menorSaldo)",
+        "detail": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "documentation": {}
+    },
+    {
         "label": "values",
         "kind": 5,
         "importPath": "2_Ad-hoc.beecrowd_2454_python_Fliper",
@@ -5341,12 +5251,102 @@
         "documentation": {}
     },
     {
+        "label": "valores",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "description": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "peekOfCode": "valores = input().split()\npeso1 = int(valores[0])\ncomprimento1 = int(valores[1])\npeso2 = int(valores[2])\ncomprimento2 = int(valores[3])\ndiferenca = (peso1 * comprimento1) - (peso2 * comprimento2)\nif diferenca > 0:\n    print('-1')\nelif diferenca < 0:\n    print('1')",
+        "detail": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "documentation": {}
+    },
+    {
+        "label": "peso1",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "description": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "peekOfCode": "peso1 = int(valores[0])\ncomprimento1 = int(valores[1])\npeso2 = int(valores[2])\ncomprimento2 = int(valores[3])\ndiferenca = (peso1 * comprimento1) - (peso2 * comprimento2)\nif diferenca > 0:\n    print('-1')\nelif diferenca < 0:\n    print('1')\nelse:",
+        "detail": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "documentation": {}
+    },
+    {
+        "label": "comprimento1",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "description": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "peekOfCode": "comprimento1 = int(valores[1])\npeso2 = int(valores[2])\ncomprimento2 = int(valores[3])\ndiferenca = (peso1 * comprimento1) - (peso2 * comprimento2)\nif diferenca > 0:\n    print('-1')\nelif diferenca < 0:\n    print('1')\nelse:\n    print('0')",
+        "detail": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "documentation": {}
+    },
+    {
+        "label": "peso2",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "description": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "peekOfCode": "peso2 = int(valores[2])\ncomprimento2 = int(valores[3])\ndiferenca = (peso1 * comprimento1) - (peso2 * comprimento2)\nif diferenca > 0:\n    print('-1')\nelif diferenca < 0:\n    print('1')\nelse:\n    print('0')",
+        "detail": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "documentation": {}
+    },
+    {
+        "label": "comprimento2",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "description": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "peekOfCode": "comprimento2 = int(valores[3])\ndiferenca = (peso1 * comprimento1) - (peso2 * comprimento2)\nif diferenca > 0:\n    print('-1')\nelif diferenca < 0:\n    print('1')\nelse:\n    print('0')",
+        "detail": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "documentation": {}
+    },
+    {
+        "label": "diferenca",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "description": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "peekOfCode": "diferenca = (peso1 * comprimento1) - (peso2 * comprimento2)\nif diferenca > 0:\n    print('-1')\nelif diferenca < 0:\n    print('1')\nelse:\n    print('0')",
+        "detail": "2_Ad-hoc.Beecrowd_2455_python_gangorra",
+        "documentation": {}
+    },
+    {
         "label": "number",
         "kind": 5,
         "importPath": "2_Ad-hoc.beecrowd_2679_python_Sucessor_Par",
         "description": "2_Ad-hoc.beecrowd_2679_python_Sucessor_Par",
         "peekOfCode": "number = int(input())\nif number % 2 == 0:\n    print(number+2)\nelse:\n    print(number+1)",
         "detail": "2_Ad-hoc.beecrowd_2679_python_Sucessor_Par",
+        "documentation": {}
+    },
+    {
+        "label": "tamanhoSequencia",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "description": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "peekOfCode": "tamanhoSequencia = int(input())\nsequencia = []\nfor i in range(tamanhoSequencia):\n    valor = int(input())\n    sequencia.append(valor)\nvalorAtual = 1\ncontador = 1\nfor item in sequencia:\n    if item != valorAtual:\n        contador += 1",
+        "detail": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "documentation": {}
+    },
+    {
+        "label": "sequencia",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "description": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "peekOfCode": "sequencia = []\nfor i in range(tamanhoSequencia):\n    valor = int(input())\n    sequencia.append(valor)\nvalorAtual = 1\ncontador = 1\nfor item in sequencia:\n    if item != valorAtual:\n        contador += 1\n        valorAtual = item",
+        "detail": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "documentation": {}
+    },
+    {
+        "label": "valorAtual",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "description": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "peekOfCode": "valorAtual = 1\ncontador = 1\nfor item in sequencia:\n    if item != valorAtual:\n        contador += 1\n        valorAtual = item\nprint(contador)",
+        "detail": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "description": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
+        "peekOfCode": "contador = 1\nfor item in sequencia:\n    if item != valorAtual:\n        contador += 1\n        valorAtual = item\nprint(contador)",
+        "detail": "2_Ad-hoc.Beecrowd_3048_python_sequencia_secreta",
         "documentation": {}
     },
     {
@@ -5386,12 +5386,66 @@
         "documentation": {}
     },
     {
+        "label": "values",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1120_python_Revisão_de_Contrato",
+        "description": "3_Strings.beecrowd_1120_python_Revisão_de_Contrato",
+        "peekOfCode": "values = input().split()\nwhile values[0] != '0' and values[1] != '0':\n    number1 = values[0]\n    number2 = values[1]\n    number2 = number2.replace(number1, '')\n    if number2 == '':\n        print(0)\n    else:\n        print(int(number2))\n    values = input().split()",
+        "detail": "3_Strings.beecrowd_1120_python_Revisão_de_Contrato",
+        "documentation": {}
+    },
+    {
+        "label": "tests_number",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1235_python_De_Dentro_para_Fora",
+        "description": "3_Strings.beecrowd_1235_python_De_Dentro_para_Fora",
+        "peekOfCode": "tests_number = int(input())\nfor i in range(tests_number):\n    text = input()\n    size_text = len(text)\n    text_origen = []\n    for j in range(size_text//2-1, -1, -1):\n        text_origen.append(text[j])\n    for j in range(size_text-1, size_text//2-1, -1):\n        text_origen.append(text[j])\n    print(''.join(text_origen))",
+        "detail": "3_Strings.beecrowd_1235_python_De_Dentro_para_Fora",
+        "documentation": {}
+    },
+    {
+        "label": "tests_number",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1238_python_Combinador",
+        "description": "3_Strings.beecrowd_1238_python_Combinador",
+        "peekOfCode": "tests_number = int(input())\nfor i in range(tests_number):\n    words = input().split()\n    word1 = words[0]\n    word2 = words[1]\n    count1 = 0\n    count2 = 0\n    while count1 < len(word1) or count2 < len(word2):\n        if count1 < len(word1):\n            print(word1[count1], end='')",
+        "detail": "3_Strings.beecrowd_1238_python_Combinador",
+        "documentation": {}
+    },
+    {
+        "label": "quantidade_teste",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1253_python_Cifra_de_Cesar",
+        "description": "3_Strings.beecrowd_1253_python_Cifra_de_Cesar",
+        "peekOfCode": "quantidade_teste = int(input())\nfor i in range(quantidade_teste):\n    cifra = input()\n    passo = int(input())\n    for j in range(len(cifra)):\n        cifragem = ord(cifra[j]) - passo\n        if cifragem < 65:\n            cifragem = 91 - (65 - cifragem)\n        print(chr(cifragem), end='')\n    print()",
+        "detail": "3_Strings.beecrowd_1253_python_Cifra_de_Cesar",
+        "documentation": {}
+    },
+    {
         "label": "test_number",
         "kind": 5,
         "importPath": "3_Strings.Beecrowd_1255_python_Frequencia_de_Letras",
         "description": "3_Strings.Beecrowd_1255_python_Frequencia_de_Letras",
         "peekOfCode": "test_number = int(input())\nfor i in range(test_number):\n    phaser = input().lower()\n    letter_frequnet = {}\n    for letter in phaser:\n        if 'a' <= letter <= 'z':\n            if letter in letter_frequnet:\n                letter_frequnet[letter] += 1 \n            else:\n                letter_frequnet[letter] = 1",
         "detail": "3_Strings.Beecrowd_1255_python_Frequencia_de_Letras",
+        "documentation": {}
+    },
+    {
+        "label": "tests_numbers",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1257_python_Array_Hash",
+        "description": "3_Strings.beecrowd_1257_python_Array_Hash",
+        "peekOfCode": "tests_numbers = int(input())\nfor i in range(tests_numbers):\n    line_number = int(input())\n    words = []\n    for j in range(line_number):\n        words.append(input())\n    hash = 0\n    for j in range(len(words)):\n        for k in range(len(words[j])):\n            hash += (ord(words[j][k]) % 65) + j + k",
+        "detail": "3_Strings.beecrowd_1257_python_Array_Hash",
+        "documentation": {}
+    },
+    {
+        "label": "number_test",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1273_python_Justificador",
+        "description": "3_Strings.beecrowd_1273_python_Justificador",
+        "peekOfCode": "number_test = 0\nwhile True:\n    tests_number = int(input())\n    if tests_number == 0:\n        break\n    if number_test != 0:        \n        print()\n    words_list = []\n    for i in range(tests_number):\n        word = input()",
+        "detail": "3_Strings.beecrowd_1273_python_Justificador",
         "documentation": {}
     },
     {
@@ -5410,6 +5464,33 @@
         "description": "3_Strings.Beecrowd_1530_python_quantas_substrings",
         "peekOfCode": "def subString(palavra_teste):\n    soma = 0\n    for i in range(1, len(palavra_teste)+1):\n        conjunto = set()\n        for j in range(len(palavra_teste)):\n            if len(palavra_teste) >= j+i:\n                letra = palavra_teste[j:j+i]\n                conjunto.add(letra)\n        soma += len(conjunto)   \n    return soma",
         "detail": "3_Strings.Beecrowd_1530_python_quantas_substrings",
+        "documentation": {}
+    },
+    {
+        "label": "numbers_test",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1551_python_Frase_Completa",
+        "description": "3_Strings.beecrowd_1551_python_Frase_Completa",
+        "peekOfCode": "numbers_test = int(input())\nfor i in range(numbers_test):\n    phase = input().replace(' ', '').replace(',', '')\n    alphabet = []\n    for j in range(len(phase)):\n        if phase[j] not in alphabet:\n            alphabet.append(phase[j])\n    if len(alphabet) == 26:\n        print(\"frase completa\")\n    elif len(alphabet) >= 13:",
+        "detail": "3_Strings.beecrowd_1551_python_Frase_Completa",
+        "documentation": {}
+    },
+    {
+        "label": "numbers_test",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1581_python_Conversa_Internacional",
+        "description": "3_Strings.beecrowd_1581_python_Conversa_Internacional",
+        "peekOfCode": "numbers_test = int(input())\nfor i in range(numbers_test):\n    people_numbers = int(input())\n    english = False\n    previous_language = ''\n    for item in range(people_numbers):\n        language = input()\n        if item == 0:\n            previous_language = language\n        if language != previous_language:",
+        "detail": "3_Strings.beecrowd_1581_python_Conversa_Internacional",
+        "documentation": {}
+    },
+    {
+        "label": "test_number",
+        "kind": 5,
+        "importPath": "3_Strings.beecrowd_1607_python_Avance_as_Letras",
+        "description": "3_Strings.beecrowd_1607_python_Avance_as_Letras",
+        "peekOfCode": "test_number = int(input())\nfor i in range(test_number):\n    lettes = input().split()\n    word1 = list(lettes[0])\n    word2 = list(lettes[1])\n    count = 0\n    for j in range(len(word1)):\n        while word1[j] != word2[j]:\n            letter_number = ord(word1[j]) + 1\n            if letter_number > ord('z'):",
+        "detail": "3_Strings.beecrowd_1607_python_Avance_as_Letras",
         "documentation": {}
     },
     {
@@ -5464,87 +5545,6 @@
         "description": "3_Strings.Beecrowd_1871_python_Zero_vale_zero",
         "peekOfCode": "stop = -1\nwhile stop != 0:\n    numbers = input().split()\n    number1 = int(numbers[0])\n    number2 = int(numbers[1]) \n    if number1 == number2 == 0:\n        break\n    sumNumber = number1 + number2\n    numberEnd = str(sumNumber).replace('0', '')\n    print(numberEnd)",
         "detail": "3_Strings.Beecrowd_1871_python_Zero_vale_zero",
-        "documentation": {}
-    },
-    {
-        "label": "values",
-        "kind": 5,
-        "importPath": "3_Strings.beecrowd_1120_python_Revisão_de_Contrato",
-        "description": "3_Strings.beecrowd_1120_python_Revisão_de_Contrato",
-        "peekOfCode": "values = input().split()\nwhile values[0] != '0' and values[1] != '0':\n    number1 = values[0]\n    number2 = values[1]\n    number2 = number2.replace(number1, '')\n    if number2 == '':\n        print(0)\n    else:\n        print(int(number2))\n    values = input().split()",
-        "detail": "3_Strings.beecrowd_1120_python_Revisão_de_Contrato",
-        "documentation": {}
-    },
-    {
-        "label": "tests_number",
-        "kind": 5,
-        "importPath": "3_Strings.beecrowd_1235_python_De_Dentro_para_Fora",
-        "description": "3_Strings.beecrowd_1235_python_De_Dentro_para_Fora",
-        "peekOfCode": "tests_number = int(input())\nfor i in range(tests_number):\n    text = input()\n    size_text = len(text)\n    text_origen = []\n    for j in range(size_text//2-1, -1, -1):\n        text_origen.append(text[j])\n    for j in range(size_text-1, size_text//2-1, -1):\n        text_origen.append(text[j])\n    print(''.join(text_origen))",
-        "detail": "3_Strings.beecrowd_1235_python_De_Dentro_para_Fora",
-        "documentation": {}
-    },
-    {
-        "label": "tests_number",
-        "kind": 5,
-        "importPath": "3_Strings.beecrowd_1238_python_Combinador",
-        "description": "3_Strings.beecrowd_1238_python_Combinador",
-        "peekOfCode": "tests_number = int(input())\nfor i in range(tests_number):\n    words = input().split()\n    word1 = words[0]\n    word2 = words[1]\n    count1 = 0\n    count2 = 0\n    while count1 < len(word1) or count2 < len(word2):\n        if count1 < len(word1):\n            print(word1[count1], end='')",
-        "detail": "3_Strings.beecrowd_1238_python_Combinador",
-        "documentation": {}
-    },
-    {
-        "label": "quantidade_teste",
-        "kind": 5,
-        "importPath": "3_Strings.beecrowd_1253_python_Cifra_de_Cesar",
-        "description": "3_Strings.beecrowd_1253_python_Cifra_de_Cesar",
-        "peekOfCode": "quantidade_teste = int(input())\nfor i in range(quantidade_teste):\n    cifra = input()\n    passo = int(input())\n    for j in range(len(cifra)):\n        cifragem = ord(cifra[j]) - passo\n        if cifragem < 65:\n            cifragem = 91 - (65 - cifragem)\n        print(chr(cifragem), end='')\n    print()",
-        "detail": "3_Strings.beecrowd_1253_python_Cifra_de_Cesar",
-        "documentation": {}
-    },
-    {
-        "label": "tests_numbers",
-        "kind": 5,
-        "importPath": "3_Strings.beecrowd_1257_python_Array_Hash",
-        "description": "3_Strings.beecrowd_1257_python_Array_Hash",
-        "peekOfCode": "tests_numbers = int(input())\nfor i in range(tests_numbers):\n    line_number = int(input())\n    words = []\n    for j in range(line_number):\n        words.append(input())\n    hash = 0\n    for j in range(len(words)):\n        for k in range(len(words[j])):\n            hash += (ord(words[j][k]) % 65) + j + k",
-        "detail": "3_Strings.beecrowd_1257_python_Array_Hash",
-        "documentation": {}
-    },
-    {
-        "label": "number_test",
-        "kind": 5,
-        "importPath": "3_Strings.beecrowd_1273_python_Justificador",
-        "description": "3_Strings.beecrowd_1273_python_Justificador",
-        "peekOfCode": "number_test = 0\nwhile True:\n    tests_number = int(input())\n    if tests_number == 0:\n        break\n    if number_test != 0:        \n        print()\n    words_list = []\n    for i in range(tests_number):\n        word = input()",
-        "detail": "3_Strings.beecrowd_1273_python_Justificador",
-        "documentation": {}
-    },
-    {
-        "label": "numbers_test",
-        "kind": 5,
-        "importPath": "3_Strings.beecrowd_1551_python_Frase_Completa",
-        "description": "3_Strings.beecrowd_1551_python_Frase_Completa",
-        "peekOfCode": "numbers_test = int(input())\nfor i in range(numbers_test):\n    phase = input().replace(' ', '').replace(',', '')\n    alphabet = []\n    for j in range(len(phase)):\n        if phase[j] not in alphabet:\n            alphabet.append(phase[j])\n    if len(alphabet) == 26:\n        print(\"frase completa\")\n    elif len(alphabet) >= 13:",
-        "detail": "3_Strings.beecrowd_1551_python_Frase_Completa",
-        "documentation": {}
-    },
-    {
-        "label": "numbers_test",
-        "kind": 5,
-        "importPath": "3_Strings.beecrowd_1581_python_Conversa_Internacional",
-        "description": "3_Strings.beecrowd_1581_python_Conversa_Internacional",
-        "peekOfCode": "numbers_test = int(input())\nfor i in range(numbers_test):\n    people_numbers = int(input())\n    english = False\n    previous_language = ''\n    for item in range(people_numbers):\n        language = input()\n        if item == 0:\n            previous_language = language\n        if language != previous_language:",
-        "detail": "3_Strings.beecrowd_1581_python_Conversa_Internacional",
-        "documentation": {}
-    },
-    {
-        "label": "test_number",
-        "kind": 5,
-        "importPath": "3_Strings.beecrowd_1607_python_Avance_as_Letras",
-        "description": "3_Strings.beecrowd_1607_python_Avance_as_Letras",
-        "peekOfCode": "test_number = int(input())\nfor i in range(test_number):\n    lettes = input().split()\n    word1 = list(lettes[0])\n    word2 = list(lettes[1])\n    count = 0\n    for j in range(len(word1)):\n        while word1[j] != word2[j]:\n            letter_number = ord(word1[j]) + 1\n            if letter_number > ord('z'):",
-        "detail": "3_Strings.beecrowd_1607_python_Avance_as_Letras",
         "documentation": {}
     },
     {
