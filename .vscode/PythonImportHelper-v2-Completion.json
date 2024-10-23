@@ -4856,6 +4856,33 @@
         "documentation": {}
     },
     {
+        "label": "letras",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_1129_python_Leitura_Otica",
+        "description": "2_Ad-hoc.beecrowd_1129_python_Leitura_Otica",
+        "peekOfCode": "letras = ['A', 'B', 'C', 'D', 'E']\nrun = True\nwhile run:\n    number_tests = int(input())\n    if number_tests == 0:\n        run = False\n        break\n    for item in range(number_tests):\n        valores = list(map(int, input().split()))\n        letra = []",
+        "detail": "2_Ad-hoc.beecrowd_1129_python_Leitura_Otica",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_1129_python_Leitura_Otica",
+        "description": "2_Ad-hoc.beecrowd_1129_python_Leitura_Otica",
+        "peekOfCode": "run = True\nwhile run:\n    number_tests = int(input())\n    if number_tests == 0:\n        run = False\n        break\n    for item in range(number_tests):\n        valores = list(map(int, input().split()))\n        letra = []\n        for item in range(5):",
+        "detail": "2_Ad-hoc.beecrowd_1129_python_Leitura_Otica",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_1387_python_Og",
+        "description": "2_Ad-hoc.beecrowd_1387_python_Og",
+        "peekOfCode": "run = True\nwhile run:\n    values = list(map(int, input().split()))\n    if values[0] == values[1] == 0:\n        run = False\n        break\n    print(values[0] + values[1])",
+        "detail": "2_Ad-hoc.beecrowd_1387_python_Og",
+        "documentation": {}
+    },
+    {
         "label": "number_tests",
         "kind": 5,
         "importPath": "2_Ad-hoc.beecrowd_1546_python_Feedback",
@@ -5204,6 +5231,15 @@
         "description": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
         "peekOfCode": "menorSaldo = saldo\nfor i in range(dias):\n    valor = int(input())\n    saldo += valor\n    if saldo < menorSaldo:\n        menorSaldo = saldo\nprint(menorSaldo)",
         "detail": "2_Ad-hoc.Beecrowd_2434_python_saldo_do_vovo",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "2_Ad-hoc.beecrowd_2454_python_Fliper",
+        "description": "2_Ad-hoc.beecrowd_2454_python_Fliper",
+        "peekOfCode": "values = list(map(int, input().split()))\nif values[0] == 1:\n    if values[1] == 1:\n        print('A')\n    else:\n        print('B')\nelse:\n    print('C')",
+        "detail": "2_Ad-hoc.beecrowd_2454_python_Fliper",
         "documentation": {}
     },
     {
