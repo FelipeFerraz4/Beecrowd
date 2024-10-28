@@ -5638,21 +5638,21 @@
         "documentation": {}
     },
     {
-        "label": "fat",
-        "kind": 2,
-        "importPath": "5_Matematica.beecrowd _1161_python_Soma_de_Fatoriais",
-        "description": "5_Matematica.beecrowd _1161_python_Soma_de_Fatoriais",
-        "peekOfCode": "def fat(number):\n    sum = 1\n    for i in range(1, number+1):\n        sum *= i\n    return sum\nwhile True:\n    try:\n        valores = input().split()\n        sum = fat(int(valores[0])) + fat(int(valores[1]))\n        print(sum)",
-        "detail": "5_Matematica.beecrowd _1161_python_Soma_de_Fatoriais",
-        "documentation": {}
-    },
-    {
         "label": "number_tests",
         "kind": 5,
         "importPath": "5_Matematica.beecrowd_1028_python_Figurinhas",
         "description": "5_Matematica.beecrowd_1028_python_Figurinhas",
         "peekOfCode": "number_tests = int(input())\nfor i in range(number_tests):\n    values = input().split()\n    number1 = int(values[0])\n    number2 = int(values[1])\n    if number1 >= number2:\n        big = number1\n        small = number2\n    else:\n        big = number2",
         "detail": "5_Matematica.beecrowd_1028_python_Figurinhas",
+        "documentation": {}
+    },
+    {
+        "label": "fat",
+        "kind": 2,
+        "importPath": "5_Matematica.beecrowd_1161_python_Soma_de_Fatoriais",
+        "description": "5_Matematica.beecrowd_1161_python_Soma_de_Fatoriais",
+        "peekOfCode": "def fat(number):\n    sum = 1\n    for i in range(1, number+1):\n        sum *= i\n    return sum\nwhile True:\n    try:\n        valores = input().split()\n        sum = fat(int(valores[0])) + fat(int(valores[1]))\n        print(sum)",
+        "detail": "5_Matematica.beecrowd_1161_python_Soma_de_Fatoriais",
         "documentation": {}
     },
     {
