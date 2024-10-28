@@ -5665,6 +5665,15 @@
         "documentation": {}
     },
     {
+        "label": "number_tests",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1221_python_Primo_Rapido",
+        "description": "5_Matematica.beecrowd_1221_python_Primo_Rapido",
+        "peekOfCode": "number_tests = int(input())\nfor _ in range(number_tests):\n    number = int(input())\n    if number < 2:\n        print(\"Not Prime\")\n        continue\n    if number == 2:\n        print(\"Prime\")\n        continue\n    if number % 2 == 0:",
+        "detail": "5_Matematica.beecrowd_1221_python_Primo_Rapido",
+        "documentation": {}
+    },
+    {
         "label": "rafa_function",
         "kind": 2,
         "importPath": "5_Matematica.beecrowd_1555_python_Funcoes",
