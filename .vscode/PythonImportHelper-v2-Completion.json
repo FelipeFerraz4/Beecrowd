@@ -5667,6 +5667,15 @@
     {
         "label": "number_tests",
         "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1214_python_Acima_da_Media",
+        "description": "5_Matematica.beecrowd_1214_python_Acima_da_Media",
+        "peekOfCode": "number_tests = int(input())\nfor item in range(number_tests):\n    values = list(map(int, input().split()))\n    average = (sum(values) - values[0])/values[0]\n    student = 0\n    for item in range(1, values[0] + 1):\n        if values[item] > average:\n            student += 1\n    print(f'{student/values[0] * 100:.3f}%')",
+        "detail": "5_Matematica.beecrowd_1214_python_Acima_da_Media",
+        "documentation": {}
+    },
+    {
+        "label": "number_tests",
+        "kind": 5,
         "importPath": "5_Matematica.beecrowd_1221_python_Primo_Rapido",
         "description": "5_Matematica.beecrowd_1221_python_Primo_Rapido",
         "peekOfCode": "number_tests = int(input())\nfor _ in range(number_tests):\n    number = int(input())\n    if number < 2:\n        print(\"Not Prime\")\n        continue\n    if number == 2:\n        print(\"Prime\")\n        continue\n    if number % 2 == 0:",
