@@ -153,3 +153,5 @@ cython_debug/
 
 # Vscode
 *.vscode
+.vscode
+.vscode/PythonImportHelper-v2-Completion.json

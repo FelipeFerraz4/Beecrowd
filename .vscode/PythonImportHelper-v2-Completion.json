@@ -5656,6 +5656,15 @@
         "documentation": {}
     },
     {
+        "label": "number_tests",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1170_python_Blobs",
+        "description": "5_Matematica.beecrowd_1170_python_Blobs",
+        "peekOfCode": "number_tests = int(input())\nfor item in range(number_tests):\n    number = float(input())\n    days = 0\n    while number > 1:\n        number /= 2\n        days += 1\n    print(f'{days} dias')",
+        "detail": "5_Matematica.beecrowd_1170_python_Blobs",
+        "documentation": {}
+    },
+    {
         "label": "rafa_function",
         "kind": 2,
         "importPath": "5_Matematica.beecrowd_1555_python_Funcoes",
