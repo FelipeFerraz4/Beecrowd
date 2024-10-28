@@ -5674,6 +5674,15 @@
         "documentation": {}
     },
     {
+        "label": "number_tests",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1240_python_Encaixa_ou_Nao_I",
+        "description": "5_Matematica.beecrowd_1240_python_Encaixa_ou_Nao_I",
+        "peekOfCode": "number_tests = int(input())\nfor item in range(number_tests):\n    values = input().split()\n    if values[1] in values[0][-len(values[1]):]:\n        print('encaixa')\n    else:\n        print('nao encaixa')",
+        "detail": "5_Matematica.beecrowd_1240_python_Encaixa_ou_Nao_I",
+        "documentation": {}
+    },
+    {
         "label": "rafa_function",
         "kind": 2,
         "importPath": "5_Matematica.beecrowd_1555_python_Funcoes",
