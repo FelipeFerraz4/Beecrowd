@@ -5710,6 +5710,24 @@
         "documentation": {}
     },
     {
+        "label": "values",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1805_python_Soma_Natural",
+        "description": "5_Matematica.beecrowd_1805_python_Soma_Natural",
+        "peekOfCode": "values = list(map(int, input().split()))\nsum_values = ((values[0] + values[1]) * (values[1] - values[0] + 1))//2\nprint(sum_values)",
+        "detail": "5_Matematica.beecrowd_1805_python_Soma_Natural",
+        "documentation": {}
+    },
+    {
+        "label": "sum_values",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1805_python_Soma_Natural",
+        "description": "5_Matematica.beecrowd_1805_python_Soma_Natural",
+        "peekOfCode": "sum_values = ((values[0] + values[1]) * (values[1] - values[0] + 1))//2\nprint(sum_values)",
+        "detail": "5_Matematica.beecrowd_1805_python_Soma_Natural",
+        "documentation": {}
+    },
+    {
         "label": "number_regions",
         "kind": 2,
         "importPath": "5_Matematica.beecrowd_2218_python_O_Temivel_Evil_Son",
