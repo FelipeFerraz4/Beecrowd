@@ -5665,6 +5665,15 @@
         "documentation": {}
     },
     {
+        "label": "run",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1212_python_Aritmetica_Primaria",
+        "description": "5_Matematica.beecrowd_1212_python_Aritmetica_Primaria",
+        "peekOfCode": "run = True\nwhile run:\n    numbers = input().split()\n    number1 = numbers[0][::-1]\n    number2 = numbers[1][::-1]\n    number_carry = 0\n    carry = 0\n    if number1 == number2 == '0':\n        run = False\n        break",
+        "detail": "5_Matematica.beecrowd_1212_python_Aritmetica_Primaria",
+        "documentation": {}
+    },
+    {
         "label": "number_tests",
         "kind": 5,
         "importPath": "5_Matematica.beecrowd_1221_python_Primo_Rapido",
