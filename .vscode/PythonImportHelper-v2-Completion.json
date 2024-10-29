@@ -5665,6 +5665,15 @@
         "documentation": {}
     },
     {
+        "label": "number_tests",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1193_Conversao_entre_Bases",
+        "description": "5_Matematica.beecrowd_1193_Conversao_entre_Bases",
+        "peekOfCode": "number_tests = int(input())\nfor i in range(number_tests):\n    number_base = input().split()\n    print(f'Case {i+1}:')\n    if number_base[1] == 'bin':\n        print(f'{int(number_base[0], 2)} dec')\n        print(f'{hex(int(number_base[0], 2))[2:]} hex')\n    elif number_base[1] == 'dec':\n        print(f'{hex(int(number_base[0]))[2:]} hex')\n        print(f'{bin(int(number_base[0]))[2:]} bin')",
+        "detail": "5_Matematica.beecrowd_1193_Conversao_entre_Bases",
+        "documentation": {}
+    },
+    {
         "label": "run",
         "kind": 5,
         "importPath": "5_Matematica.beecrowd_1199_python_Conversão_Simples_de_Base",
