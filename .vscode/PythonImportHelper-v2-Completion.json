@@ -5692,6 +5692,15 @@
         "documentation": {}
     },
     {
+        "label": "number_tests",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1436_python_Jogo_do_Tijolo",
+        "description": "5_Matematica.beecrowd_1436_python_Jogo_do_Tijolo",
+        "peekOfCode": "number_tests = int(input())\nfor item in range(number_tests):\n    numbers = list(map(int, input().split()))\n    number_list = numbers[1:]\n    print(f'Case {item+1}: {number_list[(len(number_list)//2)]}')",
+        "detail": "5_Matematica.beecrowd_1436_python_Jogo_do_Tijolo",
+        "documentation": {}
+    },
+    {
         "label": "rafa_function",
         "kind": 2,
         "importPath": "5_Matematica.beecrowd_1555_python_Funcoes",
