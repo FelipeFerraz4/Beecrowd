@@ -5755,6 +5755,24 @@
         "documentation": {}
     },
     {
+        "label": "number",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1921_python_Guilherme_e_Suas_Pipas",
+        "description": "5_Matematica.beecrowd_1921_python_Guilherme_e_Suas_Pipas",
+        "peekOfCode": "number = int(input())\nresult = (number * (number - 3))//2\nprint(result)",
+        "detail": "5_Matematica.beecrowd_1921_python_Guilherme_e_Suas_Pipas",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1921_python_Guilherme_e_Suas_Pipas",
+        "description": "5_Matematica.beecrowd_1921_python_Guilherme_e_Suas_Pipas",
+        "peekOfCode": "result = (number * (number - 3))//2\nprint(result)",
+        "detail": "5_Matematica.beecrowd_1921_python_Guilherme_e_Suas_Pipas",
+        "documentation": {}
+    },
+    {
         "label": "number_regions",
         "kind": 2,
         "importPath": "5_Matematica.beecrowd_2218_python_O_Temivel_Evil_Son",
