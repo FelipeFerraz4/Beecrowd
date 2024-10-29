@@ -5737,6 +5737,15 @@
         "documentation": {}
     },
     {
+        "label": "number_tests",
+        "kind": 5,
+        "importPath": "5_Matematica.beecrowd_1585_python_Fazendo_Pandorgas",
+        "description": "5_Matematica.beecrowd_1585_python_Fazendo_Pandorgas",
+        "peekOfCode": "number_tests = int(input())\nfor _ in range(number_tests):\n    values = list(map(int, input().split()))\n    result = (values[0] * values[1])//2\n    print(f'{result:} cm2')",
+        "detail": "5_Matematica.beecrowd_1585_python_Fazendo_Pandorgas",
+        "documentation": {}
+    },
+    {
         "label": "values",
         "kind": 5,
         "importPath": "5_Matematica.beecrowd_1805_python_Soma_Natural",
