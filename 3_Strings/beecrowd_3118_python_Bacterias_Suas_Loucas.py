@@ -1,27 +1,35 @@
-# Código que não conseguiu passar no teste -> Time limit exceeded
+def main():
+    n, m = map(int, input().split())
 
-params = list(map(int, input().split()))
-rules = {}
+    rules = {}
+    for _ in range(m):
+        key, value = input().split()
+        rules[key] = value
 
-for i in range(params[1]):
-    values = input().split()
-    rules[values[0]] = values[1]
+    bacteria = "A"
 
-bacteria = list('A')
+    for _ in range(n):
+        new_bacteria = ""
 
-for _ in range(params[0]):
-    new_bacteria = []
-    start = 0
+        start = 0
+        while start < len(bacteria):
+            end = start + 1
+            while end < len(bacteria) and bacteria[end] == bacteria[start]:
+                end += 1
+            group_length = end - start
+            group = bacteria[start:start + group_length]
+            transformed = rules.get(group, group)
+            new_bacteria += transformed
+            start = end
 
-    while start < len(bacteria):
-        end = start + 1
-        while end < len(bacteria) and bacteria[end] == bacteria[start]:
-            end += 1
-        group_length = end - start
-        group = bacteria[start]
-        new_bacteria.extend(rules.get(group, group) * group_length)
-        start = end
+        if new_bacteria == bacteria:
+            break
+        bacteria = new_bacteria
 
-    bacteria = new_bacteria
+    countA = bacteria.count('A')
+    countB = bacteria.count('B')
 
-print(f"{bacteria.count('A')} {bacteria.count('B')}")
+    print(countA, countB)
+
+if __name__ == "__main__":
+    main()
