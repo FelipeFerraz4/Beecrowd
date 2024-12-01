@@ -1,4 +1,4 @@
-# Uso do Fenwick Tree
+# Uso do Fenwick Tree (ou Binary Indexed Tree - BIT)
 from sys import stdin, stdout
 
 def count_inversions(array, n):
