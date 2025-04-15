@@ -1,19 +1,23 @@
 from sys import stdin
+from collections import deque
 
-number_test = int(stdin.readline())
-
-odd = []
-even = []
-
-for _ in range(number_test):
+while True:
     number = int(stdin.readline())
     
-    if number % 2 == 0:
-        even.append(number)
+    if number == 0:
+        break
+
+    cards = deque(range(1, number + 1))
+    discarded = []
+    
+    while len(cards) > 1:
+        discarded.append(cards.popleft()) 
+        cards.append(cards.popleft())     
+    
+    if discarded:
+        print('Discarded cards: ', end='')
+        print(', '.join(map(str, discarded)))
     else:
-        odd.append(number)
-
-even.sort()
-odd.sort(reverse=True)
-
-print("\n".join(map(str, even + odd)))
+        print('Discarded cards: ')
+    
+    print(f'Remaining card: {cards[0]}')
