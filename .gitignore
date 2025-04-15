@@ -155,3 +155,8 @@ cython_debug/
 *.vscode
 .vscode
 .vscode/PythonImportHelper-v2-Completion.json
+
+*.exe
+*.dll
+*.so
+*.dylib
